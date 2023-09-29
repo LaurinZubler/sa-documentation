@@ -13,20 +13,30 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: Typst
         uses: lvignoli/typst-action@v0
         with:
           source_file: main.typ
+      
+      - name: Get timestamp
+        id: timestamp
+        run: echo "TIMESTAMP=$(date +"%Y-%m-%dT%H%M%S")" >> $GITHUB_ENV
+
+      - name: Rename file 
+        run: mv main.pdf ${{ env.TIMESTAMP }}_SAil_ARrrr_Documentation.pdf
+
+      - name: Delete file 
+        run: rm -f main.pdf
+
       - name: Upload PDF file
         uses: actions/upload-artifact@v3
         with:
-          name: PDFs
-          path: main.typ
-      - name: Generate release tag
-        id: tag
-        run: echo "release_tag=Documentation_$(date +"%Y-%m-%dT%H%M%S")" >> $GITHUB_OUTPUT
+          name: Files
+          path: *.pdf
+
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ steps.tag.outputs.release_tag }}
+          tag_name: Documentation_${{ env.TIMESTAMP }}
           files: "*.pdf"
