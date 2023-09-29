@@ -1,5 +1,5 @@
 # SAil ARrrr Documentation
-This repository contains the documentation for the Semester Project "SAil ARrrr"
+This repository contains the documentation for the semester project "SAil ARrrr"
 
 Topic: "Use of augmented reality to visualize environmental conditions while sailing"  
 Author: Laurin Zubler [laurin.zubler@ost.ch](mailto:laurin.zubler@ost.ch)  
