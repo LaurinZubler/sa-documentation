@@ -18,14 +18,12 @@ jobs:
         with:
           source_file: |
             main.typ
-            letter.typ
       - name: Upload PDF file
         uses: actions/upload-artifact@v3
         with:
           name: PDFs
           path: |
             main.pdf
-            letter.pdf
       - name: Get current date
         id: date
         run: echo "DATE=$(date +%Y-%m-%d-%H:%M)" >> $GITHUB_ENV
