@@ -17,7 +17,7 @@ jobs:
       - name: Typst
         uses: lvignoli/typst-action@v0
         with:
-          source_file: main.typ
+          source_file: document/main.typ
       
       - name: Get timestamp
         id: timestamp
