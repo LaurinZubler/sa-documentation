@@ -24,10 +24,10 @@ jobs:
         run: echo "TIMESTAMP=$(date +"%Y-%m-%dT%H%M%S")" >> $GITHUB_ENV
 
       - name: Rename file 
-        run: mv main.pdf ${{ env.TIMESTAMP }}_SAil_ARrrr_Documentation.pdf
+        run: mv document/main.pdf ${{ env.TIMESTAMP }}_SAil_ARrrr_Documentation.pdf
 
       - name: Delete file 
-        run: rm -f main.pdf
+        run: rm -f document/main.pdf
 
       - name: Upload PDF file
         uses: actions/upload-artifact@v3
