@@ -23,8 +23,3 @@ The documentation is written using Typst. A markup based typsetting system simil
 
 ### Setup locally
 Follow the installation guide on _[Typst Github](https://github.com/typst/typst#installation)_
-
-### Usage
-```
-tbd
-```
