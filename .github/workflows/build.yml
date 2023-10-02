@@ -4,39 +4,32 @@ on:
     branches:
       - main
 
-permissions:
-  contents: write
-
 jobs:
-  build:
+  Build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+    - uses: actions/checkout@v3
+    - uses: DeterminateSystems/nix-installer-action@main
+    - uses: DeterminateSystems/magic-nix-cache-action@main
+    - run: mkdir out
+    - run: nix run github:typst/typst/v0.8.0 -- compile document/main.typ out/main.pdf
+    - uses: actions/upload-pages-artifact@v1
+      with: { path: 'out' }
 
-      - name: Typst
-        uses: lvignoli/typst-action@v0
-        with:
-          source_file: main.typ
-      
-      - name: Get timestamp
-        id: timestamp
-        run: echo "TIMESTAMP=$(date +"%Y-%m-%dT%H%M%S")" >> $GITHUB_ENV
-
-      - name: Rename file 
-        run: mv main.pdf ${{ env.TIMESTAMP }}_SAil_ARrrr_Documentation.pdf
-
-      - name: Delete file 
-        run: rm -f main.pdf
-
-      - name: Upload PDF file
-        uses: actions/upload-artifact@v3
-        with:
-          name: Files
-          path: "*.pdf"
-
-      - name: Release
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: Documentation_${{ env.TIMESTAMP }}
-          files: "*.pdf"
+  Deploy:
+    name: Deploy
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    needs: Build
+    concurrency:
+      group: "pages"
+      cancel-in-progress: false
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
