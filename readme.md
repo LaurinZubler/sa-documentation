@@ -7,11 +7,10 @@ OST - University of Applied Sciences of Eastern Switzerland
 Author: Laurin Zubler [laurin.zubler@ost.ch](mailto:laurin.zubler@ost.ch)  
 Supervisor: Frieder Loch [frieder.loch@ost.ch](mailto:frieder.loch@ost.ch)
 
-## Releases
-The documentation pdf is automatically generated and released on push to the `main origin` branch. After 90 days the files will be deleted.
+## Github Pages
+The documentation pdf is automatically generated and published to Github Pages on push to the `main origin` branch. 
 
-The latest document can be downloaded here:  
-https://github.com/LaurinZubler/sa-documentation/releases/latest
+The latest pdf can be viewed here: https://laurinzubler.github.io/sa-documentation/main.pdf
 
 
 ## Typst
