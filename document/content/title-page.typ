@@ -21,7 +21,7 @@
 ]
 #v(2em)
 
-#image("../images/vr_meme.jpg", width: 45%)
+#image("../images/vr_meme.jpg", width: 60%)
 
 #set align(bottom)
 #image("../images/ost_logo.svg", height: 3cm)
