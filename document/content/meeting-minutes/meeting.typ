@@ -3,6 +3,5 @@
         = Week #title
         Date: #date \
          #doc
-         #pagebreak()
     ]
 }
