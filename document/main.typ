@@ -17,3 +17,6 @@
 
 #pagebreak()
 #include "content/project-management.typ"
+
+#pagebreak()
+#include "content/appendix.typ"
