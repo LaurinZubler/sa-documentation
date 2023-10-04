@@ -1,6 +1,6 @@
 = Appendix
 
-== Meeting Minutes
+== Meeting Minutes <meeting-minutes>
 #set heading(numbering: none)
 
 #let meeting_paths = (

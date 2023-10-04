@@ -129,9 +129,33 @@ For the end of each phase there was a milestone defined. Since Jira does not off
     "todo: copy from milestone description"
 )
 
-=== Sprints
-The tasks are completed in two-week sprints. Before each sprint start, the sprint is filled with tasks from the backlog so that the estimated time of work is 2 weeks. Each sprint has a sprint goal and sprint increments, a small step towards the final project product. At the end of each sprint, it is analyzed in a retrospective to find ways to improve the quality and effectiveness.
+=== Scrum Events
+==== Sprint
+The work is completed in two-week sprints. Each sprint has a sprint goal and sprint increments, a small step towards the final project product.
 
+==== Backlog Refinement
+In the backlog refinement new tasks are created in the backlog and the time to complete is estimated. 
+
+==== Sprint Planning
+Before each sprint start, the sprint is filled with tasks from the backlog so that the estimated time of work is 2 weeks and a sprint goal is defined.
+
+==== Sprint Review
+ At the end of each sprint, the outcome of the Sprint is inspected and future adaptations are determinated. The Sprint review takes place in the weekly meeting with the supervisior.
+
+==== Sprint Retrospecive
+ At the end of each sprint, the last two weeks are analyzed to find ways to improve quality and effectiveness.
+
+==== Daily Scrum Meeting
+Since the project team only consists of one person, no daily Scrum meetings are held.
+
+==== Weekly Meeting with Supervisior
+Every week a meeting with the project supervisor takes place. The meeting notes can be found in the @meeting-minutes[appendix].
+- todo fix link to appendix
+
+=== Time Tracking
+- todo add report
+
+=== Sprints
 #let sprint(title, start, end, time_estimate, time_spend, description, increments, retro) = {
     text()[
         ==== #title
@@ -161,11 +185,3 @@ The tasks are completed in two-week sprints. Before each sprint start, the sprin
 )
 todo: image tasks begin\
 todo: image tasks ende
-=== Meetings
-- backlog management (refinement meetings)
-- sprint retro
-- weekly
-    - meeting notes
-- no daily
-=== Time Tracking
-- estimate
