@@ -17,7 +17,7 @@ The rough planning of the project in phases was implemented using the _Jira_ Epi
 
 #let epic(title, duration, start, end, description) = {
     text()[
-        === #title
+        ==== #title
     ]
     grid(
         columns: (1fr, 3fr),
@@ -82,7 +82,7 @@ A milestone was defined at the end of each phase. Since Jira does not offer func
 
 #let milestone(title, due, dod) = {
     text()[
-        === #title
+        ==== #title
     ]
     grid(
         columns: (1fr, 3fr),
@@ -129,19 +129,37 @@ A milestone was defined at the end of each phase. Since Jira does not offer func
 )
 
 === Sprints
-- time estimate
-- duration
-- goal
-==== Sprint 1
-- tasks
-- estimate, actual
-- retro
-==== Sprint 2
-==== Sprint 3
-==== Sprint 4
-==== Sprint 5
-==== Sprint 6
-==== Sprint 7
+The tasks are completed in two-week sprints. Before each sprint start, the sprint is filled with tasks from the backlog so that the estimated time of work is 2 weeks. Each sprint has a sprint goal and sprint increments, a small step towards the final project product. At the end of each sprint, it is analyzed in a retrospective to find ways to improve the quality and effectiveness.
+
+#let sprint(title, start, end, time_estimate, time_spend, description, increments, retro) = {
+    text()[
+        ==== #title
+    ]
+    grid(
+        columns: (1fr, 3fr),
+        rows: (1.4em, 1.4em, 1.4em, 1.4em, 1.4em, 2*1.4em, auto),
+        [Start date], [#start], 
+        [End date], [#end], 
+        [Time original estimate], [#time_estimate], 
+        [Time actual spend], [#time_spend], 
+        [Sprint goal], [#description],
+        [Sprint increments], [#increments],
+        [Retrospective], [#retro]
+    )
+}
+
+#sprint(
+    "Sprint 1",
+    "18.09.2023",
+    "03.10.2023",
+    "23.5 hours",
+    "25 hours (todo update)",
+    "Complete project setup (Milestone 1)",
+    "Project management tools. Project documentation document with chapters project plan, quality assurance and risk management.",
+    "todo retro"
+)
+todo: image tasks begin\
+todo: image tasks ende
 === Meetings
 - backlog management (refinement meetings)
 - sprint retro
