@@ -132,6 +132,7 @@ For the end of each phase there was a milestone defined. Since Jira does not off
 === Scrum Events
 ==== Sprint
 The work is completed in two-week sprints. Each sprint has a sprint goal and sprint increments, a small step towards the final project product.
+-todo: swimlanes jira
 
 ==== Backlog Refinement
 In the backlog refinement new tasks are created in the backlog and the time to complete is estimated. 
@@ -153,9 +154,11 @@ Every week a meeting with the project supervisor takes place. The meeting notes 
 - todo fix link to appendix
 
 === Time Tracking
-- todo add report
+The worked time is recored on the ticket in order to obtain a precise evaluation of what was worked on and for how long.
+- todo: at end of project. add report. appendx?
 
 === Sprints
+- todo: im appendix?
 #let sprint(title, start, end, time_estimate, time_spend, description, increments, retro) = {
     text()[
         ==== #title
