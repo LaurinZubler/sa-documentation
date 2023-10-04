@@ -1,7 +1,10 @@
 = Appendix
 
 == Meeting Minutes <meeting-minutes>
-#set heading(numbering: none)
+#set heading(
+    numbering: none,
+    outlined: false
+)
 
 #let meeting_paths = (
     "meeting-minutes/week01.typ", 
