@@ -34,7 +34,7 @@ The rough planning of the project in phases was implemented using the _Jira_ Epi
     "2.5 weeks",
     "18.09.2023",
     "03.10.2023",
-    lorem(50)
+    "todo: copy from epic description"
 )
 
 #epic(
@@ -42,7 +42,7 @@ The rough planning of the project in phases was implemented using the _Jira_ Epi
     "3 weeks",
     "03.10.2023",
     "24.10.2023",
-    lorem(50)
+    "todo: copy from epic description"
 )
 
 #epic(
@@ -50,7 +50,7 @@ The rough planning of the project in phases was implemented using the _Jira_ Epi
     "3 weeks",
     "24.10.2023",
     "14.11.2023",
-    lorem(50)
+    "todo: copy from epic description"
 )
 
 #epic(
@@ -58,7 +58,7 @@ The rough planning of the project in phases was implemented using the _Jira_ Epi
     "3 weeks",
     "14.11.2023",
     "05.12.2023",
-    lorem(50)
+    "todo: copy from epic description"
 )
 
 #epic(
@@ -66,7 +66,7 @@ The rough planning of the project in phases was implemented using the _Jira_ Epi
     "1 week",
     "28.11.2023",
     "12.12.2023",
-    lorem(50)
+    "todo: copy from epic description"
 )
 
 #epic(
@@ -74,7 +74,7 @@ The rough planning of the project in phases was implemented using the _Jira_ Epi
     "1.5 week",
     "12.12.2023",
     "22.12.2023",
-    lorem(50)
+    "todo: copy from epic description"
 )
 
 === Milestones
@@ -95,37 +95,37 @@ A milestone was defined at the end of each phase. Since Jira does not offer func
 #milestone(
     "M1: End of Project Setup",
     "03.10.2023",
-    lorem(50)
+    "todo: copy from milestone description"
 )
 
 #milestone(
     "M2: End of Analysis",
     "24.10.2023",
-    lorem(50)
+    "todo: copy from milestone description"
 )
  
 #milestone(
     "M3: End of Desing",
     "14.11.2023",
-    lorem(50)
+    "todo: copy from milestone description"
 )
  
 #milestone(
     "M4: End of Implementation",
     "05.12.2023",
-    lorem(50)
+    "todo: copy from milestone description"
 )
 
 #milestone(
     "M5: End of Evaluation",
     "12.12.2023",
-    lorem(50)
+    "todo: copy from milestone description"
 )
  
 #milestone(
     "M6: Project Finish",
     "22.12.2023",
-    lorem(50)
+    "todo: copy from milestone description"
 )
 
 === Sprints
