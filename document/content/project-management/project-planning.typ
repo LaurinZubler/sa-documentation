@@ -78,7 +78,8 @@ The rough planning of the project in phases was implemented using the _Jira_ Epi
 )
 
 === Milestones
-A milestone was defined at the end of each phase. Since Jira does not offer functionality for creating milestones, a new issue type was created for this purpose. Like normal tasks, the milestones are in the backlog and are then added to a sprint.
+For the end of each phase there was a milestone defined. Since Jira does not offer functionality for creating milestones, a new issue type was created for this purpose. Like work tasks, the milestones are in the backlog and are then added to sprints.
+- todo foto sprint
 
 #let milestone(title, due, dod) = {
     text()[
