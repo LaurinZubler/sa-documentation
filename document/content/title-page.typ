@@ -1,4 +1,4 @@
-#include "/document/build/build-datetime.typ"
+#include "../build/build-datetime.typ"
 
 #set align(center)
 
