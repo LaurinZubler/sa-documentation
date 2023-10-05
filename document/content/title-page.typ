@@ -1,5 +1,4 @@
-#datetime.today().display("[year]-[month]-[day]")
-// #datetime.display("[year]-[month]-[day] [hour]:[minute]:[second]")
+#include "/document/build/build-datetime.typ"
 
 #set align(center)
 
