@@ -9,6 +9,7 @@
 #let meeting_paths = (
     "meeting-minutes/week01.typ", 
     "meeting-minutes/week02.typ",
+    "meeting-minutes/week03.typ",
 )
 #for path in meeting_paths {
     include path
