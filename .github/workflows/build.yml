@@ -27,7 +27,9 @@ jobs:
         with:
           source_file: |
             document/main.typ
-            document/content/meeting-minutes/week*.typ
+            document/content/meeting-minutes/week01.typ
+            document/content/meeting-minutes/week02.typ
+            document/content/meeting-minutes/week03.typ
       - run: mkdir out
       - run: mv index.html out/index.html
       - run: mv document/main.pdf out/main.pdf
