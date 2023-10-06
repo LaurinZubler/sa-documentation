@@ -33,7 +33,9 @@ jobs:
       - run: mkdir out
       - run: mv index.html out/index.html
       - run: mv document/main.pdf out/main.pdf
-      - run: find . -name "document/content/meeting-minutes/week*.pdf" -exec mv '{}' out/
+      - run: mv document/content/meeting-minutes/week01.pdf out/week01.pdf
+      - run: mv document/content/meeting-minutes/week02.pdf out/week02.pdf
+      - run: mv document/content/meeting-minutes/week03.pdf out/week03.pdf
       - uses: actions/upload-pages-artifact@v1
         with: { path: 'out' }
 
