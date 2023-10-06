@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v3
     - uses: DeterminateSystems/nix-installer-action@main
     - uses: DeterminateSystems/magic-nix-cache-action@main
-    - run: echo "$(TZ="Europe/Berlin" date +"%Y-%m-%d %H:%M:%S")" > document/build/build-datetime.typ
+    - run: echo "$(TZ="Europe/Berlin" date +"%Y-%m-%d %H:%M:%S")" > document/utils/build-datetime.typ
     - run: mkdir out
     - run: nix run github:typst/typst/v0.8.0 -- compile document/main.typ out/SAil_ARrrr_Documentation.pdf
     - run: nix run github:typst/typst/v0.8.0 -- compile document/content/meeting-minutes/week01.typ out/week01.pdf
