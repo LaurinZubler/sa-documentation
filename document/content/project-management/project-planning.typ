@@ -1,3 +1,5 @@
+#import "../../utils/global.typ" as global
+
 == Project Planning
 === Project Procedure
 The approach in this project is a combination of Scrum and RUP (Scrum+). From RUP, the division into phases is adopted to provide a rough structure for the entire project. For the short-term planning, the agile methodologies through iterative sprints from Scrum are adapted.
@@ -11,23 +13,20 @@ _Jira_ from _Atlassian_ #footnote[https://www.atlassian.com/software/jira]
 The rough planning of the project in phases was implemented using the _Jira_ Epics. Six Phases were defined.
 
 #figure(
-  image("../../images/jira_timeline.png", width: 95%),
-  caption: [Project phases represented by Epics in the _Jira_ timeline.],
+    image("../../images/jira_timeline.png", width: 95%),
+    caption: [Project phases represented by Epics in the _Jira_ timeline.],
 )
 
 #let epic(title, duration, start, end, description) = {
     text()[
         ==== #title
     ]
-    grid(
-        columns: (1fr, 3fr),
-        rows: (1.4em, 1.4em, 1.4em, auto),
-        [Duration], [#duration], 
-        [Start date], [#start], 
-        [End date], [#end], 
-        [Description], [#description] 
-    )
+    global.row("Duration", duration)
+    global.row("Start date", start)
+    global.row("End date", end)
+    global.row("Description", description)
 }
+
 
 #epic(
     "Project Setup",
@@ -85,13 +84,10 @@ For the end of each phase there was a milestone defined. Since Jira does not off
     text()[
         ==== #title
     ]
-    grid(
-        columns: (1fr, 3fr),
-        rows: (1.4em, auto),
-        [Due date], [#due], 
-        [Definition of done], [#dod] 
-    )
+    global.row("Due date", due)
+    global.row("Definition of done", start)
 }
+
 
 #milestone(
     "M1: End of Project Setup",
@@ -159,32 +155,41 @@ The worked time is recored on the ticket in order to obtain a precise evaluation
 
 === Sprints
 - todo: im appendix?
-#let sprint(title, start, end, time_estimate, time_spend, description, increments, retro) = {
+#let sprint(title, start, end, time_estimate, time_spend, goal, increments, retro) = {
     text()[
         ==== #title
     ]
-    grid(
-        columns: (1fr, 3fr),
-        rows: (1.4em, 1.4em, 1.4em, 1.4em, 1.4em, 2*1.4em, auto),
-        [Start date], [#start], 
-        [End date], [#end], 
-        [Time original estimate], [#time_estimate], 
-        [Time actual spend], [#time_spend], 
-        [Sprint goal], [#description],
-        [Sprint increments], [#increments],
-        [Retrospective], [#retro]
-    )
+    global.row("Start date", start)
+    global.row("End date", end)
+    global.row("Time estimate", time_estimate)
+    global.row("Time spend", time_spend)
+    global.row("Sprint goal", goal)
+    global.row("Sprint increments", increments)
+    global.row("Retrospective", retro)
 }
 
 #sprint(
     "Sprint 1",
     "18.09.2023",
     "03.10.2023",
-    "23.5 hours",
+    "1 week 1 day or 23.5 hours",
     "25 hours (todo update)",
     "Complete project setup (Milestone 1)",
     "Project management tools. Project documentation document with chapters project plan, quality assurance and risk management.",
-    "todo retro"
+    "todo: retro"
+)
+todo: image tasks begin\
+todo: image tasks ende
+
+#sprint(
+    "Sprint 2",
+    "03.10.2023",
+    "17.10.2023",
+    "2 weeks 6 hours or 38 hours",
+    "-",
+    "Interviews & Literature Research",
+    "Interview Guide, Interview Protocols, Literature sources",
+    "-"
 )
 todo: image tasks begin\
 todo: image tasks ende
