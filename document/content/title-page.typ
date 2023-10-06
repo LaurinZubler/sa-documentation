@@ -1,27 +1,39 @@
+#import "../utils/global.typ" as global
 #include "../utils/build-datetime.typ"
 
+#v(4fr)
+
 #set align(center)
-
-#text(1.5em)[
-    Semester Project
-    #v(.5em) 
-]
 #text(2em)[
-    *Use of augmented reality for visualizing ambient conditions while sailing*
+    *#global.title*
 ]
+
+#v(1fr)
 
 #text(1.5em)[
-    #v(1em) 
-    _Author:_ \ Laurin Zubler
-    #v(.25em)
-    _Supervisor:_ \ Frieder Loch
-    #v(.25em)
-    University of Applied Sciences of Eastern Switzerland
+    #global.subtitle
 ]
-#v(2em)
 
-#image("../images/vr_meme.jpg", width: 60%)
+#v(2fr)
 
-#set align(bottom)
+
+#text(1.5em)[
+    #grid(
+        columns: (1fr, 1fr),
+        row-gutter: 1em,
+        column-gutter: 1.5em,
+        align(right, "Semester:"), align(left, global.semester),
+        align(right, "Author:"), align(left, global.author),
+        align(right, "Supervisor:"), align(left, global.supervisor),
+    )
+]
+
+#v(2fr)
+
+#image("../images/vr_meme.jpg", width: 40%)
+
+#v(2fr)
+
 #image("../images/ost_logo.svg", height: 3cm)
+
 #pagebreak()

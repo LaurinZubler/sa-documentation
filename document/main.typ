@@ -1,7 +1,10 @@
+#import "utils/global.typ" as global
+
 // document metadata
 #set document(
-    title: "Semester Project: Use of augmented reality for visualizing ambient conditions while sailing",
-    author: "Laurin Zubler")
+    title: global.title,
+    author: global.author
+)
 
 #include "content/title-page.typ"
 
@@ -9,10 +12,10 @@
 #set page(numbering: "1 / 1")
 
 #outline(
+    title: "Table of Contents",
     depth: 3,
     indent: auto,
     fill: repeat[ . .],
-    title: "Table of Contents"
 )
 
 #pagebreak()
