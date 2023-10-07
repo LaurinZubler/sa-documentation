@@ -5,7 +5,7 @@ Topic: "Use of augmented reality for visualizing ambient conditions while sailin
 
 OST - University of Applied Sciences of Eastern Switzerland  
 Author: Laurin Zubler [laurin.zubler@ost.ch](mailto:laurin.zubler@ost.ch)  
-Supervisor: Frieder Loch [frieder.loch@ost.ch](mailto:frieder.loch@ost.ch)
+Advisor: Frieder Loch [frieder.loch@ost.ch](mailto:frieder.loch@ost.ch)
 
 ## Github Pages
 The documentation pdf is automatically generated and published to Github Pages on push to the `main origin` branch. 

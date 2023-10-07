@@ -3,7 +3,7 @@
 #let subtitle = "Semester Thesis"
 #let semester = "Fall 2023"
 #let author = "Laurin Zubler"
-#let supervisor = "Frieder Loch"
+#let advisor = "Frieder Loch"
 
 #let row(title, content) = {
     grid(

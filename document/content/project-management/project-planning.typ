@@ -4,13 +4,9 @@
 === Project Procedure
 The approach in this project is a combination of Scrum and RUP (Scrum+). From RUP, the division into phases is adopted to provide a rough structure for the entire project. For the short-term planning, the agile methodologies through iterative sprints from Scrum are adapted.
 
-=== Management Tools
-_Jira_ from _Atlassian_ #footnote[https://www.atlassian.com/software/jira]
- was selected as the project planning tool and configured accordingly for the project. For more accurate time tracking, _TouchDown_’s  _Timesheet Tracking for Jira_ #footnote[https://marketplace.atlassian.com/apps/1216988/timesheet-tracking-for-jira]
- was integrated into _Jira_.
-
 === Phases
 The rough planning of the project in phases was implemented using the _Jira_ Epics. Six Phases were defined.
+- todo main focus analysis, design. no time for implementation
 
 #figure(
     image("../../images/jira_timeline.png", width: 95%),
@@ -79,7 +75,7 @@ For the end of each phase there was a milestone defined. Since Jira does not off
 
 #let milestone(due, dod) = {
     global.row("Due date", due)
-    global.row("Definition of done", start)
+    global.row("Definition of done", dod)
 }
 
 

@@ -24,7 +24,7 @@
         column-gutter: 1.5em,
         align(right, "Semester:"), align(left, global.semester),
         align(right, "Author:"), align(left, global.author),
-        align(right, "Supervisor:"), align(left, global.supervisor),
+        align(right, "Advisor:"), align(left, global.advisor),
     )
 ]
 
