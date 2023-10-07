@@ -17,59 +17,56 @@ The rough planning of the project in phases was implemented using the _Jira_ Epi
     caption: [Project phases represented by Epics in the _Jira_ timeline.],
 )
 
-#let epic(title, duration, start, end, description) = {
-    text()[
-        ==== #title
-    ]
+#let epic(duration, start, end, description) = {
     global.row("Duration", duration)
     global.row("Start date", start)
     global.row("End date", end)
     global.row("Description", description)
 }
 
-
+====  Project Setup
 #epic(
-    "Project Setup",
     "2.5 weeks",
     "18.09.2023",
     "03.10.2023",
     "todo: copy from epic description"
 )
 
+==== Analysis
 #epic(
-    "Analysis",
     "3 weeks",
     "03.10.2023",
     "24.10.2023",
     "todo: copy from epic description"
 )
 
+
+==== Design
 #epic(
-    "Design",
     "3 weeks",
     "24.10.2023",
     "14.11.2023",
     "todo: copy from epic description"
 )
 
+==== Implementation
 #epic(
-    "Implementation",
     "3 weeks",
     "14.11.2023",
     "05.12.2023",
     "todo: copy from epic description"
 )
 
+==== Evaluation
 #epic(
-    "Evaluation",
     "1 week",
     "28.11.2023",
     "12.12.2023",
     "todo: copy from epic description"
 )
 
+==== Project Completion
 #epic(
-    "Project Completion",
     "1.5 week",
     "12.12.2023",
     "22.12.2023",
@@ -80,47 +77,44 @@ The rough planning of the project in phases was implemented using the _Jira_ Epi
 For the end of each phase there was a milestone defined. Since Jira does not offer functionality for creating milestones, a new issue type was created for this purpose. Like work tasks, the milestones are in the backlog and are then added to sprints.
 - todo foto sprint
 
-#let milestone(title, due, dod) = {
-    text()[
-        ==== #title
-    ]
+#let milestone(due, dod) = {
     global.row("Due date", due)
     global.row("Definition of done", start)
 }
 
 
+==== M1: End of Project Setup
 #milestone(
-    "M1: End of Project Setup",
     "03.10.2023",
     "todo: copy from milestone description"
 )
 
+==== M2: End of Analysis
 #milestone(
-    "M2: End of Analysis",
     "24.10.2023",
     "todo: copy from milestone description"
 )
  
+==== M3: End of Desing
 #milestone(
-    "M3: End of Desing",
     "14.11.2023",
     "todo: copy from milestone description"
 )
  
+==== M4: End of Implementation
 #milestone(
-    "M4: End of Implementation",
     "05.12.2023",
     "todo: copy from milestone description"
 )
 
+==== M5: End of Evaluation
 #milestone(
-    "M5: End of Evaluation",
     "12.12.2023",
     "todo: copy from milestone description"
 )
  
+==== M6: Project Finish
 #milestone(
-    "M6: Project Finish",
     "22.12.2023",
     "todo: copy from milestone description"
 )
@@ -155,10 +149,7 @@ The worked time is recored on the ticket in order to obtain a precise evaluation
 
 === Sprints
 - todo: im appendix?
-#let sprint(title, start, end, time_estimate, time_spend, goal, increments, retro) = {
-    text()[
-        ==== #title
-    ]
+#let sprint(start, end, time_estimate, time_spend, goal, increments, retro) = {
     global.row("Start date", start)
     global.row("End date", end)
     global.row("Time estimate", time_estimate)
@@ -168,8 +159,8 @@ The worked time is recored on the ticket in order to obtain a precise evaluation
     global.row("Retrospective", retro)
 }
 
+==== Sprint 1
 #sprint(
-    "Sprint 1",
     "18.09.2023",
     "03.10.2023",
     "1 week 1 day or 23.5 hours",
@@ -181,8 +172,8 @@ The worked time is recored on the ticket in order to obtain a precise evaluation
 todo: image tasks begin\
 todo: image tasks ende
 
+==== Sprint 2
 #sprint(
-    "Sprint 2",
     "03.10.2023",
     "17.10.2023",
     "2 weeks 6 hours or 38 hours",

@@ -9,18 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # - uses: actions/checkout@v3
-    # - uses: DeterminateSystems/nix-installer-action@main
-    # - uses: DeterminateSystems/magic-nix-cache-action@main
-    # - run: echo "$(TZ="Europe/Berlin" date +"%Y-%m-%d %H:%M:%S")" > document/utils/build-datetime.typ
-    # - run: mkdir out
-    # - run: nix run github:typst/typst/v0.8.0 -- compile document/main.typ out/SAil_ARrrr_Documentation.pdf
-    # - run: nix run github:typst/typst/v0.8.0 -- compile document/content/meeting-minutes/week01.typ out/week01.pdf
-    # - run: nix run github:typst/typst/v0.8.0 -- compile document/content/meeting-minutes/week02.typ out/week02.pdf
-    # - run: nix run github:typst/typst/v0.8.0 -- compile document/content/meeting-minutes/week03.typ out/week03.pdf
-    # - run: mv index.html out/index.html
-    # - uses: actions/upload-pages-artifact@v1
-      # with: { path: 'out' }
       - uses: actions/checkout@v3      
       - run: echo "$(TZ="Europe/Berlin" date +"%Y-%m-%d %H:%M:%S")" > document/utils/build-datetime.typ
       - uses: lvignoli/typst-action@main
