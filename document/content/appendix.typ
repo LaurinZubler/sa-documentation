@@ -1,7 +1,8 @@
 = Appendix
 
 == Meeting Minutes <meeting-minutes>
-#heading(numbering: none, outlined: false)[
+#set heading(numbering: none, outlined: false)
+
     #let meeting_paths = (
         "meeting-minutes/week01.typ", 
         "meeting-minutes/week02.typ",
@@ -11,9 +12,12 @@
         include path
         pagebreak()
     }
-]
+
+#set heading(numbering: "1.1", outlined: true)
 
 == Interviews
-#heading(numbering: none, outlined: false)[
+#set heading(numbering: none, outlined: false)
+
     #include "interview/interview-guide.typ"
-]
+
+#set heading(numbering: none, outlined: false)
