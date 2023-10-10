@@ -20,16 +20,16 @@ jobs:
             document/content/meeting-minutes/week02.typ
             document/content/meeting-minutes/week03.typ
             document/content/meeting-minutes/week04.typ
-            # document/content/meeting-minutes/week05.typ
-            # document/content/meeting-minutes/week06.typ
-            # document/content/meeting-minutes/week07.typ
-            # document/content/meeting-minutes/week08.typ
-            # document/content/meeting-minutes/week09.typ
-            # document/content/meeting-minutes/week10.typ
-            # document/content/meeting-minutes/week11.typ
-            # document/content/meeting-minutes/week12.typ
-            # document/content/meeting-minutes/week13.typ
-            # document/content/meeting-minutes/week14.typ
+          # document/content/meeting-minutes/week05.typ
+          # document/content/meeting-minutes/week06.typ
+          # document/content/meeting-minutes/week07.typ
+          # document/content/meeting-minutes/week08.typ
+          # document/content/meeting-minutes/week09.typ
+          # document/content/meeting-minutes/week10.typ
+          # document/content/meeting-minutes/week11.typ
+          # document/content/meeting-minutes/week12.typ
+          # document/content/meeting-minutes/week13.typ
+          # document/content/meeting-minutes/week14.typ
       - run: mkdir out
       - run: mv index.html out/index.html
       - run: mv document/main.pdf out/SAil_ARrrr_Documentation.pdf
