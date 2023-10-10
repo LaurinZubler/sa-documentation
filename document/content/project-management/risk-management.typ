@@ -82,11 +82,11 @@ The inherent risk level is before and the residual risk level is after the imple
 
 ==== Failure of Critical Infrastructure
 #risk(
-    "",
+    "The infrastructure used for writing and implementing this theses, mostly cloud services, can no longer be used.",
     "Rare", "Major", "Low",
     "Rare", "Low", "Low",
-    "",
-    ""
+    "The probability of this occurring is very low and therefore no explicit countermeasures are taken.",
+    "Depending on the failing infrastructure, a solution must be found spontaneously."
 )
 
 ==== Failure of Personal Hardware
@@ -94,8 +94,8 @@ The inherent risk level is before and the residual risk level is after the imple
     "The author's hardware for writing and implementing this thesis breaks or can no longer be used for other reasons.",
     "Rare", "Major", "Low",
     "Rare", "Moderate", "Low",
-    "- versicherig",
-    ""
+    "The probability of this occurring is very low and therefore no explicit countermeasures are taken. The author has household contents insurance which can compensate for damages.",
+    "Depending on the failing hardware, a solution must be found spontaneously. As backup the university has hardware that can be used."
 )
 
 ==== Failure of Third-Party Hardware
@@ -103,6 +103,6 @@ The inherent risk level is before and the residual risk level is after the imple
     "Third-Party hardware for writing and implementing this thesis breaks or can no longer be used for other reasons.",
     "Rare", "Moderate", "Low",
     "Rare", "Moderate", "Low",
-    "- versicherig",
-    ""
+    "The probability of this occurring is very low and therefore no explicit countermeasures are taken. The author has liability insurance which can compensate for damages.",
+    "Depending on the failing hardware, a solution must be found spontaneously."
 )
