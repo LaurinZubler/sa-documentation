@@ -1,7 +1,6 @@
 #import "meeting.typ": meeting
-#show: doc => meeting("3 - Weekly", "04.10.2023", doc)
-== Meeting content
-=== Fragen
+#show: doc => meeting("3 - Weekly, Sprint Start", "04.10.2023", doc)
+== Fragen
 Was für Lizenzen sollen verwendet werden für die Git Repositories für Dokumentation und Code?
 - Es gibt keine Vorgabe welche Lizenz verwendet werden soll. Es darf aber gerne eine verwendet werden.
 
@@ -20,7 +19,7 @@ Wie soll weiter vorgegangen werden mit dem nicht fertig gewordenen Sprint und de
 Darf die Dienstleistung der Ost Bibliothek "Book a Librarian" genutzt wird, um sich bei der Literaturrecherche helfen zu lassen? Wie muss das angegeben werden?
 - Der Service darf genutzt werden. Als Hilfsmittel in der Dokumentation angeben.
 
-=== Review last week
+== Review last week
 - Documentation Repository Github
 - Documentation Published on Github Pages
 - MS Teams Integration for Github
@@ -28,9 +27,9 @@ Darf die Dienstleistung der Ost Bibliothek "Book a Librarian" genutzt wird, um s
 - Updated milestones with definition of done
 - Updated Sprint goal
 
-=== Inputs zu den Interviews
+== Inputs zu den Interviews
 - Tipp: Die Interviews Aufzeichnen (Audio) und nicht nur Notizen machen.
 - Interview Guide darf gerne an Frieder zum Review geschickt werden.
 
-=== Nächster Sprint
+== Nächster Sprint
 Tasks durchgegangen. Zwei Tasks aus Sprint entfernt. Sprint für gut befunden.

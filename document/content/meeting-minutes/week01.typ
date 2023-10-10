@@ -6,8 +6,7 @@
 - Projektideen brainstormen
 - Meetings Protokoll mit Frieder teilen
 
-== Meeting content
-=== Aufgabenstellung\
+== Aufgabenstellung
 Ziel der SA: Prototyp entwickelt und erprobt
 Prototyp kann sein: Skizze, Applikation
 
@@ -19,11 +18,11 @@ Vorgehen nach HCD
     2. Prototyp modellieren, Inputs sammeln, HCD\
     3. Implementieren und Testen\
 	
-=== Ablauf SA
+== Ablauf SA
 Wöchentliche Meetings mit Frieder jeweils am Dienstag um 13 Uhr\
 Meeting Protokoll mit Frieder teilen
 
-=== Abgaben SA
+== Abgaben SA
 Schriftliche Dokumentation. Format frei. Word, Latex, ...\
 Frieder braucht Zugriff.\
 Projektdokumentation, Zeitplanung, Projektorganisation, Risiken.\
