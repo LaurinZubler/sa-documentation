@@ -1,5 +1,3 @@
-= Appendix
-
 == Meeting Minutes <meeting-minutes>
 #set heading(numbering: none, outlined: false)
 

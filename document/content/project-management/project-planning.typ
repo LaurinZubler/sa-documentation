@@ -84,6 +84,10 @@ For the end of each phase there was a milestone defined. Since Jira does not off
     "03.10.2023",
     "todo: copy from milestone description"
 )
+- abgeschlossen 10.10.2023
+- nicht alle punkte erreicht
+- doku nicht alle kapitel geschrieben. nicht relevant für arbeit. muss einfach geschrieben werden irgendwann
+- projekt setup funktioniert soweit
 
 ==== M2: End of Analysis
 #milestone(

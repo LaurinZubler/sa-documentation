@@ -11,6 +11,11 @@
 #set heading(numbering: "1.1")
 #set page(numbering: "1 / 1")
 
+= Abstract
+
+= Management Summary
+#pagebreak()
+
 #outline(
     title: "Table of Contents",
     depth: 3,
@@ -19,7 +24,24 @@
 )
 
 #pagebreak()
-#include "content/project-management.typ"
+
+= Glossary and list of abbreviations
+
+= Initual Situation
+
+= Task Definition
+
+= General Conditions
 
 #pagebreak()
+
+= Analysis
+#include "content/analysis.typ"
+#pagebreak()
+
+= Project Management
+#include "content/project-management.typ"
+#pagebreak()
+
+= Appendix
 #include "content/appendix.typ"
