@@ -22,7 +22,7 @@ jobs:
       - run: mkdir out
       - run: mv index.html out/index.html
       - run: mv document/main.pdf out/SAil_ARrrr_Documentation.pdf
-      - run: document/content/interview/interview-guide.pdf out/interview_guide.pdf
+      - run: mv document/content/interview/interview-guide.pdf out/interview_guide.pdf
       - run: mv document/content/meeting-minutes/week*.pdf out/
       - uses: actions/upload-pages-artifact@v1
         with: { path: 'out' }
