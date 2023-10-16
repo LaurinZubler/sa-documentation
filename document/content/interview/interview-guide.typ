@@ -1,5 +1,11 @@
 === Interview Guide <interview-guide>
 
+_pre interview onboarding_
+- Semesterarbeit
+- Herausfinden wie AR beim Segeln eingesetzt werden kann
+- Interviews zum Ermitteln von möglichen Anwendungsfällen
+- Zuerst persönliche Segel Fragen
+
 _break the ice_
 - Was ist deine erste Segelerfahrung?
 
@@ -19,6 +25,7 @@ _find use cases_
 - Auf was musst du achten beim Segeln?
 - Was sind Gefahren bim Segeln?
 - Was würdest du in Zukunft noch gerne ausprobieren / lernen?
+- Was für Tools oder Gadgets würdest du dir wünschen?
 
 _get test users_
-- Möchtest du weiter über dieses Projekt informiert werden und das Produkt später testen?
+- Möchtest du als TesterIn die Designs und das Produkt später testen?
