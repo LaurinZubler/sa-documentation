@@ -21,7 +21,7 @@ _find use cases_
 - Was bereitet dir heute Mühe / findest du herausfordernd beim Segeln?
 - Wie bereitest du dich vor, wenn du segeln gehst? Rituals, Checks?
 - Was für Informationen benötigst du beim Segeln?
-- Was für Hilfsmittel benutzt du beim Segeln?
+- Was für Hilfsmittel benutzt du beim Segeln? (Technik, Apps)
 - Auf was musst du achten beim Segeln?
 - Was sind Gefahren bim Segeln?
 - Was würdest du in Zukunft noch gerne ausprobieren / lernen?
