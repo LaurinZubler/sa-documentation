@@ -71,6 +71,7 @@
     Brille die Windrichtung und Stärke einblendet.\
     Einfachere Kommunikation. Beim Segeln ist keine Hand frei um das Funkgerät zu bedienen. Eventuel Sprach gesteuerte Aktivierung. Wie Siri.\
     Als Trainer etwas, das nicht geschriehen werden muss. Manche AnfängerInnen sind davon eingschüchtert.\
+    Hilfe bei der Segelstellung\
     Während Training: Aufzeichnung aller Schiffkurse und Windrichtung/Stärke um nach dem Training Auswertungen zu machen. Für Wind: Mehrere Messstaion aufstellen in Rapperswil, Pfäffikon, Lützelau...
 
 + _Möchtest du als TesterIn die Designs und das Produkt später testen?_\
