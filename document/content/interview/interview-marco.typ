@@ -75,3 +75,8 @@
 
 + _Möchtest du als TesterIn die Designs und das Produkt später testen?_\
     Ja. Sehr gerne
+
+*Comment*
+Most important: Wind\
+Important: Course, Sail position\
+
