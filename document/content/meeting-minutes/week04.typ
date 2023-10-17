@@ -11,7 +11,7 @@
 Dokumentation momentan keine Priorität. Das Projekt Setup funktioniert. Fokus auf Content setzen. Milestone "Project Setup" abschliessen. Vorgehen dokumentieren.
 
 == Interviews
-=== Inputs zum Interview Guide
+=== Interview Guide
 Bestehende Fragen gut. \
 Einige Inputs von Frieder für weitere Fragen. Diese wurden in den Interview Guide aufgenommen. \
 Vor den Interviews soll darauf geachtet werden, was genau gesagt wird, damit die Antworten nicht beeinflusst werden. Am besten sollte dies auch aufgeschrieben werden. \

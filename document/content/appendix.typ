@@ -6,7 +6,7 @@
         "meeting-minutes/week02.typ",
         "meeting-minutes/week03.typ",
         "meeting-minutes/week04.typ",
-        // "meeting-minutes/week05.typ",
+        "meeting-minutes/week05.typ",
         // "meeting-minutes/week06.typ",
         // "meeting-minutes/week07.typ",
         // "meeting-minutes/week08.typ",

@@ -1,5 +1,5 @@
 #import "meeting.typ": meeting
-#show: doc => meeting("3 - Weekly, Sprint Start", "04.10.2023", doc)
+#show: doc => meeting("3 - Weekly, Sprint Planning", "04.10.2023", doc)
 == Fragen
 Was für Lizenzen sollen verwendet werden für die Git Repositories für Dokumentation und Code?
 - Es gibt keine Vorgabe welche Lizenz verwendet werden soll. Es darf aber gerne eine verwendet werden.
