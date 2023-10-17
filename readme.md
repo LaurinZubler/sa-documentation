@@ -10,7 +10,7 @@ Advisor: Frieder Loch [frieder.loch@ost.ch](mailto:frieder.loch@ost.ch)
 ## Github Pages
 The documentation pdf is automatically generated and published to Github Pages on push to the `main origin` branch. 
 
-The latest version can be viewed here: https://laurinzubler.github.io/sa-documentation/main.pdf
+The latest version can be viewed here: https://laurinzubler.github.io/sa-documentation/
 
 
 ## Typst
