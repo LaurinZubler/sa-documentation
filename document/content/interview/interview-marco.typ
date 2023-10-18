@@ -28,8 +28,8 @@
     Zürichsee, St. Moritz, Regatten hauptsächlich Schweiz aber auch nahes Ausland
 
 + _Was war für dich schwierig als SegelanfängerIn?_\
-    Zu lange her um das beantworten zu können.\
-    (Frage umgestellt: Was ist für Anfänger schwierig beim Segeln?)\
+    Zu lange her um das beantworten zu können.\ \
+    _Was ist für Anfänger schwierig beim Segeln?_\
     Besprochenes vor Training am Whiteboard ist auf dem Wasser vergessen und muss wiederholt werden. Wie ist der Parkour, welche Übungen werden gemacht, wieviele Minuten ist der Start Countdown bei Regatten. \
     Whiteboard kann nicht auf Wasser projeziert werden. Bojen, Windrichtung, Schiffe\
     Bei Kindern: Pflichtbewusstsein und Verantwortung fehlt, das kommt erst bei Teenager.
