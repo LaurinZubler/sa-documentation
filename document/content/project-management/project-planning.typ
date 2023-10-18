@@ -44,6 +44,7 @@ The rough planning of the project in phases was implemented using the _Jira_ Epi
     "14.11.2023",
     "todo: copy from epic description"
 )
+- verlängert um zwei wochen. da viele studien gefunden zu ar und segeln. macht sinn sich da mehr zu vertiefen
 
 ==== Implementation
 #epic(
@@ -94,6 +95,7 @@ For the end of each phase there was a milestone defined. Since Jira does not off
     "24.10.2023",
     "todo: copy from milestone description"
 )
+- verschoben um 2 Wochen nach hinten
  
 ==== M3: End of Desing
 #milestone(
@@ -146,6 +148,7 @@ Every week a meeting with the project supervisor takes place. The meeting notes 
 === Time Tracking
 The worked time is recored on the ticket in order to obtain a precise evaluation of what was worked on and for how long.
 - todo: at end of project. add report. appendx?
+- total hours. break down to weeks
 
 === Sprints
 - todo: im appendix?
@@ -169,8 +172,9 @@ The worked time is recored on the ticket in order to obtain a precise evaluation
     "Project management tools. Project documentation document with chapters project plan, quality assurance and risk management.",
     "todo: retro"
 )
-todo: image tasks begin\
-todo: image tasks ende
+- todo: image tasks begin
+- todo: image tasks ende
+- retro: zeitschätzung für doku zu gering. aufsetzen typst mehr zeit. schreiben auch mehr zeit, da zuerste überlegen wie und was genau. 
 
 ==== Sprint 2
 #sprint(
@@ -182,5 +186,19 @@ todo: image tasks ende
     "Interview Guide, Interview Protocols, Literature sources",
     "-"
 )
-todo: image tasks begin\
-todo: image tasks ende
+- todo: image tasks begin
+- todo: image tasks ende
+- retro: zu wenig zeit gefunden, stundensoll nicht erfüllt. doku fertig machen wurde verschoben, outcome produzieren. viele RA&Sail Studien gefunden, mehr eintauchen in studien, dahher desing phase verlängern. schätzung interviews zu gering, post work. schätzung recherche zu gross, war einfacher als gedacht.
+
+==== Sprint 3
+#sprint(
+    "17.10.2023",
+    "31.10.2023",
+    "2 weeks 2 hours or 34 hours",
+    "-",
+    "Deep dive into the Studies & Interviews",
+    "Interviews Evaluation, Literature Summary",
+    "-"
+)
+- todo: image tasks begin
+- todo: image tasks ende
