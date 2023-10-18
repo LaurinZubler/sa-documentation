@@ -96,7 +96,4 @@
 
 + _Möchtest du als TesterIn die Designs und das Produkt später testen?_\
     Ja
-
-*Comment*
-
-
+    
