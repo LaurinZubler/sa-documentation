@@ -34,5 +34,7 @@
     #include "interview/interview-juerg.typ"
     #pagebreak()
     #include "interview/interview-zoe.typ"
+    #pagebreak()
+    #include "interview/interview-dave.typ"
 
 #set heading(numbering: none, outlined: false)

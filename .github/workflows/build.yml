@@ -16,8 +16,10 @@ jobs:
           source_file: |
             document/main.typ
             document/content/interview/interview-guide.typ
-            document/content/interview/interview-juerg.typ
             document/content/interview/interview-marco.typ
+            document/content/interview/interview-juerg.typ
+            document/content/interview/interview-zoe.typ
+            document/content/interview/interview-dave.typ
             document/content/meeting-minutes/week01.typ
             document/content/meeting-minutes/week02.typ
             document/content/meeting-minutes/week03.typ
