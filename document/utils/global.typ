@@ -5,9 +5,16 @@
 #let author = "Laurin Zubler"
 #let advisor = "Frieder Loch"
 
+#let paragraph(title, content) = {
+    grid(
+        columns: (1fr, 3fr),
+        [*#title*], content,
+    )
+}
+
 #let row(title, content) = {
     grid(
         columns: (1fr, 3fr),
-        title, [#content],
+        title, content,
     )
 }

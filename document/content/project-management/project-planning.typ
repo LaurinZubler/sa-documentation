@@ -14,10 +14,10 @@ The rough planning of the project in phases was implemented using the _Jira_ Epi
 )
 
 #let epic(duration, start, end, description) = {
-    global.row("Duration", duration)
-    global.row("Start date", start)
-    global.row("End date", end)
-    global.row("Description", description)
+    global.paragraph("Duration", duration)
+    global.paragraph("Start date", start)
+    global.paragraph("End date", end)
+    global.paragraph("Description", description)
 }
 
 ====  Project Setup
@@ -75,8 +75,8 @@ For the end of each phase there was a milestone defined. Since Jira does not off
 - todo foto sprint
 
 #let milestone(due, dod) = {
-    global.row("Due date", due)
-    global.row("Definition of done", dod)
+    global.paragraph("Due date", due)
+    global.paragraph("Definition of done", dod)
 }
 
 
@@ -153,13 +153,13 @@ The worked time is recored on the ticket in order to obtain a precise evaluation
 === Sprints
 - todo: im appendix?
 #let sprint(start, end, time_estimate, time_spend, goal, increments, retro) = {
-    global.row("Start date", start)
-    global.row("End date", end)
-    global.row("Time estimate", time_estimate)
-    global.row("Time spend", time_spend)
-    global.row("Sprint goal", goal)
-    global.row("Sprint increments", increments)
-    global.row("Retrospective", retro)
+    global.paragraph("Start date", start)
+    global.paragraph("End date", end)
+    global.paragraph("Time estimate", time_estimate)
+    global.paragraph("Time spend", time_spend)
+    global.paragraph("Sprint goal", goal)
+    global.paragraph("Sprint increments", increments)
+    global.paragraph("Retrospective", retro)
 }
 
 ==== Sprint 1

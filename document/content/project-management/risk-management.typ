@@ -7,15 +7,15 @@
     countermeasures,
     occureActions
 ) = {
-    global.row("Description", description)
-    global.row("Inherent Risk Probabiliy", inherentRiskProbability)
-    global.row("Inherent Risk Impact", inherentRiskImpact)
-    global.row("Inherent Risk Level", inherentRiskLevel)
-    global.row("Residual Risk Probabiliy", residualRiskProbability)
-    global.row("Residual Risk Impact", residualRiskImpact)
-    global.row("Residual Risk Level", residualRiskLevel)
-    global.row("Countermeasures", countermeasures)
-    global.row("Actions on Risk Occurrence", occureActions)
+    global.paragraph("Description", description)
+    global.paragraph("Inherent Risk Probabiliy", inherentRiskProbability)
+    global.paragraph("Inherent Risk Impact", inherentRiskImpact)
+    global.paragraph("Inherent Risk Level", inherentRiskLevel)
+    global.paragraph("Residual Risk Probabiliy", residualRiskProbability)
+    global.paragraph("Residual Risk Impact", residualRiskImpact)
+    global.paragraph("Residual Risk Level", residualRiskLevel)
+    global.paragraph("Countermeasures", countermeasures)
+    global.paragraph("Actions on Risk Occurrence", occureActions)
     
 } 
 
