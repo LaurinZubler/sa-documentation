@@ -25,7 +25,7 @@ jobs:
             document/content/meeting-minutes/week03.typ
             document/content/meeting-minutes/week04.typ
             document/content/meeting-minutes/week05.typ
-          # document/content/meeting-minutes/week06.typ
+            document/content/meeting-minutes/week06.typ
           # document/content/meeting-minutes/week07.typ
           # document/content/meeting-minutes/week08.typ
           # document/content/meeting-minutes/week09.typ
