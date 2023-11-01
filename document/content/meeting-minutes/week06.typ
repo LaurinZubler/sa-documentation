@@ -20,4 +20,4 @@ Was sind die Endprodukte der Analyse Phase?
 - Entscheid
     Anschliessend entscheiden was umgesetzt werden soll. Hardwarelimitationen spielen erst hier eine Rolle. Sie sind bei den Szenarien noch nicht zu beachten.
 
-Todo: Meilenstein "M2 End of Analyse" soll ensprechend angepasst werden.
+Todo: Meilenstein "M2: End of Analysis" soll ensprechend angepasst werden.
