@@ -12,8 +12,7 @@
 #set page(numbering: "1 / 1")
 
 = Abstract
-
-= Management Summary
+#include "content/abstract.typ"
 #pagebreak()
 
 #outline(
@@ -25,19 +24,21 @@
 
 #pagebreak()
 
-= Glossary and list of abbreviations
-
-= Initual Situation
-
-= Task Definition
-
-= General Conditions
+= Introduction
 
 #pagebreak()
 
-= Analysis
-#include "content/analysis.typ"
+= Research
+#include "content/research.typ"
 #pagebreak()
+
+= Interviews
+#include "content/interviews.typ"
+#pagebreak()
+
+= Personas
+
+= Scenarios
 
 = Project Management
 #include "content/project-management.typ"
