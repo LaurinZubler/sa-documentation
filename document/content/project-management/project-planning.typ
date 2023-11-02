@@ -2,68 +2,83 @@
 
 == Project Planning
 === Project Procedure
-The approach in this project is a combination of Scrum and RUP (Scrum+). From RUP, the division into phases is adopted to provide a rough structure for the entire project. For the short-term planning, the agile methodologies through iterative sprints from Scrum are adapted.
-
-=== Phases
-The rough planning of the project in phases was implemented using the _Jira_ Epics. Six Phases were defined.
-- todo main focus analysis, design. no time for implementation
-
-#figure(
-    image("/images/jira_timeline.png", width: 95%),
-    caption: [Project phases represented by Epics in the _Jira_ timeline.],
+#global.paragraph(
+    [Project Procedure],
+    [
+        The approach in this project is a combination of Scrum and RUP (Scrum+). From RUP, the division into phases is adopted to provide a rough structure for the entire project. For the short-term planning, the agile methodologies through iterative sprints from Scrum are adapted.
+    ]
 )
 
-#let epic(duration, start, end, description) = {
-    global.paragraph("Duration", duration)
-    global.paragraph("Start date", start)
-    global.paragraph("End date", end)
-    global.paragraph("Description", description)
+=== Phases
+todo: table... :|
+#global.paragraph(
+    [Tool],
+    [
+        The rough planning of the project in phases was implemented using the _Jira_ Epics. Six Phases were defined.
+        - todo main focus analysis, design. no time for implementation
+        #figure(
+            image("/images/jira_timeline.png", width: 95%),
+            caption: [Planned project phases represented by Epics in the _Jira_ timeline.],
+        )
+        - todo image actual phases timeline
+    ]
+)
+
+#let epic(title, duration, start, end, description) = {
+    global.row(
+        title,
+        [
+            #global.row("Duration", duration)
+            #global.row("Start date", start)
+            #global.row("End date", end)
+            #global.row("Description", description)
+            #v(0.5em)
+        ]
+    )
 }
 
-====  Project Setup
 #epic(
+    "Project Setup",
     "2.5 weeks",
     "18.09.2023",
     "03.10.2023",
     "todo: copy from epic description"
 )
 
-==== Analysis
 #epic(
+    "Analysis",
     "3 weeks",
     "03.10.2023",
     "24.10.2023",
     "todo: copy from epic description"
 )
 
-
-==== Design
 #epic(
+    "Design",
     "3 weeks",
     "24.10.2023",
     "14.11.2023",
-    "todo: copy from epic description"
+    "todo: copy from epic description. - verlängert um zwei wochen. da viele studien gefunden zu ar und segeln. macht sinn sich da mehr zu vertiefen"
 )
-- verlängert um zwei wochen. da viele studien gefunden zu ar und segeln. macht sinn sich da mehr zu vertiefen
 
-==== Implementation
 #epic(
+    "Implementation",
     "3 weeks",
     "14.11.2023",
     "05.12.2023",
     "todo: copy from epic description"
 )
 
-==== Evaluation
 #epic(
+    "Evaluation",
     "1 week",
     "28.11.2023",
     "12.12.2023",
     "todo: copy from epic description"
 )
 
-==== Project Completion
 #epic(
+    "Project Completion",
     "1.5 week",
     "12.12.2023",
     "22.12.2023",
@@ -71,79 +86,122 @@ The rough planning of the project in phases was implemented using the _Jira_ Epi
 )
 
 === Milestones
-For the end of each phase there was a milestone defined. Since Jira does not offer functionality for creating milestones, a new issue type was created for this purpose. Like work tasks, the milestones are in the backlog and are then added to sprints.
-- todo foto sprint
+#global.paragraph(
+    "Tool", 
+    [
+        For the end of each phase there is a milestone defined. Since Jira does not offer functionality for creating milestones, a new issue type was created for this purpose. Like work tasks, the milestones are in the backlog and are then added to sprints.
+        - todo foto sprint
+    ]
+)
 
-#let milestone(due, dod) = {
-    global.paragraph("Due date", due)
-    global.paragraph("Definition of done", dod)
+#let milestone(title, due, dod) = {
+    global.paragraph(
+        title,
+        [
+            #global.row("Due date", due)
+            #global.row("Acceptance\nCriteria", dod)
+            // #v(0.5em)
+        ]
+    )
 }
 
-
-==== M1: End of Project Setup
 #milestone(
+    "M1: End of \nProject Setup",
     "03.10.2023",
-    "todo: copy from milestone description"
+    [
+        todo: copy from milestone description
+        - abgeschlossen 10.10.2023
+        - nicht alle punkte erreicht
+        - doku nicht alle kapitel geschrieben. nicht relevant für arbeit. muss einfach geschrieben werden irgendwann
+        - projekt setup funktioniert soweit
+    ]
 )
-- abgeschlossen 10.10.2023
-- nicht alle punkte erreicht
-- doku nicht alle kapitel geschrieben. nicht relevant für arbeit. muss einfach geschrieben werden irgendwann
-- projekt setup funktioniert soweit
 
-==== M2: End of Analysis
 #milestone(
+    "M2: End of Analysis",
     "24.10.2023",
-    "todo: copy from milestone description"
+    [
+        todo: copy from milestone description
+        - verschoben um 2 Wochen nach hinten
+    ]
 )
-- verschoben um 2 Wochen nach hinten
- 
-==== M3: End of Desing
+
 #milestone(
+    "M3: End of Desing",
     "14.11.2023",
     "todo: copy from milestone description"
 )
- 
-==== M4: End of Implementation
+
 #milestone(
+    "M4: End of Implementation",
     "05.12.2023",
     "todo: copy from milestone description"
 )
 
-==== M5: End of Evaluation
 #milestone(
+    "M5: End of Evaluation",
     "12.12.2023",
     "todo: copy from milestone description"
 )
- 
-==== M6: Project Finish
+
 #milestone(
+    "M6: Project Finish",
     "22.12.2023",
     "todo: copy from milestone description"
 )
 
 === Scrum Events
-==== Sprint
-The work is completed in two-week sprints. Each sprint has a sprint goal and sprint increments, a small step towards the final project product.
--todo: swimlanes jira
+#global.paragraph(
+    "Sprint",
+    [
+        The work is completed in two-week sprints. Each sprint has a sprint goal and sprint increments, a small step towards the final project product.
+        -todo: swimlanes jira
+    ]
+)
 
-==== Backlog Refinement
-In the backlog refinement new tasks are created in the backlog and the time to complete is estimated. 
+#global.paragraph(
+    "Backlog Refinement",
+    [
+        In the backlog refinement new tasks are created in the backlog and the time to complete is estimated. 
+    ]
+)
 
-==== Sprint Planning
-Before each sprint start, the sprint is filled with tasks from the backlog so that the estimated time of work is 2 weeks and a sprint goal is defined.
+#global.paragraph(
+    "Sprint Planning",
+    [
+        Before each sprint start, the sprint is filled with tasks from the backlog so that the estimated time of work is 2 weeks and a sprint goal is defined.
+    ]
+)
 
-==== Sprint Review
- At the end of each sprint, the outcome of the Sprint is inspected and future adaptations are determinated. The Sprint review takes place in the weekly meeting with the supervisior.
+#global.paragraph(
+    "Sprint Review",
+    [
+        At the end of each sprint, the outcome of the Sprint is inspected and future adaptations are determinated. The Sprint review takes place in the weekly meeting with the supervisior.
+    ]
+)
 
-==== Sprint Retrospecive
- At the end of each sprint, the last two weeks are analyzed to find ways to improve quality and effectiveness.
+#global.paragraph(
+    "Sprint Retrospecive",
+    [
+        At the end of each sprint, the last two weeks are analyzed to find ways to improve quality and effectiveness.
+    ]
+)
 
-==== Daily Scrum Meeting
-Since the project team only consists of one person, no daily Scrum meetings are held.
+#global.paragraph(
+    "Daily Scrum Meeting",
+    [
+        Since the project team only consists of one person, no daily Scrum meetings are held.
+    ]
+)
 
-==== Weekly Meeting with Supervisior
-Every week a meeting with the project supervisor takes place. The meeting notes can be found in the @meeting-minutes[appendix].
-- todo fix link to appendix
+#global.paragraph(
+    "Weekly Meeting with Supervisior",
+    [
+        Every week a meeting with the project supervisor takes place. The meeting notes can be found in the @meeting-minutes[appendix].
+        - todo fix link to appendix
+    ]
+)
+
 
 === Time Tracking
 The worked time is recored on the ticket in order to obtain a precise evaluation of what was worked on and for how long.
@@ -162,6 +220,7 @@ The worked time is recored on the ticket in order to obtain a precise evaluation
     global.paragraph("Retrospective", retro)
 }
 
+- todo: tabellle .... :¬|
 ==== Sprint 1
 #sprint(
     "18.09.2023",

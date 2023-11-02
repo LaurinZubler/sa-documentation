@@ -30,6 +30,7 @@ The inherent risk level is before and the residual risk level is after the imple
 )
 
 ==== Risk Metrics
+-todo figure
 #table(
   columns: (auto, auto, auto),
   inset: 10pt,
@@ -42,6 +43,7 @@ The inherent risk level is before and the residual risk level is after the imple
 )
 
 ==== Risk Level Formula
+- todo use math formula
 #table(
   columns: (auto),
   inset: 10pt,
