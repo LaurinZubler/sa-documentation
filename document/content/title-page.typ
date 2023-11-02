@@ -1,5 +1,5 @@
-#import "../utils/global.typ" as global
-#include "../utils/build-datetime.typ"
+#import "/utils/global.typ" as global
+#include "/utils/build-datetime.typ"
 
 #v(4fr)
 
@@ -30,10 +30,10 @@
 
 #v(2fr)
 
-#image("../images/vr_meme.jpg", width: 40%)
+#image("/images/vr_meme.jpg", width: 40%)
 
 #v(2fr)
 
-#image("../images/ost_logo.svg", height: 3cm)
+#image("/images/ost_logo.svg", height: 3cm)
 
 #pagebreak()

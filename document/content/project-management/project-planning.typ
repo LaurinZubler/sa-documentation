@@ -1,4 +1,4 @@
-#import "../../utils/global.typ" as global
+#import "/utils/global.typ" as global
 
 == Project Planning
 === Project Procedure
@@ -9,7 +9,7 @@ The rough planning of the project in phases was implemented using the _Jira_ Epi
 - todo main focus analysis, design. no time for implementation
 
 #figure(
-    image("../../images/jira_timeline.png", width: 95%),
+    image("/images/jira_timeline.png", width: 95%),
     caption: [Project phases represented by Epics in the _Jira_ timeline.],
 )
 

@@ -1,4 +1,4 @@
-#import "../utils/global.typ" as global
+#import "/utils/global.typ" as global
 
 #global.paragraph(
   [Initial Situation],
