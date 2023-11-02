@@ -10,6 +10,7 @@
         columns: (1fr, 3fr),
         [*#title*], content,
     )
+    v(0.5em)
 }
 
 #let row(title, content) = {
