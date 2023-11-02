@@ -9,6 +9,7 @@
 #include "content/title-page.typ"
 
 #set heading(numbering: "1.1")
+#show bibliography: set heading(numbering: "1.1")
 #set page(numbering: "1 / 1")
 
 = Abstract
@@ -42,6 +43,25 @@
 
 = Project Management
 #include "content/project-management.typ"
+
+#bibliography("SAil_ARrrr.bib")
+#pagebreak()
+
+= Glossary
+
+= List of Figures
+#outline(
+  title: none,
+  target: figure.where(kind: image),
+)
+
+= List of Tables
+#outline(
+  title: none,
+  target: figure.where(kind: table),
+)
+
+// == Formulas
 #pagebreak()
 
 = Appendix
