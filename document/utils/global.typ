@@ -7,7 +7,8 @@
 
 #let paragraph(title, content) = {
     grid(
-        columns: (1fr, 3fr),
+        columns: (1fr, 6fr),
+        gutter: 1em,
         [*#title*], content,
     )
     v(0.5em)
@@ -15,7 +16,7 @@
 
 #let row(title, content) = {
     grid(
-        columns: (1fr, 3fr),
+        columns: (1fr, 6fr),
         [#title:], content,
     )
 }
