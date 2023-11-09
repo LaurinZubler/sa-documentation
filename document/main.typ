@@ -6,11 +6,30 @@
     author: global.author
 )
 
-#include "content/title-page.typ"
+// Text size and font 
+#set text(
+  11pt,
+  font: "Arial",
+)
 
-#set heading(numbering: "1.1")
-#show bibliography: set heading(numbering: "1.1")
+// page numbering
 #set page(numbering: "1 / 1")
+
+// heading 1
+#show heading.where(level: 1): it => block(width: 100%)[
+  #set text(14pt)
+  #it.body
+  #line(stroke: 2pt, length: 100%)
+]
+
+// heading 2
+#show heading.where(level: 2): it => block(width: 100%)[
+  #set text(12pt)
+  #counter(heading).display() #it.body
+  #line(length: 100%)
+]
+
+#include "content/title-page.typ"
 
 = Abstract
 #include "content/abstract.typ"
@@ -24,6 +43,17 @@
 )
 
 #pagebreak()
+
+// heading 1
+#show heading.where(level: 1): it => block(width: 100%)[
+  #set text(14pt)
+  #counter(heading).display() #it.body
+  #line(stroke: 2pt, length: 100%)
+]
+
+#set heading(numbering: "1.1")
+#show bibliography: set heading(numbering: "1.1")
+
 
 = Introduction
 
