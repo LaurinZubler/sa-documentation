@@ -17,8 +17,8 @@
   [Hardware],
   [
     Augmented Reality can be displayed on various devices. \
-    *Optical see-through AR displays* project the digital content into the user's field of vision. If the device is worn on the head, it is referred to as a head-mounted display (HMD). Informally, HMD's are often referrd as smartglasses. An example of a HMD is the Microsoft HoloLens, seen on TODO Foti.\
-    *Video see-through AR displays* use a camera to capture the real world and insert the digital content into the video. 
+    Optical see-through AR displays project the digital content into the user's field of vision. If the device is worn on the head, it is referred to as a head-mounted display (HMD). Informally, HMD's are often referrd as smartglasses. An example of a HMD is the Microsoft HoloLens, seen on TODO Foti.\
+    Video see-through AR displays use a camera to capture the real world and insert the digital content into the video. 
     A example of this is the game Pokémon Go, which projected the games content into the surroundings using the smartphones camera, seen on Todo Foto.
   ]
 )
