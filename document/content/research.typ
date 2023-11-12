@@ -48,9 +48,11 @@
   [Hardware],
   [
     Augmented Reality is showcased on various devices.
+    
     - *Optical see-through AR displays* display the digital content directly on a transparent glass into the user's field of vision. The physical reality is still visible though the glass.
       - _Head-mounted displays (HMD)_ are worn on the head. Infomally often referred to as smartglasses. An example of an HMD is the Microsoft HoloLens, shown in _ @ar_hardware (a)_. #footnote[https://www.microsoft.com/en-us/industry/blog/manufacturing-and-mobility/2019/06/17/workforce-transformation-in-the-intelligent-manufacturing-era/]
       - _Head-up displays (HUD)_ are mounted in front of the user. For example integrated in a cars windshield, as illustrated in _ @ar_hardware (b)_.
+
     - *Video see-through AR displays* utilize a camera to capture the real world and insert digital content into the video. The camera and display can either be integrated into the same device, as seen on _ @ar_applications (b)_ with the smartphone app. Or camera and display are separate components. #footnote[https://www.gizmochina.com/2021/11/29/volvo-new-tech-car-windshields-ar-display/]
 
     #figure(
@@ -73,7 +75,26 @@
 #global.paragraph(
   [Introduction],
   [
-    
+    Understanding the relationship between wind, boat, and course is fundamental for sailing. The wind acts as the primary force shaping the direction in which the boat can navigate. The dynamic interplay of wind and chosen course dictates the optimal sail position.
+
+    The wind is not a constant force. It changes in direction and intensity. Consequently, continual adjustments to the course and sails are required.
+   
+    However, the wind itself can not be seen. Its direction can only be recognized through observation. Either on tactile sensations, such as the feel on the skin, or by observing responsive elements like flags or waves that react to the wind's influence.
+
+    Further
+    - navigation: häfen, untiefen, bojen
+    - collision: other boats
+
+  ]
+)
+
+#global.paragraph(
+  [Application of AR],
+  [
+    The integration of Augmented Reality into sailing holds the potential to address a spectrum of challenges. The capability for data visualization can be utilized to better understand the surrounding environment. For example the wind or relevant information for navigation. Augmented Reality demonstrates expertise in making the invisible visible, such as underwater obstacles or changes in depth. 
+    It can be used to visually guide and provide precise instructions on sail positioning and maneuvers.
+
+    There is already research concerning AR and sailing that will be reviewed in the following.
   ]
 )
 
