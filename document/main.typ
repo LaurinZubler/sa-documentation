@@ -15,6 +15,9 @@
 // page numbering
 #set page(numbering: "1 / 1")
 
+// figure caption style
+#show figure.caption: emph
+
 // heading 1
 #show heading.where(level: 1): it => block(width: 100%)[
   #set text(14pt)
