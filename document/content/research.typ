@@ -81,10 +81,7 @@
    
     However, the wind itself can not be seen. Its direction can only be recognized through observation. Either on tactile sensations, such as the feel on the skin, or by observing responsive elements like flags or waves that react to the wind's influence.
 
-    Further
-    - navigation: häfen, untiefen, bojen
-    - collision: other boats
-
+    Furthermore, there is the challenge of navigation. Maps are used for orientation on the water. They must be read and interpreted accurately to safely maneuver to the destination, avoiding collisions with obstacles, shallows and other vessels.
   ]
 )
 
