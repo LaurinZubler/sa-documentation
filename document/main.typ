@@ -71,6 +71,7 @@
 #pagebreak()
 
 = Personas
+#include "content/personas.typ"
 
 = Scenarios
 #pagebreak()
