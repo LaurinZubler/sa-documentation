@@ -11,7 +11,7 @@
 #global.paragraph(
   [Portrait],
   figure(
-    image("/images/personas/laura.jpeg", width: 25%),
+    image("/images/personas/laura.jpeg", width: 30%),
     caption: [AI generated Portrait of Laura Dekker #footnote("https://thispersondoesnotexist.com/")]
   )
 )
@@ -23,7 +23,7 @@
     gutter: global.gap,
     "Name:", "Laura Dekker",
     "Age:", "23",
-    "Occupation:", "Student in Landscape Architecture at OST",
+    "Occupation:", "Student in Landscape Architecture",
   )
 )
 
@@ -42,11 +42,13 @@
   ]
 )
 
+#pagebreak()
+
 == The Racer
 #global.paragraph(
   [Portrait],
   figure(
-    image("/images/personas/sebastian.jpeg", width: 25%),
+    image("/images/personas/sebastian.jpeg", width: 30%),
     caption: [AI generated Portrait of Sebastian Elcano #footnote("https://thispersondoesnotexist.com/")]
   )
 )
@@ -65,7 +67,7 @@
 #global.paragraph(
   [Background],
   [
-    Sebastian has been sailing since he was a child. His parents owned a boat and were passionate recreational sailors. As a teenager he joined the sailing club and started sailing in regattas. His passion for the sport has driven him to the top echelons of competitive racing. Now he earns his money as a professional sailor.
+    Sebastian has been sailing since he was a child. His parents owned a boat and were passionate recreational sailors. In his childhood the family spent a lot of time on the water. As a teenager he joined the sailing club and started sailing in regattas. His passion for the sport has driven him to the top echelons of competitive racing. Now he earns his money as a professional sailor.
   ]
 )
 
@@ -76,10 +78,38 @@
   ]
 )
 
+#pagebreak()
+
 == The Ocean Sailor
 #global.paragraph(
-  [Lisa Blair],
+  [Portrait],
+  figure(
+    image("/images/personas/lisa.jpeg", width: 30%),
+    caption: [AI generated Portrait of Lisa Blair #footnote("https://thispersondoesnotexist.com/")]
+  )
+)
+
+#global.paragraph(
+  [Demographics],
+  grid(
+    columns: (auto, auto),
+    gutter: global.gap,
+    "Name", "Lisa Blair",
+    "Age:", "47",
+    "Occupation:", "Architect",
+  )
+)
+
+#global.paragraph(
+  [Background],
   [
-    
+    Lisa is a 47 year old architect living in Switzerland. Despite beeing from a landlocked country, Lisa has developed a love for the sea. Every year she spends her vacations on a sailing yacht. Living on the boat with friends and family.
+  ]
+)
+
+#global.paragraph(
+  [Sailing Experience],
+  [
+    Lisa holds the swiss ocean license, allowing her to charter and skipper yachts. She has profound knowledge in navigation and crew handling. Safety is a major concern of her. She can handle the boat and sails, but performance isn't that important to her.
   ]
 )

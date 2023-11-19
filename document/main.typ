@@ -66,9 +66,9 @@
 #include "content/research.typ"
 #pagebreak()
 
-= Interviews
-#include "content/interviews.typ"
-#pagebreak()
+// = Interviews
+// #include "content/interviews.typ"
+// #pagebreak()
 
 = Personas
 #include "content/personas.typ"
