@@ -12,7 +12,7 @@
   [Portrait],
   figure(
     image("/images/personas/laura.jpeg", width: 25%),
-    caption: [AI generated Portrait of Laura Dekker. #footnote("https://thispersondoesnotexist.com/")]
+    caption: [AI generated Portrait of Laura Dekker #footnote("https://thispersondoesnotexist.com/")]
   )
 )
 
@@ -21,7 +21,7 @@
   grid(
     columns: (auto, auto),
     gutter: global.gap,
-    "Name", "Laura Dekker",
+    "Name:", "Laura Dekker",
     "Age:", "23",
     "Occupation:", "Student in Landscape Architecture at OST",
   )
@@ -42,12 +42,37 @@
   ]
 )
 
-
 == The Racer
 #global.paragraph(
-  [Sebastian Elcano],
+  [Portrait],
+  figure(
+    image("/images/personas/sebastian.jpeg", width: 25%),
+    caption: [AI generated Portrait of Sebastian Elcano #footnote("https://thispersondoesnotexist.com/")]
+  )
+)
+
+#global.paragraph(
+  [Demographics],
+  grid(
+    columns: (auto, auto),
+    gutter: global.gap,
+    "Name", "Sebastian Elcano",
+    "Age:", "36",
+    "Occupation:", "Professional Sailor",
+  )
+)
+
+#global.paragraph(
+  [Background],
   [
-    
+    Sebastian has been sailing since he was a child. His parents owned a boat and were passionate recreational sailors. As a teenager he joined the sailing club and started sailing in regattas. His passion for the sport has driven him to the top echelons of competitive racing. Now he earns his money as a professional sailor.
+  ]
+)
+
+#global.paragraph(
+  [Sailing Experience],
+  [
+    Over the years Sebastian has developed an exceptional proficiency in boat handling. He effortlessly maneuvers through various conditions. To be successful at the top of the world, the boat adjustments are a matter of a few millimeters. Tactic plays an important role. In split seconds he must make descisions.
   ]
 )
 
