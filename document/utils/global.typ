@@ -5,10 +5,12 @@
 #let author = "Laurin Zubler"
 #let advisor = "Frieder Loch"
 
+#let gap = 0.65em
+
 #let paragraph(title, content) = {
     grid(
         columns: (1fr, 6fr),
-        gutter: 1em,
+        gutter: gap,
         text(9pt)[*#title*], content,
     )
     v(0.5em)

@@ -33,7 +33,7 @@ The inherent risk level is before and the residual risk level is after the imple
 -todo figure
 #table(
   columns: (auto, auto, auto),
-  inset: 10pt,
+  inset: global.gap,
   [*Probability*], [*Impact*], [*Value*],
   [Rare], [Insignificant], [1],
   [Unlikely], [Low], [2],
@@ -46,7 +46,7 @@ The inherent risk level is before and the residual risk level is after the imple
 - todo use math formula
 #table(
   columns: (auto),
-  inset: 10pt,
+  inset: global.gap,
   [$"risk level"="probability" dot "impact"$]
 )
 
