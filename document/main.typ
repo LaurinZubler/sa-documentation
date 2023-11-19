@@ -72,8 +72,10 @@
 
 = Personas
 #include "content/personas.typ"
+#pagebreak()
 
 = Scenarios
+#include "content/scenarios.typ"
 #pagebreak()
 
 = Project Management
