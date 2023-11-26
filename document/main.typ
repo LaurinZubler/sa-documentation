@@ -66,16 +66,16 @@
 #include "content/research.typ"
 #pagebreak()
 
-// = Interviews
-// #include "content/interviews.typ"
-// #pagebreak()
-
-= Personas
-#include "content/personas.typ"
+= User Study
+#include "content/user-study.typ"
 #pagebreak()
 
 = Scenarios
 #include "content/scenarios.typ"
+#pagebreak()
+
+= Architecture
+#include "content/architecture.typ"
 #pagebreak()
 
 = Project Management

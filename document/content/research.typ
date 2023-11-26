@@ -98,13 +98,16 @@
 #global.paragraph(
   [Systematic Review],
   [
-    
+    -requrements ar brille. (ref later in architecture)
   ]
 )
 
 #global.paragraph(
   [Applications],
-  []
+  [
+
+  ]
 )
 
 == Results
+- no ar hmd fullfil req

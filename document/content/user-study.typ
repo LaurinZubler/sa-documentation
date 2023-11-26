@@ -3,11 +3,29 @@
 #global.paragraph(
   [Introduction],
   [
+    
+  ]
+)
+
+== Interview
+#global.paragraph(
+  [Introduction],
+  [
+
+  ]
+)
+
+== Results
+
+== Personas
+#global.paragraph(
+  [Introduction],
+  [
     Based on the interviewd persons, three fictional personas were created. By analyzing the interview responses, three categories of sailors could be derived. Beginner, racer and ocean sailor. In the following the personas are described further.
   ]
 )
 
-== The Beginner
+=== The Beginner
 #global.paragraph(
   [Portrait],
   figure(
@@ -44,7 +62,7 @@
 
 #pagebreak()
 
-== The Racer
+=== The Racer
 #global.paragraph(
   [Portrait],
   figure(
@@ -80,7 +98,7 @@
 
 #pagebreak()
 
-== The Ocean Sailor
+=== The Ocean Sailor
 #global.paragraph(
   [Portrait],
   figure(
