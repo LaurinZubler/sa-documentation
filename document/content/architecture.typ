@@ -3,7 +3,7 @@
 #global.paragraph(
   [Introduction],
   [
-    This chapter describes the software and hardware components required to implement the selected scenario.
+    This chapter describes the different components and how they interact with each other in order to implement the selected scenario.
   ]
 )
 
@@ -18,7 +18,7 @@
     As seen in our own market analysis and confirmed during research, there is currently no augmented reality head-mounted display that fulfills the requirements for use on a sailing boat.\
     Todo: ref research
 
-    Therefore, the decision has been made to use the Microsoft HoloLens 2 for the development of the scenario. It boasts numerous features and is widely adopted. For the development of augmented reality content (referred to as holograms in the HoloLens environment), the Unity platform can be utilized. Applications developed with Unity can also run on other augmented reality displays. This allows for example the use of smartphones during the development phase, which often have better waterproof capabilities. Additionally, when a waterproof augmented reality HMD becomes available in the future, the application can be executed on that device as well.\
+    Therefore, the decision has been made to use the Microsoft HoloLens 2 for the development of the scenario. It has numerous features and is widely adopted. For the development of augmented reality content (referred to as holograms in the HoloLens environment), the Unity platform can be utilized. Applications developed with Unity can also run on other augmented reality displays. This allows for example the use of smartphones during the development phase, which often have better waterproof capabilities. Additionally, when a waterproof augmented reality HMD becomes available in the future, the application can be executed on that device as well.\
     Todo: unity webseite link in doku??
   ]
 )
@@ -31,7 +31,7 @@
     + *Visible light cameras* to track the environment. For example, the physical room in which the HoloLens is used.
     + *Inertial Measurement Unit (IMU)* consisting of an accelerometer, gyroscope, and magnetometer to track motion and orientation relative to Earth.
     
-    This requires the environment to be stationary relative to earh. Otherwise tracking errors can occur, resulting in distorted holograms or even loss of tracking. Similar to humans when actual and expected motion don't match, the HoloLens can get "motion sick".
+    So that this interaction works the environment needs to be stationary relative to earh. Otherwise tracking errors can occur, resulting in distorted holograms or even loss of tracking. Similar to humans when actual and expected motion don't match, the HoloLens can get "motion sick".
 
     Microsoft is aware of this issue and introduced the Moving Platform Mode (MPM) in 2022. Enabling MPM signals the HoloLens it can not expect perfect agreement between sensor inputs. Microsoft has tested the MPM on small boats, but according to their website "it is currently scoped to large marine vessels experiencing low-dynamic motion". If the HoloLens can handle the situation in our szenario on smaller sailing vessles, has to be tested.
 
@@ -51,7 +51,7 @@
 #global.paragraph(
   [Wind Sensor],
   [
-    A Wind sensor is reqired for the implementation of the scenario to meassure wind speed and direction. They are a common instrument on sail boats and are mostly installed on top of the mast. In @wind_sensor there can be seen a wind vane (left) that visually indicates the direction of the wind. And a wind sensor (right) that meassures the wind speed and diraction and can transmit the information digitally.
+    A wind sensor is reqired for the implementation of the scenario to meassure wind speed and direction. They are a common instrument on sail boats and are mostly installed on top of the mast. In @wind_sensor there can be seen a wind vane (left) that visually indicates the direction of the wind. And a wind sensor (right) that meassures the wind speed and diraction and can transmit the information digitally.
     #footnote("https://www.cruisersforum.com/forums/f13/wind-vane-on-front-of-boat-230923.html")
 
     #figure(
