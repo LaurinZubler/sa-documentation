@@ -15,11 +15,11 @@
     Based on the requirements in sailing, a head-mounted display makes the most sense for the implementaion of the scenario. An HMD allows for hands-free operation, enabling control of the boat. \
     A statically mounted video see-through display would not offer any advantage over existing instruments on boats. The user would still need to translate the information from a 2D indicator into the real world.
     
-    As seen in our own market analysis and confirmed during research, there is currently no augmented reality head-mounted display that fulfills the requirements for use on a sailing boat.\
-    Todo: ref research
+    As seen in our own market analysis and confirmed during research, there is currently no augmented reality head-mounted display that fulfills the requirements for use on a sailing boat.
+    #global.todo("ref research")
 
-    Therefore, the decision has been made to use the Microsoft HoloLens 2 for the development of the scenario. It has numerous features and is widely adopted. For the development of augmented reality content (referred to as holograms in the HoloLens environment), the Unity platform can be utilized. Applications developed with Unity can also run on other augmented reality displays. This allows for example the use of smartphones during the development phase, which often have better waterproof capabilities. Additionally, when a waterproof augmented reality HMD becomes available in the future, the application can be executed on that device as well.\
-    Todo: unity webseite link in doku??
+    Therefore, the decision has been made to use the Microsoft HoloLens 2 for the development of the scenario. It has numerous features and is widely adopted. For the development of augmented reality content (referred to as holograms in the HoloLens environment), the Unity platform can be utilized. Applications developed with Unity can also run on other augmented reality displays. This allows for example the use of smartphones during the development phase, which often have better waterproof capabilities. Additionally, when a waterproof augmented reality HMD becomes available in the future, the application can be executed on that device as well.
+    #global.todo("unity webseite link ")
   ]
 )
 
@@ -35,15 +35,15 @@
 
     Microsoft is aware of this issue and introduced the Moving Platform Mode (MPM) in 2022. Enabling MPM signals the HoloLens it can not expect perfect agreement between sensor inputs. Microsoft has tested the MPM on small boats, but according to their website "it is currently scoped to large marine vessels experiencing low-dynamic motion". If the HoloLens can handle the situation in our szenario on smaller sailing vessles, has to be tested.
 
-    Todo: cite https://learn.microsoft.com/en-us/hololens/hololens2-moving-platform
+    #global.todo("cite https://learn.microsoft.com/en-us/hololens/hololens2-moving-platform")
   ]
 )
 
 #global.paragraph(
   [Waterproof Case],
   [
-    During this thesis, the idea emerged to develop a waterproof case for the HoloLens. Initial discussions were initiated with the Institute for Materials Technology and Plastic Processing.\
-    Todo: update stand ende SA
+    During this thesis, the idea emerged to develop a waterproof case for the HoloLens. Initial discussions were initiated with the Institute for Materials Technology and Plastic Processing.
+    #global.todo("update stand ende SA")
   ]
 )
 
@@ -67,14 +67,16 @@
     To display the information correctly, the HoloLens needs to know its position relative to the boat. The wind sensor measures the wind direction as an angle to the boat's longitudinal axis. Therefore, the HoloLens must also be aware of the boat's axis.
     Additionally, the goal is to represent the information relative to the boat, with the center of the hologram at the mast of the boat.
 
-    Todo: 
-    - solution. QR Code
-    - test to check if works when the boat is moving.
-    - maybe zeichnung?
+    #global.todo([ 
+      - solution: QR Code
+      - test to check if works when the boat is moving.
+      - maybe zeichnung?
+    ])
   ]
 )
 
 == Communication
+#global.todo("schon felstlegen wie umsetzen?")
 #global.paragraph(
   [Gateway],
   [
@@ -82,12 +84,8 @@
     This allows integrating additional sensors into the application in the future and expanding the AR application.
     To avoid hindering or endangering the user, the transmission from the gateway to the HoloLens should be wireless. The HoloLens is equipped with a Bluetooth or Wi-Fi module, which can be utilized for this purpose.
     The gateway can be a small computer, such as the Raspberry Pi, or a microprocessor like the ESP32 or ESP8266.
-
-    Todo: schon festlegen wie umsetzen?
   ]
 )
-
-optionen. schon felstlegen wie umsetzen?
 
 #global.paragraph(
   [Signal K],
