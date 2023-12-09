@@ -1,28 +1,34 @@
 #import "/utils/global.typ" as global
 #include "/utils/build-datetime.typ"
 
-#v(4fr)
+#v(3fr)
 
 #set align(center)
-#text(2em)[
-    *#global.subtitle*
+
+#text(48pt)[
+    *#global.title*
 ]
 
-#v(1fr)
+#v(2fr)
 
-#text(1.5em)[
-    #global.thesis
+#text(22pt)[
+    #global.subtitle
+]
+
+#v(2fr)
+
+#text(18pt)[
+    #global.thesis #global.semester
 ]
 
 #v(2fr)
 
 
-#text(1.5em)[
+#text(global.textNormal)[
     #grid(
         columns: (1fr, 1fr),
         row-gutter: 1em,
         column-gutter: 1.5em,
-        align(right, "Semester:"), align(left, global.semester),
         align(right, "Author:"), align(left, global.author),
         align(right, "Advisor:"), align(left, global.advisor),
     )
