@@ -5,6 +5,8 @@
 #let author = "Laurin Zubler"
 #let advisor = "Frieder Loch"
 
+#let font = "Arial"
+
 #let gap = 0.65em
 #let gapPage = 2.2em
 

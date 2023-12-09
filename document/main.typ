@@ -1,7 +1,7 @@
 #import "@preview/chic-hdr:0.3.0": *
 #import "@preview/hydra:0.2.0": hydra
 
-#import "utils/global.typ" as global
+#import "/utils/global.typ" as global
 
 // document metadata
 #set document(
@@ -17,7 +17,7 @@
 // Text size and font 
 #set text(
   global.textNormal,
-  font: "Arial",
+  font: global.font,
 )
 
 // page numbering
