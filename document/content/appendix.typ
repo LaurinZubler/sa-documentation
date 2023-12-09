@@ -12,8 +12,8 @@
         "meeting-minutes/week08.typ",
         "meeting-minutes/week09.typ",
         "meeting-minutes/week10.typ",
-        // "meeting-minutes/week11.typ",
-        // "meeting-minutes/week12.typ",
+        "meeting-minutes/week11.typ",
+        "meeting-minutes/week12.typ",
         // "meeting-minutes/week13.typ",
         // "meeting-minutes/week14.typ",
     )
