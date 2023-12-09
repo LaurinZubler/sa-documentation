@@ -1,4 +1,5 @@
 #import "@preview/chic-hdr:0.3.0": *
+#import "@preview/hydra:0.2.0": hydra
 
 #import "utils/global.typ" as global
 
@@ -6,6 +7,11 @@
 #set document(
     title: global.subtitle,
     author: global.author
+)
+
+// page layout
+#set page(
+  margin: (left: 1.8cm, right: 1cm),
 )
 
 // Text size and font 
@@ -22,7 +28,7 @@
 
 // heading 1
 #show heading.where(level: 1): it => {
-  pagebreak(weak: true)
+  pagebreak()
   set text(global.textHeading1)
   if it.body == "Abstract" or it.body == "Table of Contents" {
     it.body
@@ -57,12 +63,12 @@
   chic-height(on: "footer", 1.8cm + global.gapPage),
   chic-header(
     v-center: true,
-    center-side: text(global.textHeading2)[*#global.title*],
+    // left-side: text(global.textHeaderFooter)[#hydra(sel: heading.where(level: 1))],
     // left-side: text(global.textHeaderFooter)[#chic-heading-name()],
+    center-side: text(global.textHeading2)[*#global.title*],
     right-side: image("/images/ost_logo.jpg")
   ),
   chic-footer(
-    // v-center: true,
     left-side: text(global.textHeaderFooter)[#global.author],
     center-side: text(global.textHeaderFooter)[#global.thesis #global.semester],
     right-side: text(global.textHeaderFooter)[Page #chic-page-number()]
@@ -70,46 +76,25 @@
 )
 
 #include "content/title-page.typ"
-
-// page layout
-#set page(
-  margin: (left: 1.8cm, right: 1cm),
-)
-
-
 #include "content/abstract.typ"
-
-#outline(
-    title: "Table of Contents",
-    depth: 3,
-    indent: auto,
-    fill: repeat[ . .],
-)
+#include "content/table-of-contents.typ"
 
 #set heading(numbering: "1.1")
 #show bibliography: set heading(numbering: "1.1")
 
-#include "content/introduction.typ"
-#include "content/research.typ"
-#include "content/user-study.typ"
-#include "content/scenarios.typ"
-#include "content/architecture.typ"
-#include "content/project-management.typ"
-
-#bibliography("SAil_ARrrr.bib")
-
-= Glossary
-
-= List of Figures
-#outline(
-  title: none,
-  target: figure.where(kind: image),
+#let chapters = (
+  "content/introduction.typ",
+  "content/research.typ",
+  "content/user-study.typ",
+  "content/scenarios.typ",
+  "content/architecture.typ",
+  "content/project-management.typ",
+  "content/bibliography.typ",
+  "content/glossary.typ",
+  "content/lists.typ",
+  "content/appendix.typ"
 )
 
-= List of Tables
-#outline(
-  title: none,
-  target: figure.where(kind: table),
-)
-
-#include "content/appendix.typ"
+#for path in chapters {
+  include path
+}

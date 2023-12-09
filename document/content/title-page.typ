@@ -35,5 +35,3 @@
 #v(2fr)
 
 #image("/images/ost_logo.svg", height: 3cm)
-
-#pagebreak()
