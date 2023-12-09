@@ -1,14 +1,16 @@
+#import "@preview/chic-hdr:0.3.0": *
+
 #import "utils/global.typ" as global
 
 // document metadata
 #set document(
-    title: global.title,
+    title: global.subtitle,
     author: global.author
 )
 
 // Text size and font 
 #set text(
-  11pt,
+  global.textNormal,
   font: "Arial",
 )
 
@@ -19,24 +21,63 @@
 #show figure.caption: emph
 
 // heading 1
-#show heading.where(level: 1): it => block(width: 100%)[
-  #set text(14pt)
-  #it.body
-  #line(stroke: 2pt, length: 100%)
-]
+#show heading.where(level: 1): it => {
+  pagebreak(weak: true)
+  set text(global.textHeading1)
+  if it.body == "Abstract" or it.body == "Table of Contents" {
+    it.body
+  } else {
+    it
+  }
+  global.fullWithLine(thickness: global.lineHeading1)
+  v(global.gap)
+}
 
 // heading 2
-#show heading.where(level: 2): it => block(width: 100%)[
-  #set text(12pt)
-  #counter(heading).display() #it.body
-  #line(length: 100%)
-]
+#show heading.where(level: 2): it => {
+  set text(global.textHeading2)
+  it
+  global.fullWithLine(thickness: global.lineHeading2)
+}
+
+// heading 3
+#show heading.where(level: 3): it => {
+  set text(global.textHeading3)
+  it
+  global.fullWithLine(thickness: global.lineHeading3)
+}
+
+// header and footer
+// https://github.com/typst/packages/tree/main/packages/preview/chic-hdr/0.3.0
+#show: chic.with(
+  skip: (1,),
+  chic-offset(global.gapPage),
+  chic-separator(global.linePage),
+  chic-height(on: "header", 3.5cm + global.gapPage),
+  chic-height(on: "footer", 1.8cm + global.gapPage),
+  chic-header(
+    v-center: true,
+    center-side: text(global.textHeading2)[*#global.title*],
+    // left-side: text(global.textHeaderFooter)[#chic-heading-name()],
+    right-side: image("/images/ost_logo.jpg")
+  ),
+  chic-footer(
+    // v-center: true,
+    left-side: text(global.textHeaderFooter)[#global.author],
+    center-side: text(global.textHeaderFooter)[#global.thesis #global.semester],
+    right-side: text(global.textHeaderFooter)[Page #chic-page-number()]
+  )
+)
 
 #include "content/title-page.typ"
 
-= Abstract
+// page layout
+#set page(
+  margin: (left: 1.8cm, right: 1cm),
+)
+
+
 #include "content/abstract.typ"
-#pagebreak()
 
 #outline(
     title: "Table of Contents",
@@ -45,44 +86,17 @@
     fill: repeat[ . .],
 )
 
-#pagebreak()
-
-// heading 1
-#show heading.where(level: 1): it => block(width: 100%)[
-  #set text(14pt)
-  #counter(heading).display() #it.body
-  #line(stroke: 2pt, length: 100%)
-]
-
 #set heading(numbering: "1.1")
 #show bibliography: set heading(numbering: "1.1")
 
-
-= Introduction
-
-#pagebreak()
-
-= Research
+#include "content/introduction.typ"
 #include "content/research.typ"
-#pagebreak()
-
-= User Study
 #include "content/user-study.typ"
-#pagebreak()
-
-= Scenarios
 #include "content/scenarios.typ"
-#pagebreak()
-
-= Architecture
 #include "content/architecture.typ"
-#pagebreak()
-
-= Project Management
 #include "content/project-management.typ"
 
 #bibliography("SAil_ARrrr.bib")
-#pagebreak()
 
 = Glossary
 
@@ -98,8 +112,4 @@
   target: figure.where(kind: table),
 )
 
-// == Formulas
-#pagebreak()
-
-= Appendix
 #include "content/appendix.typ"

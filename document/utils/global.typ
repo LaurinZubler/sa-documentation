@@ -1,19 +1,32 @@
-// #let title = "Use of augmented reality for visualizing ambient conditions while sailing"
-#let title = "Use of Augmented Reality for Visualizing Ambient Conditions while Sailing"
-#let subtitle = "Semester Thesis"
+#let title = "SAil ARrrr"
+#let subtitle = "Use of Augmented Reality for Visualizing Ambient Conditions while Sailing"
+#let thesis = "Semester Thesis"
 #let semester = "Fall 2023"
 #let author = "Laurin Zubler"
 #let advisor = "Frieder Loch"
 
 #let gap = 0.65em
+#let gapPage = 2.2em
+
+#let textNormal = 11pt
+#let textMarginale = 9pt
+#let textHeading1 = 14pt
+#let textHeading2 = 12pt
+#let textHeading3 = 12pt
+#let textHeaderFooter = 8pt
+
+#let lineHeading1 = 2.3pt
+#let lineHeading2 = 1pt
+#let lineHeading3 = 0.2pt
+#let linePage = 0.6pt
 
 #let paragraph(title, content) = {
   grid(
     columns: (1fr, 6fr),
     gutter: gap,
-    text(9pt)[*#title*], content,
+    text(textMarginale)[*#title*], content,
   )
-  v(0.5em)
+  v(gap)
 }
 
 #let row(title, content) = {
@@ -30,4 +43,10 @@
     radius: 4pt,
     [*Todo:* #text],
   )
+}
+
+
+#let fullWithLine(thickness: 1pt) = {
+  set text(0.6em)
+  line(stroke: thickness, length: 100%)
 }

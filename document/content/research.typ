@@ -1,5 +1,6 @@
 #import "/utils/global.typ" as global
 
+= Research
 == Augmented Reality
 #global.paragraph(
   [Introduction],

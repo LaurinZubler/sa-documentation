@@ -5,13 +5,13 @@
 
 #set align(center)
 #text(2em)[
-    *#global.title*
+    *#global.subtitle*
 ]
 
 #v(1fr)
 
 #text(1.5em)[
-    #global.subtitle
+    #global.thesis
 ]
 
 #v(2fr)

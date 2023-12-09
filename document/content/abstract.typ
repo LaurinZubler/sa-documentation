@@ -1,5 +1,6 @@
 #import "/utils/global.typ" as global
 
+= Abstract
 #global.paragraph(
   [Initial Situation],
   [...]

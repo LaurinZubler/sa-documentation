@@ -1,5 +1,6 @@
 #import "/utils/global.typ" as global
 
+= User Study
 #global.paragraph(
   [Introduction],
   [

@@ -1,5 +1,6 @@
 #import "/utils/global.typ" as global
 
+= Architecture
 #global.paragraph(
   [Introduction],
   [
