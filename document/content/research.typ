@@ -174,7 +174,7 @@
   "Hardware Requirements",
   [
     @Laera.2020 Laera et al. specified requirements a head-mounted AR display should fulfill for use while sailing. They defined follwing points:
-    
+
     - Withstand elements like water, UV rays, temperature drops, wind, humidity, and salt spray.
     - Impact resistant and securely fixed to the user's body because of the frequent collision with rig elements (e.g. ropes, boom, etc.) and crew, especially during regatta.
     - Compatible with the floatation devices, low weight, and designed to avoid risks head injury during the impact with the water at speed in case of man overboard.
@@ -185,6 +185,29 @@
 )
 
 == Discussion
-- hot discused topic
-- ar good idea
-- hardware needs further development as current AR HMD does not fit requirments for sailing.
+
+#global.paragraph(
+  "Use of AR in Sailing",
+  [
+    The use of AR in sailing is a well researched subject. Especially dr. Francesco Laera and his team from the Polytechnic University of Bari are driving this area forward. 
+
+    All conducted studies highlight the usefulness of augmented reality in sailing applications. 
+    User studies have shown, that AR interfaces could improve the reaction time and user experience while sailing. AR can help beginners to better understand sailing and support experienced sailors when navigation and handling of the boat.
+  ]
+)
+
+Component Types
+
+#global.paragraph(
+  "Component Types",
+  [
+    // which for sailing
+  ]
+)
+
+#global.paragraph(
+  "AR Hardware",
+  [
+    // hardware needs further development as current AR HMD does not fit requirments for sailing.
+  ]
+)
