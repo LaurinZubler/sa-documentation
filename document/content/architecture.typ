@@ -8,7 +8,6 @@
   ]
 )
 
-
 == Augmented Reality Display
 #global.paragraph(
   [Microsoft HoloLens],
@@ -76,15 +75,24 @@
   ]
 )
 
-== Communication
-#global.todo("schon felstlegen wie umsetzen?")
+== Data Processing
 #global.paragraph(
   [Gateway],
   [
-    To process the data from the sensors and transmit it to the HoloLens, a gateway is required. 
-    This allows integrating additional sensors into the application in the future and expanding the AR application.
+    The wind sensor can not be connected directly to the HoloLens. Between the Sensor and the HoloLens a gateway is required. The gateway prcesses the wind information and transmits it to the HoloLens.
+    This configuration allows the integration of additional sensors into the application in the future.
     To avoid hindering or endangering the user, the transmission from the gateway to the HoloLens should be wireless. The HoloLens is equipped with a Bluetooth or Wi-Fi module, which can be utilized for this purpose.
-    The gateway can be a small computer, such as the Raspberry Pi, or a microprocessor like the ESP32 or ESP8266.
+
+
+
+    beispiel: open sail
+  ]
+)
+
+#global.paragraph(
+  "Calculation Unit",
+  [
+    
   ]
 )
 
