@@ -71,7 +71,7 @@
   ]
 )
 
-
+#pagebreak()
 == Augmented Reality in Sailing
 #global.paragraph(
   [Introduction],
@@ -196,8 +196,6 @@
   ]
 )
 
-Component Types
-
 #global.paragraph(
   "Component Types",
   [
@@ -208,6 +206,7 @@ Component Types
 #global.paragraph(
   "AR Hardware",
   [
+
     // hardware needs further development as current AR HMD does not fit requirments for sailing.
   ]
 )
