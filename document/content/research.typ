@@ -167,13 +167,23 @@
       image("/images/research/boat_stabilized_interface.png", width: 60%),
       caption: [Boat-stabilized AR 3D interface proposal by Larea et al. @Laera.2023b]
     ) <boat_stabilized_interface>
-
   ]
 )
 
+#global.paragraph(
+  "Hardware Requirements",
+  [
+    @Laera.2020 Laera et al. specified requirements a head-mounted AR display should fulfill for use while sailing. They defined follwing points:
+    
+    - Withstand elements like water, UV rays, temperature drops, wind, humidity, and salt spray.
+    - Impact resistant and securely fixed to the user's body because of the frequent collision with rig elements (e.g. ropes, boom, etc.) and crew, especially during regatta.
+    - Compatible with the floatation devices, low weight, and designed to avoid risks head injury during the impact with the water at speed in case of man overboard.
+    - Ergonomic and easy to wear.
 
+    There is currently no head-mounted display available that meets the specific requirements, especially with regard to the required water resistance.
+  ]
+)
 
-#global.todo("requrements ar brille. (ref later in architecture)")
 == Discussion
 - hot discused topic
 - ar good idea
