@@ -128,8 +128,37 @@
   ]
 )
 
-#global.todo("requrements ar brille. (ref later in architecture)")
 === Applications
 
+#global.paragraph(
+  "AR Effectivity Evaluation",
+  [
+    @Laera.2023 Laera et al. evaluated an AR-based interface for sailing navigation (@ar_evaluation) and compared it to regular 2D sailing instruments. They conducted a user study (n=45) in an virtual reality simulated environment. They measured the reaction time and subjective metrics using user experience questionnaires.\
+    Their results show that the AR-based interface outperformed traditional instruments in terms of reaction time, cognitive load, system usability and user experience.
+
+    // #figure(
+    //   image("/images/research/ar_evaluation.png", width: 90%),
+    //   caption: [AR-based interface used in user study @Laera.2023]
+    // ) <ar_evaluation>
+  ]
+)
+
+#global.paragraph(
+  "AR Effectivity Evaluation",
+  [
+    @Laera.2023 Laera et al. evaluated an AR-based interface for sailing navigation (@ar_evaluation) and compared it to regular 2D sailing instruments. They conducted a user study (n=45) in an virtual reality simulated environment. They measured the reaction time and subjective metrics using user experience questionnaires.\
+    Their results show that the AR-based interface outperformed traditional instruments in terms of reaction time, cognitive load, system usability and user experience.
+
+    #figure(
+      image("/images/research/ar_evaluation.png", width: 90%),
+      caption: [AR-based interface used in user study @Laera.2023]
+    ) <ar_evaluation>
+  ]
+)
+
+
+
+#global.todo("requrements ar brille. (ref later in architecture)")
 == Results
-- no ar hmd fullfil req
+- ar good
+- no ar dipslay
