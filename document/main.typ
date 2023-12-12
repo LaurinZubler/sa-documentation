@@ -36,7 +36,7 @@
     it
   }
   global.fullWithLine(thickness: global.lineHeading1)
-  v(global.gap)
+  v(global.gapHeading1)
 }
 
 // heading 2
@@ -44,6 +44,7 @@
   set text(global.textHeading2)
   it
   global.fullWithLine(thickness: global.lineHeading2)
+  v(global.gapHeading2)
 }
 
 // heading 3
@@ -51,6 +52,7 @@
   set text(global.textHeading3)
   it
   global.fullWithLine(thickness: global.lineHeading3)
+  v(global.gapHeading3)
 }
 
 // header and footer

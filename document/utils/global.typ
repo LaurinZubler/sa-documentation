@@ -3,18 +3,21 @@
 #let thesis = "Semester Thesis"
 #let semester = "Fall 2023"
 #let author = "Laurin Zubler"
-#let advisor = "Frieder Loch"
+#let advisor = "Prof. Dr. Frieder Loch"
 
 #let font = "Arial"
 
 #let gap = 0.65em
 #let gapPage = 2.2em
+#let gapHeading1 = 0.65em
+#let gapHeading2 = 0.4em
+#let gapHeading3 = 0.4em
 
 #let textNormal = 11pt
 #let textMarginale = 9pt
 #let textHeading1 = 14pt
 #let textHeading2 = 12pt
-#let textHeading3 = 12pt
+#let textHeading3 = 11pt
 #let textHeaderFooter = 8pt
 
 #let lineHeading1 = 2.3pt
