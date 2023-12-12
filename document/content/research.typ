@@ -96,19 +96,40 @@
   ]
 )
 
+=== Systematic Review
 #global.paragraph(
-  [Systematic Review],
+  "Component Types",
   [
-    -requrements ar brille. (ref later in architecture)
+    @EtienneGernez.2020 Gernez et al. conducted a review on AR application on ship bridge operations. They discussed different information components to render AR information in the environment.\
+    - _App display._ This component allows the display of full applications in the AR view.
+    - _Widget display._ This allows the display of smaller stackable information containers.
+    - _Annotation._ These are small information containers connected to Points Of Interest (POIs) in the world. Example: information about surrounding vessels and objects.
+    - _Ocean overlay._ This allows the display of information directly on the ocean. It typically shows routes and no-go zones. 
+    - _AR map._ This is a flat map interface placed above the horizon, able to display any map-related information.
+
+    
+    #figure(
+      image("/images/research/component_types.png", width: 90%),
+      caption: [Types of AR information components @EtienneGernez.2020]
+    ) <component_types>
+
+    Widget, annotation and ocean overlay are the most used component types in the revied applications. 
   ]
 )
 
 #global.paragraph(
-  [Applications],
+  "Technology Development",
   [
-
+    Further Gernez et al. @EtienneGernez.2020 discuss the current stand of AR technology. At the moment the AR technology is still in its early stages. They argue that AR could have an important role in the future in maritime workspaces. Similar to the evolution of mobile phones, they anticipate more functionalies for AR with ongoing technological development.
+    #figure(
+      image("/images/research/technology_development.png", width: 80%),
+      caption: [Technology development comparasion of mobile phones and AR displays @EtienneGernez.2020]
+    ) <technology_development>
   ]
 )
+
+#global.todo("requrements ar brille. (ref later in architecture)")
+=== Applications
 
 == Results
 - no ar hmd fullfil req
