@@ -101,16 +101,20 @@
   "Component Types",
   [
     @EtienneGernez.2020 Gernez et al. conducted a review on AR application on ship bridge operations. They discussed different information components to render AR information in the environment.\
-    - _App display._ This component allows the display of full applications in the AR view.
-    - _Widget display._ This allows the display of smaller stackable information containers.
-    - _Annotation._ These are small information containers connected to Points Of Interest (POIs) in the world. Example: information about surrounding vessels and objects.
-    - _Ocean overlay._ This allows the display of information directly on the ocean. It typically shows routes and no-go zones. 
-    - _AR map._ This is a flat map interface placed above the horizon, able to display any map-related information.
+    - *App display* This component allows the display of full applications in the AR view.
+
+    - *Widget display* This allows the display of smaller stackable information containers.
+
+    - *Annotation* These are small information containers connected to Points Of Interest (POIs) in the world. Example: information about surrounding vessels and objects.
+
+    - *Ocean overlay* This allows the display of information directly on the ocean. It typically shows routes and no-go zones. 
+
+    - *AR map* This is a flat map interface placed above the horizon, able to display any map-related information.
 
     
     #figure(
       image("/images/research/component_types.png", width: 90%),
-      caption: [Types of AR information components @EtienneGernez.2020]
+      caption: [Types of AR information components by Gernez et al. @EtienneGernez.2020]
     ) <component_types>
 
     Widget, annotation and ocean overlay are the most used component types in the revied applications. 
@@ -122,8 +126,8 @@
   [
     Further Gernez et al. @EtienneGernez.2020 discuss the current stand of AR technology. At the moment the AR technology is still in its early stages. They argue that AR could have an important role in the future in maritime workspaces. Similar to the evolution of mobile phones, they anticipate more functionalies for AR with ongoing technological development.
     #figure(
-      image("/images/research/technology_development.png", width: 80%),
-      caption: [Technology development comparasion of mobile phones and AR displays @EtienneGernez.2020]
+      image("/images/research/technology_development.png", width: 60%),
+      caption: [Technology development comparasion of mobile phones and AR displays by Gernez et al. @EtienneGernez.2020]
     ) <technology_development>
   ]
 )
@@ -133,32 +137,44 @@
 #global.paragraph(
   "AR Effectivity Evaluation",
   [
-    @Laera.2023 Laera et al. evaluated an AR-based interface for sailing navigation (@ar_evaluation) and compared it to regular 2D sailing instruments. They conducted a user study (n=45) in an virtual reality simulated environment. They measured the reaction time and subjective metrics using user experience questionnaires.\
+    @Laera.2023 Laera et al. evaluated an AR-based interface for sailing navigation and compared it to regular 2D sailing instruments. They conducted a user study (n=45) in an virtual reality simulated environment. They measured the reaction time and subjective metrics using user experience questionnaires.\
     Their results show that the AR-based interface outperformed traditional instruments in terms of reaction time, cognitive load, system usability and user experience.
-
-    // #figure(
-    //   image("/images/research/ar_evaluation.png", width: 90%),
-    //   caption: [AR-based interface used in user study @Laera.2023]
-    // ) <ar_evaluation>
   ]
 )
 
 #global.paragraph(
-  "AR Effectivity Evaluation",
+  "AR Sailing Interfaces",
   [
-    @Laera.2023 Laera et al. evaluated an AR-based interface for sailing navigation (@ar_evaluation) and compared it to regular 2D sailing instruments. They conducted a user study (n=45) in an virtual reality simulated environment. They measured the reaction time and subjective metrics using user experience questionnaires.\
-    Their results show that the AR-based interface outperformed traditional instruments in terms of reaction time, cognitive load, system usability and user experience.
+    @Laera.2023b Laera et al. designed three AR interface proposals for sailing application.
+
+    - *Screen-Stabilized Interface* displays essential boat information in the upper part of the user's field of view. The data is displayed in nummerical form or as graphs, like in conventional 2D sailing instruments. The interface is designed for coastal navigation during recreational sailing and is suitable for users with sailing experience.
+    
+    #figure(
+      image("/images/research/screen_stabilized_interface.png", width: 60%),
+      caption: [Screen-stabilized AR 2D interface proposal by Laera et al. @Laera.2023b]
+    ) <screen_stabilized_interface>
+
+    - *Body-Stabilized Interface* displays a 3D boat avatar tied to the users hand that is aligned with the real boats orientation. It is designed for sailing beginners and shows abstract vectors for meteorological phenomena. They help the user better understand the sailing process by visualizing the forces acting on the boat.
 
     #figure(
-      image("/images/research/ar_evaluation.png", width: 90%),
-      caption: [AR-based interface used in user study @Laera.2023]
-    ) <ar_evaluation>
+      image("/images/research/body_stabilized_interface.png", width: 60%),
+      caption: [Body-stabilized AR 3D interface proposal by Larea et al. @Laera.2023b]
+    ) <body_stabilized_interface>
+
+    - *Boat-Stabilized Interface* displays ambient information placed in the surrounding environment using graphics centered around the boats mast. It is suitable for both recreational use and for a regatta application. The interface features a high level of information detail and is useful for navigation.
+    
+    #figure(
+      image("/images/research/boat_stabilized_interface.png", width: 60%),
+      caption: [Boat-stabilized AR 3D interface proposal by Larea et al. @Laera.2023b]
+    ) <boat_stabilized_interface>
+
   ]
 )
 
 
 
 #global.todo("requrements ar brille. (ref later in architecture)")
-== Results
-- ar good
-- no ar dipslay
+== Discussion
+- hot discused topic
+- ar good idea
+- hardware needs further development as current AR HMD does not fit requirments for sailing.
