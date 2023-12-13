@@ -193,6 +193,7 @@
 
     All conducted studies highlight the usefulness of augmented reality in sailing applications. 
     User studies have shown, that AR interfaces could improve the reaction time and user experience while sailing. AR can help beginners to better understand sailing and support experienced sailors when navigation and handling of the boat.
+    #global.todo("prototpys somehow erwähnen")
   ]
 )
 
@@ -200,13 +201,14 @@
   "Component Types",
   [
     // which for sailing
+    #global.todo("campare types from large bridge ships to sailing")
   ]
 )
 
 #global.paragraph(
   "AR Hardware",
   [
-
+    #global.todo("stand ar brillen. keine die fürs segeln geht")
     // hardware needs further development as current AR HMD does not fit requirments for sailing.
   ]
 )
