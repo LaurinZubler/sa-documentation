@@ -22,7 +22,7 @@
 #v(2fr)
 
 #text(18pt)[
-    #global.thesis #global.semester
+    #global.thesis //#global.semester
 ]
 
 #v(2fr)
@@ -30,11 +30,13 @@
 
 #text(global.textNormal)[
     #grid(
-        columns: (1fr, 1fr),
+        columns: (0.9fr, 1fr),
         row-gutter: 1em,
-        column-gutter: global.gap,
+        column-gutter: 1em,
         align(right, "Author:"), align(left, global.author),
         align(right, "Advisor:"), align(left, global.advisor),
+        align(right, "Institute:"), align(left, global.institute),
+        align(right, "Field of Study:"), align(left, global.fieldOfStudy),
     )
 ]
 

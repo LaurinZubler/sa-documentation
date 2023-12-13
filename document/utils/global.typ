@@ -4,6 +4,8 @@
 #let semester = "Fall 2023"
 #let author = "Laurin Zubler"
 #let advisor = "Prof. Dr. Frieder Loch"
+#let institute = "IFS Institute for Software"
+#let fieldOfStudy = "Software Engineering"
 
 #let font = "Arial"
 
