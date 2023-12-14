@@ -65,8 +65,6 @@
   chic-height(on: "footer", 1.8cm + global.gapPage),
   chic-header(
     v-center: true,
-    // left-side: text(global.textHeaderFooter)[#hydra(sel: heading.where(level: 1))],
-    // left-side: text(global.textHeaderFooter)[#chic-heading-name()],
     left-side: image("/images/ost_logo.jpg", height: 2cm),
     center-side: text(global.textHeading2)[*#global.title*],
     right-side: text(global.textHeaderFooter)[#global.author]

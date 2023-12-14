@@ -189,10 +189,10 @@
 #global.paragraph(
   "Use of AR in Sailing",
   [
-    The use of AR in sailing is a well researched subject. Especially dr. Francesco Laera and his team from the Polytechnic University of Bari are driving this area forward. 
+    The utilization of AR in a maritime context has garnered limited scientific attention. However, Dr. Francesco Laera and his team at the Polytechnic University of Bari are playing a pivotal role in this niche area, primarily through their foundational research.
 
-    All conducted studies highlight the usefulness of augmented reality in sailing applications. 
-    User studies have shown, that AR interfaces could improve the reaction time and user experience while sailing. AR can help beginners to better understand sailing and support experienced sailors when navigation and handling of the boat.
+    All the studies conducted to date underscore the effectiveness of augmented reality in sailing applications. User studies indicate that AR interfaces can significantly enhance reaction times and overall user experience during sailing. For beginners, AR offers an intuitive means to grasp the fundamentals of sailing, while for seasoned sailors, it provides valuable assistance in navigation and boat handling.
+    
     #global.todo("prototpys somehow erwähnen")
   ]
 )
