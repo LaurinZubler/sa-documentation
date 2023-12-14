@@ -35,11 +35,3 @@
     While technically feasible, current Augmented Reality headsets do not fulfill the requirements for a maritime environment, particularly in terms of waterproofing. Therefore, despite the promising concept, it is advisable to await further advancements in AR technology before widespread implementation in the sailing community.
   ]
 )
-\
-#global.paragraph(
-  [Keywords],
-  [
-    Augmented Reality, Sailing, Nautical, Human Centered Design
-    #global.todo("braucht es keywords?")
-  ]
-)
