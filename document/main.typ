@@ -72,7 +72,7 @@
     right-side: text(global.textHeaderFooter)[#global.author]
   ),
   chic-footer(
-    left-side: text(global.textHeaderFooter)[#datetime.today().display("[day].[month].[year]")],
+    left-side: text(global.textHeaderFooter)[#datetime.today().display("[day]. [month repr:long] [year]")],
     center-side: text(global.textHeaderFooter)[#global.thesis],
     right-side: text(global.textHeaderFooter)[Page #chic-page-number()]
   )
