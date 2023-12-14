@@ -4,34 +4,35 @@
 #global.paragraph(
   [Introduction],
   [
-    Sailing is a complex activity and navigating a boat successfully, a deep understanding of the surrounding environment is required. Traditional sailing instrument interfaces are displaying the ambient information in numerical form or as 2D graphs. Requiring some experience and spatial imagination to interpret them correctly. \
-    Augmented Reality is an emerging technology with the capability to overlay the real world view with digital content. This thesis is exploring the potential of Augmented Reality to enhance the visualization of ambient conditions while sailing.
+    Navigating a sailing boat successfully requires a deep understanding of the surrounding environment. Traditional sailing instruments, which display information numerically or in 2D graphs, often require considerable experience and spatial imagination for interpretation. \
+    This thesis explores the potential of Augmented Reality in enhancing the visualization of ambient conditions, offering a more intuitive and informative approach to sailing navigation.
   ]
 )
+
 #global.paragraph(
   [Goal],
   [
-    The aim of this thesis is to analyze the feasibility of introducing Augmented Reality into sailing. Through a human-centered approach, the objective is to develop validated scenarios for potential applications.
+    The primary goal of this thesis is to evaluate the practicality and effectiveness of integrating Augmented Reality into sailing. Employing a human-centered approach, it aims to develop and validate scenarios where Augmented Reality can enhance the sailing experience, focusing on both usability and technological feasibility.
   ]
 )
+
 #global.paragraph(
   [Method],
   [
-    The method involved a literature research to understand the current scientific state in this domain. Additionally, five interviews were conducted with a mix of experienced and inexperienced sailors to identify the specific needs and preferences encountered while sailing.      
+    This research commenced with an extensive literature review to assess the current state of Augmented Reality applications in sailing and related domains. This was complemented by conducting five targeted interviews with a diverse group of sailors, ranging from novices to experts, to gather insights into their specific needs and preferences when sailing. This dual approach allowed for a comprehensive understanding of both the theoretical and practical aspects of Augmented Reality in sailing.  
   ]
 )
+
 #global.paragraph(
   [Results],
   [
-    Based on the conclusions of the literature research and the interviews, possible personas and scenarios of Augmented Reality applications were elaborated.
-    The personas encapsulate the diverse user needs and preferences, while the scenarios offer context specific insights. 
-    For one scenario a hardware component architecture was prepared for a future implementation.  
+    The analysis yielded a series of detailed personas and Augmented Reality application scenarios. These personas represent a spectrum of user needs and preferences in the sailing community. For the most promising scenario, a  hardware component architecture was designed, laying the groundwork for future practical implementation. These results collectively provide a nuanced understanding of how Augmented Reality can be tailored to enhance the sailing experience.
   ]
 )
+
 #global.paragraph(
   [Recommen-\ dations], 
   [
-    The findings suggest promising potential for integrating Augmented Reality into sailing, offering an improved understanding of ambient conditions. 
-    While technically feasible, current Augmented Reality headsets do not fulfill the requirements for a maritime environment, particularly in terms of waterproofing. Therefore, despite the promising concept, it is advisable to await further advancements in AR technology before widespread implementation in the sailing community.
+    The thesis concludes that Augmented Reality holds significant promise for enriching the sailing experience by offering enhanced perception and understanding of ambient conditions. However, the current state of AR technology, particularly in terms of maritime durability and waterproofing, poses a challenge. Consequently, it is recommended to monitor ongoing technological advancements in Augmented Reality. In the meantime, exploring interim solutions or adaptations that can bridge the gap until Augmented Reality technology matures for maritime conditions would be beneficial for the sailing community.
   ]
 )
