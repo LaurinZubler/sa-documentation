@@ -67,12 +67,13 @@
     v-center: true,
     // left-side: text(global.textHeaderFooter)[#hydra(sel: heading.where(level: 1))],
     // left-side: text(global.textHeaderFooter)[#chic-heading-name()],
+    left-side: image("/images/ost_logo.jpg", height: 2cm),
     center-side: text(global.textHeading2)[*#global.title*],
-    right-side: image("/images/ost_logo.jpg")
+    right-side: text(global.textHeaderFooter)[#global.author]
   ),
   chic-footer(
-    left-side: text(global.textHeaderFooter)[#global.author],
-    center-side: text(global.textHeaderFooter)[#global.thesis #global.semester],
+    left-side: text(global.textHeaderFooter)[#datetime.today().display("[day].[month].[year]")],
+    center-side: text(global.textHeaderFooter)[#global.thesis],
     right-side: text(global.textHeaderFooter)[Page #chic-page-number()]
   )
 )
