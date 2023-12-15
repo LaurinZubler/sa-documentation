@@ -1,6 +1,12 @@
 #import "/utils/global.typ" as global
 
-= Research
+= Research <research>
+#global.paragraph(
+  "Preamble",
+  [
+    Building on the literature review, the this chapter delves deeper into the findings from the academic and industry sources, discussing the state-of-the-art in Augmented Reality technology and its current applications in sailing and similar environments.
+  ]
+)
 == Augmented Reality
 #global.paragraph(
   [Introduction],

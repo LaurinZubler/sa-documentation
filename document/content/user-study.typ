@@ -2,25 +2,23 @@
 
 = User Study
 #global.paragraph(
-  [Introduction],
+  [Preamble],
   [
-    
+    This chapter details the methodology, execution, and findings of the user interviews. It presents the creation of personas based on the interview data, reflecting the diverse needs and preferences of the sailing community. These personas are instrumental in designing scenarios that are closely aligned with real-world requirements.
   ]
 )
 
 == Interview
 #global.paragraph(
-  [Introduction],
+  [Preamble],
   [
 
   ]
 )
 
-== Results
-
 == Personas
 #global.paragraph(
-  [Introduction],
+  [Preamble],
   [
     Based on the interviewd persons, three fictional personas were created. By analyzing the interview responses, three categories of sailors could be derived. Beginner, racer and ocean sailor. In the following the personas are described further.
   ]

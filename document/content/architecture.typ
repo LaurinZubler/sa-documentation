@@ -2,9 +2,11 @@
 
 = Architecture
 #global.paragraph(
-  [Introduction],
+  [Preamble],
   [
-    This chapter describes the different components and how they interact with each other in order to implement the selected scenario.
+    This chapter proposes a design for the hardware components of ... Augmented Reality system tailored for sailing. This includes discussing the technical feasibility and potential integration with existing sailing equipment.
+
+    #global.todo("name 'the one' selected scenario")
   ]
 )
 

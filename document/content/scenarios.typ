@@ -2,8 +2,12 @@
 
 = Scenarios
 #global.paragraph(
-  [Introduction],
+  [Preamble],
   [
+
+    //Drawing from both the literature review and user study, the 'Scenarios' chapter outlines potential AR applications in sailing. It discusses various use-cases and scenarios, demonstrating how AR can address specific challenges identified in the research.
+
+
     Based on the research and interviewd persons, possible scenarios for an augmented reality solution for sailing were created. First all scenarios are listed with a short description and for with persona the scenario is inteded, as well as on what they are based on. The selected scenario that is to be implemented is then further described.
   ]
 )
