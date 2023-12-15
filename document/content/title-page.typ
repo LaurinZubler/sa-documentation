@@ -1,46 +1,56 @@
+#import "@preview/chic-hdr:0.3.0": *
 #import "/utils/global.typ" as global
+
+#set page(
+  margin: (left: 0.7cm, right: 0.7cm, top: 0.7cm, bottom: 0.7cm),
+)
+
+#show: chic.with(
+  chic-footer(
+    left-side: text(5pt)[Image source: https://devrant.com/rants/1175993/is-this-the-future-we-are-heading-to]  
+  )
+)
+
 #include "/utils/build-datetime.typ"
 
-#v(3fr)
-
 #set align(center)
+#v(1fr)
 
-#text(48pt)[
-    *#global.title*
+#text(70pt)[
+  *#global.title*
 ]
 
-#v(2fr)
+#v(1fr)
 
 #text(22pt)[
-    #global.subtitle
+  #global.subtitle
 ]
 
-#v(2fr)
+#v(1fr)
 
 #image("/images/vr_meme.jpg", width: 40%)
 
-#v(2fr)
+#v(1fr)
 
 #text(18pt)[
-    #global.thesis //#global.semester
+  #global.thesis
 ]
-
-#v(2fr)
 
 
 #text(global.textNormal)[
-    #grid(
-        columns: (0.9fr, 1fr),
-        row-gutter: 1em,
-        column-gutter: 1em,
-        align(right, "Author:"), align(left, global.author),
-        align(right, "Advisor:"), align(left, global.advisor),
-        align(right, "Institute:"), align(left, global.institute),
-        align(right, "Field of Study:"), align(left, global.fieldOfStudy),
-    )
+  #grid(
+    columns: (0.9fr, 1fr),
+    row-gutter: 1em,
+    column-gutter: 1em,
+    align(right, "Author:"), align(left, global.author),
+    align(right, "Advisor:"), align(left, global.advisor),
+    align(right, "Institute:"), align(left, global.institute),
+    align(right, "Field of Study:"), align(left, global.fieldOfStudy),
+    align(right, "Semester:"), align(left, global.semester),
+  )
 ]
 
 
-#v(2fr)
+#v(0.1fr)
 
 #image("/images/ost_logo.svg", height: 3cm)

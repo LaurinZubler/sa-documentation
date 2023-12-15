@@ -1,5 +1,5 @@
 #import "@preview/chic-hdr:0.3.0": *
-#import "@preview/hydra:0.2.0": hydra
+// #import "@preview/hydra:0.2.0": hydra
 
 #import "/utils/global.typ" as global
 
@@ -9,15 +9,17 @@
     author: global.author
 )
 
-// page layout
-#set page(
-  margin: (left: 1.8cm, right: 1cm),
-)
-
 // Text size and font 
 #set text(
   global.textNormal,
   font: global.font,
+)
+
+#include "content/title-page.typ"
+
+// page layout
+#set page(
+  margin: (left: 1.4cm, right: 1cm),
 )
 
 // page numbering
@@ -60,12 +62,20 @@
 #show: chic.with(
   skip: (1,),
   chic-offset(global.gapPage),
-  chic-separator(global.linePage),
-  chic-height(on: "header", 3.5cm + global.gapPage),
+  chic-separator(
+    on: "header",
+    gutter: 2em,
+    global.linePage,
+  ),  
+  chic-separator(
+    on: "footer",
+    gutter: 1.5em,
+    global.linePage,
+  ),
+  chic-height(on: "header", 3.2cm + global.gapPage),
   chic-height(on: "footer", 1.8cm + global.gapPage),
   chic-header(
-    v-center: true,
-    left-side: image("/images/ost_logo.jpg", height: 2cm),
+    left-side: image("/images/ost_logo.jpg", height: 1.4cm),
     center-side: text(global.textHeading2)[*#global.title*],
     right-side: text(global.textHeaderFooter)[#global.author]
   ),
@@ -76,7 +86,6 @@
   )
 )
 
-#include "content/title-page.typ"
 #include "content/abstract.typ"
 #include "content/table-of-contents.typ"
 

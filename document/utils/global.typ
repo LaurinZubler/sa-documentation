@@ -1,5 +1,5 @@
 #let title = "SAil ARrrr"
-#let subtitle = "Use of Augmented Reality for Visualizing Ambient Conditions while Sailing"
+#let subtitle = [Use of Augmented Reality for \  Visualizing Ambient Conditions while Sailing]
 #let thesis = "Semester Thesis"
 #let semester = "Fall 2023"
 #let author = "Laurin Zubler"
