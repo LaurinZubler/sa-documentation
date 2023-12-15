@@ -1,6 +1,6 @@
 #import "/utils/global.typ" as global
 
-= Research <research>
+= Research
 #global.paragraph(
   "Preamble",
   [
