@@ -37,7 +37,7 @@
   (personas.at(1), personas.at(2), ""), 
   ("Wind speed and direction", "Compass", "Water depth"),
   [
-    #lorem(50)
+    This scenario builds on the interface proposal from Laera et al. @Laera.2023, more described in the _Research_ chapter. 
   ]
 )
 
@@ -46,7 +46,7 @@
   (personas.at(0), ""), 
   ("Wind direction", "Compass", "Course", "Sea currents", "Water depth", "Seabed topology"),
   [
-    #lorem(50)
+    This scenario builds on the interface proposal from Laera et al. @Laera.2023, more described in the _Research_ chapter. 
   ]
 )
 #global.todo("pagebreak")
@@ -56,7 +56,7 @@
   (personas.at(1), personas.at(2), ""), 
   ("Wind direction", "Compass", "Course", "Sea currents", "Waypoints", "Obstacles"),
   [
-    #lorem(50)
+    This scenario builds on the interface proposal from Laera et al. @Laera.2023, more described in the _Research_ chapter. 
   ]
 )
 
