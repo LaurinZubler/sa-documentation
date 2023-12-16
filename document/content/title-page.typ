@@ -16,7 +16,7 @@
 #set align(center)
 #v(1fr)
 
-#text(70pt)[
+#text(48pt)[
   *#global.title*
 ]
 
