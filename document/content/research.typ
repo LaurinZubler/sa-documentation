@@ -144,7 +144,7 @@
 #global.paragraph(
   "AR Effectivity Evaluation",
   [
-    @Laera.2023 Laera et al. evaluated an AR-based interface for sailing navigation and compared it to regular 2D sailing instruments. They conducted a user study (n=45) in an virtual reality simulated environment. They measured the reaction time and subjective metrics using user experience questionnaires.\
+    @Laera.2023b Laera et al. evaluated an AR-based interface for sailing navigation and compared it to regular 2D sailing instruments. They conducted a user study (n=45) in an virtual reality simulated environment. They measured the reaction time and subjective metrics using user experience questionnaires.\
     Their results show that the AR-based interface outperformed traditional instruments in terms of reaction time, cognitive load, system usability and user experience.
   ]
 )
@@ -152,27 +152,27 @@
 #global.paragraph(
   "AR Sailing Interfaces",
   [
-    @Laera.2023b Laera et al. designed three AR interface proposals for sailing application.
+    @Laera.2023 Laera et al. designed three AR interface proposals for sailing application.
 
     - *Screen-Stabilized Interface* displays essential boat information in the upper part of the user's field of view. The data is displayed in nummerical form or as graphs, like in conventional 2D sailing instruments. The interface is designed for coastal navigation during recreational sailing and is suitable for users with sailing experience.
     
     #figure(
       image("/images/research/screen_stabilized_interface.png", width: 60%),
-      caption: [Screen-stabilized AR 2D interface proposal by Laera et al. @Laera.2023b]
+      caption: [Screen-stabilized AR 2D interface proposal by Laera et al. @Laera.2023]
     ) <screen_stabilized_interface>
 
     - *Body-Stabilized Interface* displays a 3D boat avatar tied to the users hand that is aligned with the real boats orientation. It is designed for sailing beginners and shows abstract vectors for meteorological phenomena. They help the user better understand the sailing process by visualizing the forces acting on the boat.
 
     #figure(
       image("/images/research/body_stabilized_interface.png", width: 60%),
-      caption: [Body-stabilized AR 3D interface proposal by Larea et al. @Laera.2023b]
+      caption: [Body-stabilized AR 3D interface proposal by Larea et al. @Laera.2023]
     ) <body_stabilized_interface>
 
     - *Boat-Stabilized Interface* displays ambient information placed in the surrounding environment using graphics centered around the boats mast. It is suitable for both recreational use and for a regatta application. The interface features a high level of information detail and is useful for navigation.
     
     #figure(
       image("/images/research/boat_stabilized_interface.png", width: 60%),
-      caption: [Boat-stabilized AR 3D interface proposal by Larea et al. @Laera.2023b]
+      caption: [Boat-stabilized AR 3D interface proposal by Larea et al. @Laera.2023]
     ) <boat_stabilized_interface>
   ]
 )
