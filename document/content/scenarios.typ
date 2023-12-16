@@ -1,31 +1,99 @@
 #import "/utils/global.typ" as global
 
+#let personas = ("The Beginner", "The Ocean Sailor", "The Racer")
+
+#let scenario(personas, information, description) = {
+  set text(0pt) // fix strange gap behavior
+  personas.pop() // workaround string array with only one element
+  global.paragraph("Targeted Persona", personas.join(", ", last: " and "))
+  v(2 * global.gap)
+  global.paragraph("Ambient Information", 
+    for info in information [
+      - #info
+    ]    
+  )
+  v(2 * global.gap)
+  global.paragraph("Description", description)
+}
+
 = Scenarios
 #global.paragraph(
   [Preamble],
   [
-
-    //Drawing from both the literature review and user study, the 'Scenarios' chapter outlines potential AR applications in sailing. It discusses various use-cases and scenarios, demonstrating how AR can address specific challenges identified in the research.
-
-
-    Based on the research and interviewd persons, possible scenarios for an augmented reality solution for sailing were created. First all scenarios are listed with a short description and for with persona the scenario is inteded, as well as on what they are based on. The selected scenario that is to be implemented is then further described.
+    In this chapter, seven conceptual scenarios are presented, each exploring a potential application of Augmented Reality in sailing. These scenarios have been developed based on the research and the personas identified in the user study. Furthermore, one chosen scenario is highlighted for more detailed examination, setting the groundwork for the _Architecture_ chapter, where the hardware components and considerations for its future implementation will be thoroughly discussed.
   ]
 )
 
+== All Conceptual Scenarios
 #global.paragraph(
-  [Scenario list],
+  "Introduction",
   [
-    #table(
-      columns: (auto, auto, auto, auto),
-      inset: global.gap,
-      [*Title*], [*Persona*], [*Verification*], [*Description*],
-      [Laera "Screen-stabilized AR 2D interface"], [Racer, Ocean Sailor], [], [],
-      [Laera "Body-stabilized AR 3D interface"], [Beginner], [], [],
-      [Laera "Boat-stabilized AR 3D interface"], [Racer, Ocean Sailor], [], [],
-      [Sailable area], [Beginner], [], [],
-      [Sail trim], [Beginner, Racer, Ocean Sailor], [], [],
-      [Sitting position], [Beginner, Racer], [], [],
-      [Navigation], [Racer, Ocean Sailor], [], [],
-    )
+    Each scenario is further detailed, with the target personas identified and the specific ambient information displayed.
   ]
-) 
+)
+
+=== Scenario 1: Laera "Screen-stabilized AR 2D interface"
+#scenario(
+  (personas.at(1), personas.at(2), ""), 
+  ("Wind speed and direction", "Compass", "Water depth"),
+  [
+    #lorem(50)
+  ]
+)
+
+=== Scenario 2: Laera "Body-stabilized AR 3D interface"
+#scenario(
+  (personas.at(0), ""), 
+  ("Wind direction", "Compass", "Course", "Sea currents", "Water depth", "Seabed topology"),
+  [
+    #lorem(50)
+  ]
+)
+#global.todo("pagebreak")
+#pagebreak()
+=== Scenario 3: Laera "Boat-stabilized AR 3D interface"
+#scenario(
+  (personas.at(1), personas.at(2), ""), 
+  ("Wind direction", "Compass", "Course", "Sea currents", "Waypoints", "Obstacles"),
+  [
+    #lorem(50)
+  ]
+)
+
+=== Scenario 4: Sailing course assistance
+#scenario(
+  (personas.at(0), personas.at(1), ""), 
+  ("Wind direction and speed", "Possible sailable courses"),
+  [
+    #lorem(50)
+  ]
+)
+
+=== Scenario 5: Sail trim assistance
+#scenario(
+  (personas.at(0), personas.at(1), ""), 
+  ("Wind direction and speed", "Optimal sail position"),
+  [
+    #lorem(50)
+  ]
+)
+
+=== Scenario 6: Sitting position assistance
+#scenario(
+  (personas.at(0), personas.at(2), ""), 
+  ("Boat position in water", "Optimal sitting position"),
+  [
+    #lorem(50)
+  ]
+)
+
+=== Scenario 7: Points of interest visualisation
+#scenario(
+  (personas.at(1), personas.at(2), ""), 
+  ("Waypoints", "Obstacles", "Chart information"),
+  [
+    #lorem(50)
+  ]
+)
+
+== Detail Scenario: Sailing course assistance

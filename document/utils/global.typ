@@ -9,11 +9,11 @@
 
 #let font = "Arial"
 
-#let gap = 0.65em
-#let gapPage = 2.2em
-#let gapHeading1 = 0.65em
-#let gapHeading2 = 0.4em
-#let gapHeading3 = 0.4em
+#let gap = 7pt
+#let gapPage = 24.2pt
+#let gapHeading1 = 7pt
+#let gapHeading2 = 4.4pt
+#let gapHeading3 = 4.4pt
 
 #let textNormal = 11pt
 #let textMarginale = 9pt
@@ -31,7 +31,8 @@
   grid(
     columns: (1fr, 6fr),
     gutter: gap,
-    text(textMarginale)[*#title*], content,
+    text(textMarginale)[*#title*], 
+    text(textNormal)[#content],
   )
   v(gap)
 }
