@@ -1,5 +1,8 @@
 # Intellij
 .idea
 
+# VS Code
+.vscode
+
 # Pdf files
 *.pdf
