@@ -15,7 +15,7 @@
   font: global.font,
 )
 
-#include "content/title-page.typ"
+#include "chapters/title-page.typ"
 
 // page layout
 #set page(
@@ -86,23 +86,23 @@
   )
 )
 
-#include "content/abstract.typ"
-#include "content/table-of-contents.typ"
+#include "chapters/abstract.typ"
+#include "chapters/table-of-contents.typ"
 
 #set heading(numbering: "1.1")
 #show bibliography: set heading(numbering: "1.1")
 
 #let chapters = (
-  "content/introduction.typ",
-  "content/research.typ",
-  "content/user-study.typ",
-  "content/scenarios.typ",
-  "content/architecture.typ",
-  "content/project-management.typ",
-  "content/bibliography.typ",
-  "content/glossary.typ",
-  "content/lists.typ",
-  "content/appendix.typ"
+  "chapters/introduction.typ",
+  "chapters/research.typ",
+  "chapters/user-study.typ",
+  "chapters/scenarios.typ",
+  "chapters/architecture.typ",
+  "chapters/project-management.typ",
+  "chapters/bibliography.typ",
+  "chapters/glossary.typ",
+  "chapters/lists.typ",
+  "chapters/appendix.typ"
 )
 
 #for path in chapters {
