@@ -97,3 +97,8 @@
 )
 
 == Detail Scenario: Sailing course assistance
+
+#figure(
+      image("/images/scenarios/no_sail_zone.png", width: 40%),
+      caption: [],
+    )<scenario>
