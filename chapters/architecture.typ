@@ -101,7 +101,7 @@
 #global.paragraph(
   [Signal K],
   [
-    Signal K is an open source data format specifically designed for marine use. In contrast to traditional marine communication standards like NMEA 0183 and NMEA 2000, Signal K utilizes web technologies, promoting interoperability and enabling seamless communication between various marine devices.
+    Signal K is an open source data format specifically designed for marine use. In contrast to common marine communication standards like NMEA 0183 and NMEA 2000, Signal K utilizes web technologies, promoting interoperability and enabling seamless communication between various marine devices.
     https://signalk.org/overview.html
   ]
 )

@@ -8,6 +8,8 @@
   ]
 )
 
+#global.todo("2 * setting the stage")
+
 == The Challenges of Sailing
 #global.paragraph(
   "Introduction",
@@ -22,6 +24,8 @@
     One of the most significant challenges in sailing is the mastery of wind. Sailors must read and interpret wind patterns, which are often unpredictable and change rapidly. Understanding wind direction, strength, and shifts is crucial, as these factors directly influence the boat's speed and maneuverability. 
   ]
 )
+
+#global.todo("Vorschlag Frieder: Bild aus Segelboot")
 
 #global.paragraph(
   "Course",
@@ -40,7 +44,7 @@
 #global.paragraph(
   "Points of Sail",
   [
-    Given the wind direction and the chosen course, the positions of the sails are determined. The adjustment of the sails to optimize their shape and angle, is key to harnessing the wind's power effectively. It's a dynamic process, requiring continuous attention and fine-tuning. Effective sail trim balances the boat's speed and stability, and is essential for navigating efficiently and safely in varying wind conditions.
+    Given the wind direction and the chosen course, the positions of the sails are determined. The adjustment of the sails to optimize their shape and angle, is key to harnessing the wind's power effectively. It is a dynamic process, requiring continuous attention and fine-tuning. Effective sail trim balances the boat's speed and stability, and is essential for navigating efficiently and safely in varying wind conditions.
 
     _@points-of-sail _ illustrates the various points of sail in relation to the wind direction. It also highlights the 'no-sail zone', where the sails are unable to generate sufficient force for movement, leading to flapping and loss of control.
 
@@ -53,18 +57,18 @@
 )
 
 #global.paragraph(
-  "Traditional Instruments",
+  "Common Instruments",
   [
     Due to the reliance on wind in sailing, various tools are utilized to assist in determining the wind direction. Nowadays, this task is often accomplished using electronic instruments.
 
     _@instruments _ depicts an electronic wind indicator. The blue outline represents the boat and aligns with the boat's actual axis. The red pointer indicates the direction from which the wind is coming. In the example, it is approximately 120° from the starboard side. This corresponds in _@points-of-sail _ to a sail position of _Broad reach_, represented by the left boat marked with a _D_. Additionally, the wind speed is also displayed, indicating 5 knots.
 
     #figure(
-      image("/images/introduction/wind.jpg", width: 40%),
-      caption: "Sailing instrument. Displaying wind angel (red indicator) relativ to the boat (blue outline) and wind speed in knots",
+      image("/images/introduction/wind_censored.jpg", width: 40%),
+      caption: "Common sailing instrument. Displaying wind angel (red indicator) relativ to the boat (blue outline) and wind speed in knots",
     )<instruments>
 
-    Translating the abstract information provided by these displays into practical application requires good spatial imagination and experience. The 2D representation of wind direction and speed on traditional instruments, can be challenging to interpret in a real-world, three-dimensional sailing context. Sailors must mentally visualize how the wind interacts with their sail and course, a skill that typically develops with practice and time.
+    Translating the abstract information provided by these instruments into practical application requires good spatial imagination and experience. The 2D representation of wind direction and speed on common instruments, can be challenging to interpret in a real-world, three-dimensional sailing context. Sailors must mentally visualize how the wind interacts with their sail and course, a skill that typically develops with practice and time. This could be simplified by Augmented Reality.
   ]
 )
 
@@ -81,7 +85,7 @@
 #global.paragraph(
   "Usability",
   [
-    Central to this thesis is a human-centered approach, which prioritizes the user experience in sailing contexts. This involves understanding the needs and preferences of sailors of varying levels of expertise and designing AR interfaces that are intuitive, informative, and easy to use. The goal is to reduce the cognitive load associated with traditional sailing instruments, making navigation and sail management more accessible, especially for those with less experience.
+    Central to this thesis is a human-centered approach, which prioritizes the user experience in sailing contexts. This involves understanding the needs and preferences of sailors of varying levels of expertise and designing AR interfaces that are intuitive, informative, and easy to use. The goal is to reduce the cognitive load associated with common sailing instruments, making navigation and sail management more accessible, especially for those with less experience.
   ]
 )
 

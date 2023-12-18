@@ -7,7 +7,7 @@
 
 #show: chic.with(
   chic-footer(
-    left-side: text(5pt)[Image source: https://devrant.com/rants/1175993/is-this-the-future-we-are-heading-to]  
+    left-side: text(6pt)[Image source: https://devrant.com/rants/1175993/is-this-the-future-we-are-heading-to]  
   )
 )
 

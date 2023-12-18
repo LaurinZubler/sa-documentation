@@ -131,6 +131,9 @@
   "Technology Development",
   [
     Further Gernez et al. @EtienneGernez.2020 discuss the current stand of AR technology. At the moment the AR technology is still in its early stages. They argue that AR could have an important role in the future in maritime workspaces. Similar to the evolution of mobile phones, they anticipate more functionalies for AR with ongoing technological development.
+
+    #global.todo("Frieder: details ergänzen")
+
     #figure(
       image("/images/research/technology_development.png", width: 60%),
       caption: [Technology development comparasion of mobile phones and AR displays by Gernez et al. @EtienneGernez.2020]
@@ -141,11 +144,13 @@
 #global.todo("Anderer Titel? finde nicht so passend")
 === Applications
 
+#global.todo("frider: cite am ende des satzes. Bei allen, nur hier??")
+
 #global.paragraph(
   "AR Effectivity Evaluation",
   [
     @Laera.2023b Laera et al. evaluated an AR-based interface for sailing navigation and compared it to regular 2D sailing instruments. They conducted a user study (n=45) in an virtual reality simulated environment. They measured the reaction time and subjective metrics using user experience questionnaires.\
-    Their results show that the AR-based interface outperformed traditional instruments in terms of reaction time, cognitive load, system usability and user experience.
+    Their results show that the AR-based interface outperformed common instruments in terms of reaction time, cognitive load, system usability and user experience.
   ]
 )
 

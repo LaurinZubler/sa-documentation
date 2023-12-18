@@ -4,7 +4,7 @@
 #global.paragraph(
   [Introduction],
   [
-    Navigating a sailing boat successfully requires a deep understanding of the surrounding environment. Traditional sailing instruments, which display information numerically or in 2D graphs, often require considerable experience and spatial imagination for interpretation. 
+    Navigating a sailing boat successfully requires a deep understanding of the surrounding environment. Common sailing instruments, which display information numerically or in 2D graphs, often require considerable experience and spatial imagination for interpretation. 
     This thesis explores the potential of Augmented Reality in enhancing the visualization of ambient conditions, offering a more intuitive and informative approach to sailing navigation.
   ]
 )
