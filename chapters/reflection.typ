@@ -46,7 +46,7 @@
 #global.paragraph(
   "Procrastination",
   [
-    Will write later, have to organize my drawer... ;)
+    Will write later, have to reorganize my drawer... ;)
   ]
 )
 
