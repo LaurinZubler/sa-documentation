@@ -5,7 +5,7 @@
 #let participants-table = tablem.with(
   render: (columns: auto, ..args) => {
     tablex(
-      columns: (auto, 1fr, 1fr, 1fr),
+      columns: columns,
       auto-lines: false,
       align: center + horizon,
       hlinex(y: 0),
@@ -35,7 +35,7 @@
 )
 
 #global.paragraph(
-  [Participant Recruitment],
+  [Participant],
   [
     In conducting the interviews for this thesis, it was essential to gather perspectives from a variety of sailors to ensure a comprehensive understanding of different sailing experiences. Accordingly, five individuals with diverse backgrounds and expertise in sailing were interviewed.
 
@@ -44,21 +44,21 @@
 
     _@participants-characteristics _ provides a detailed overview of the sailing backgrounds and levels of the five interview participants. Two of them are primarily involved in the cruising world, navigating yachts across oceans, while the other three have a focus on regatta sailing, maneuvering smaller boats in competitive settings. The table also displays the varied mix of levels among the participants, ranging from intermediates to professionals.
 
-    #v(2.5 * global.gap)
+    #v(2 * global.gap)
 
     #figure(
       block(
         width: 90%,
-        // inset: global.gap,
         participants-table(
+          columns: (auto, 1fr, 1fr, 1fr),
           [
-            | *\#* | *Sailing Background* | *Sailing Level* | *Connection* | 
-            | ---- | -------------------- | -------------------- | ------- |
-            | 1  | Regatta | Professional | YCR |
-            | 2  | Regatta | Advanced | YCR | 
-            | 3  | Regatta | Intermediate | YCR | 
-            | 4  | Cruising | Advanced | YCR | 
-            | 5  | Cruising | Advanced | Acquaintance | 
+            | *\#*  | *Sailing Background*  | *Sailing Level* | *Connection*  | 
+            | ----- | --------------------  | --------------- | ------------  |
+            | 1     | Regatta               | Professional    | YCR           |
+            | 2     | Regatta               | Advanced        | YCR           | 
+            | 3     | Regatta               | Intermediate    | YCR           | 
+            | 4     | Cruising / Regatta    | Advanced / Beginner| YCR           | 
+            | 5     | Cruising              | Advanced        | Acquaintance  | 
           ]
         )
       ),
@@ -109,17 +109,50 @@
   ]
 )
 
-== Results
-- cursier segeln nicht so wichtig. verpflegung, menschenführung, 
-- wind und course
+#pagebreak()
 
+== Results
+#global.paragraph(
+  "Introduction",
+  [
+    This section will present the key findings from the interviews, with an emphasis on evaluating insights for potential improvements through Augmented Reality.
+  ]
+)
+
+#global.paragraph(
+  "Cruising and Regatta",
+  [
+    The most significant variations in responses were influenced by the participants backgrounds, specifically whether they were regatta sailors or cruisers. 
+
+    Participants who engage in cruising placed less emphasis on the technical precision of sailing. Instead, their focus was broader, encompassing the overall management of the voyage. 
+    A key element of this approach involved crew handling, understanding individual needs, and fostering positive dynamics.     
+    Practical logistics were also of importance, including the efficient management of essential resources like food, water, and fuel. 
+    Furthermore, their planning for routes and daily activities was often closely aligned with weather conditions, highlighting a flexible and adaptive approach to sailing.
+
+    On the other hand, regatta sailors demonstrated a different set of priorities in their responses. Their focus is centered on optimizing performance, with a significant emphasis on perfecting boat handling and finding the optimal course. This involves a meticulous attention to detail in every aspect of sailing, from the precise adjustment of sails to capitalizing on wind patterns and water currents for competitive advantage.
+  ]
+)
+
+#global.paragraph(
+  "Sailing Level",
+  [
+    
+  ]
+)
+
+#global.paragraph(
+  "Wind and Course",
+  [
+    
+  ]
+)
 
 #pagebreak()
 == Personas
 #global.paragraph(
   [Introduction],
   [
-    Based on the interviewd persons, three fictional personas were created. By analyzing the interview responses, three categories of sailors could be derived. Beginner, racer and ocean sailor. In the following the personas are described further.
+    Based on the interviews, three fictional personas were created. By analyzing the participants responses, three categories of sailors could be derived. Beginner, racer and ocean sailor. In the following the personas are described further.
   ]
 )
 
