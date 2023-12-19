@@ -1,25 +1,90 @@
 #import "/utils/global.typ" as global
+#import "@preview/tablem:0.1.0": tablem
+#import "@preview/tablex:0.0.6": tablex, hlinex
+
+#let participants-table = tablem.with(
+  render: (columns: auto, ..args) => {
+    tablex(
+      columns: (auto, 1fr, 1fr, 1fr),
+      auto-lines: false,
+      align: center + horizon,
+      hlinex(y: 0),
+      hlinex(y: 1),
+      ..args,
+      hlinex(),
+    )
+  }
+)
 
 = User Study
 #global.paragraph(
   [Preamble],
   [
-    This chapter details the methodology, execution, and findings of the user interviews. It presents the creation of personas based on the interview data, reflecting the diverse needs and preferences of the sailing community. These personas are instrumental in designing scenarios that are closely aligned with real-world requirements.
+    This chapter details the methodology, execution, and findings of the interviews. It presents the creation of personas based on the interview data, reflecting the diverse needs and preferences of the sailing community. These personas are instrumental in designing scenarios that are closely aligned with real-world requirements.
   ]
 )
 
-== Interview
+== Interviews
 #global.paragraph(
   [Introduction],
   [
-
+    In the pursuit of developing a deeper understanding of how Augmented Reality can be most effectively integrated into the sailing experience, this chapter delves into the heart of the sailing community itself. 
+    The decision to conduct interviews was driven by the need to gain direct insights into the diverse needs, preferences, and challenges faced by sailors.
+    The goal of the interviews is not merely to collect data, but to empathize with and understand the community for whom these applications are being developed. 
   ]
 )
+
+#global.paragraph(
+  [Participant Recruitment],
+  [
+    In conducting the interviews for this thesis, it was essential to gather perspectives from a variety of sailors to ensure a comprehensive understanding of different sailing experiences. Accordingly, five individuals with diverse backgrounds and expertise in sailing were interviewed.
+
+    Four participants are affiliated with the Yacht Club Rapperswil (YCR), known for organizing sailing courses at the OST each semester. Within this group, two have evolved into trainer roles, leveraging their experience to educate the next generation of sailors. The other two are fellow students who were met during sailing
+    courses. The fifth participant comes from personal acquaintances.
+
+    _@participants-characteristics _ provides a detailed overview of the sailing backgrounds and levels of the five interview participants. Two of them are primarily involved in the cruising world, navigating yachts across oceans, while the other three have a focus on regatta sailing, maneuvering smaller boats in competitive settings. The table also displays the varied mix of levels among the participants, ranging from intermediates to professionals.
+
+    #figure(
+      block(
+        width: 90%,
+        inset: global.gap,
+        participants-table(
+          [
+            | *\#* | *Sailing Background* | *Sailing Level* | *Connection* | 
+            | ---- | -------------------- | -------------------- | ------- |
+            | 1  | Regatta | Professional | YCR |
+            | 2  | Regatta | Advanced | YCR | 
+            | 3  | Regatta | Intermediate | YCR | 
+            | 4  | Cruising | Advanced | YCR | 
+            | 5  | Cruising | Advanced | Acquaintance | 
+          ]
+        )
+      ),
+      caption: "Sailing characteristics of the 5 interview participants.",
+      kind: table,
+    )<participants-characteristics>
+  ]
+)
+    
+  
+
+
+#global.paragraph(
+  [Questions],
+  [
+    - break ice, sailor typ, challenges
+  ]
+)
+
+== Results
+- cursier segeln nicht so wichtig. verpflegung, menschenführung, 
+- wind und course
+
 
 #pagebreak()
 == Personas
 #global.paragraph(
-  [Preamble],
+  [Introduction],
   [
     Based on the interviewd persons, three fictional personas were created. By analyzing the interview responses, three categories of sailors could be derived. Beginner, racer and ocean sailor. In the following the personas are described further.
   ]
