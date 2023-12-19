@@ -93,6 +93,6 @@
 #set heading(numbering: "1.1")
 #show bibliography: set heading(numbering: "1.1")
 
-#for path in chapters-public-version {
+#for path in chapters-full-version {
   include path
 }
