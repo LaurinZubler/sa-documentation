@@ -39,15 +39,17 @@
   [
     In conducting the interviews for this thesis, it was essential to gather perspectives from a variety of sailors to ensure a comprehensive understanding of different sailing experiences. Accordingly, five individuals with diverse backgrounds and expertise in sailing were interviewed.
 
-    Four participants are affiliated with the Yacht Club Rapperswil (YCR), known for organizing sailing courses at the OST each semester. Within this group, two have evolved into trainer roles, leveraging their experience to educate the next generation of sailors. The other two are fellow students who were met during sailing
+    Four participants are affiliated with the Yacht Club Rapperswil (YCR), which organizes sailing courses at the OST each semester. Within this group, two have evolved into trainer roles, leveraging their experience to educate the next generation of sailors. The other two are fellow students who were met during sailing
     courses. The fifth participant comes from personal acquaintances.
 
     _@participants-characteristics _ provides a detailed overview of the sailing backgrounds and levels of the five interview participants. Two of them are primarily involved in the cruising world, navigating yachts across oceans, while the other three have a focus on regatta sailing, maneuvering smaller boats in competitive settings. The table also displays the varied mix of levels among the participants, ranging from intermediates to professionals.
 
+    #v(2.5 * global.gap)
+
     #figure(
       block(
         width: 90%,
-        inset: global.gap,
+        // inset: global.gap,
         participants-table(
           [
             | *\#* | *Sailing Background* | *Sailing Level* | *Connection* | 
@@ -65,14 +67,45 @@
     )<participants-characteristics>
   ]
 )
-    
-  
 
+#pagebreak()
 
 #global.paragraph(
-  [Questions],
+  [Methodology],
   [
-    - break ice, sailor typ, challenges
+    The interview process was meticulously designed to extract valuable insights while minimally influencing the participants responses. This was achieved by carefully structuring the questions and beginning with a brief onboarding session to introduce the thesis and its objectives.
+
+    To create a relaxed and open dialogue, the interview started with a light, non-critical question. Although not directly related to the thesis, this approach was effective in establishing a comfortable atmosphere for both  the interviewer and the participants. The next set of five questions aimed to delve into the participants sailing backgrounds.\
+    The subsequent questions were focused on uncovering the specific needs and challenges faced in sailing. This helped in gaining deeper insights into the practical aspects of the sport. \
+    During the interviews with the trainers, emphasis was also placed on the experiences they observe in their students, particularly focusing on those aspects with which the students find challenging and struggle.\
+    The interview concluded with an open question, to encourage participants to think creatively and expansively.
+  ]
+)
+#global.paragraph(
+  "Questions",
+  [
+    _Ice breaker_
+    + What is your first sailing experience?
+    
+    _Sailing background of participant_
+    2. On what types of boats have you sailed or do you primarily sail?
+    + What interests you in sailing?
+    + What type of sailor are you? (Leisurely, racing, cruising, professional, etc.)
+    + How would you rate your sailing level?
+    + Where do you usually sail?
+
+    _Sailing challenges and needs_
+    7. What was difficult for you as a beginner in sailing?
+    + What do you find challenging in sailing today?
+    + How do you prepare for a sailing trip? Any rituals or checks?
+    + What kind of information do you need while sailing?
+    + What tools or technology do you use while sailing?
+    + What do you have to pay attention to while sailing?
+    + What are the dangers of sailing?
+    + What would you like to try or learn in sailing in the future?
+
+    _Final question_
+    15. What tools or gadgets would you wish for in an ideal world?
   ]
 )
 
