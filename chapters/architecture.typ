@@ -132,7 +132,7 @@
   [Components],
   [
     Based on the current findings, the implementation of the AR application requires the components in @components.
-    
+    #global.todo("the 2 components: asdf, asdf and asdf. communicate with each other ...")
     #figure(
       image("/images/architectur/components.png"),
       caption: "Components diagram"
