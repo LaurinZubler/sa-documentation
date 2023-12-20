@@ -141,7 +141,6 @@
 
 #global.todo("Anderer Titel? finde nicht so passend")
 === Applications
-
 #global.todo("frider: cite am ende des satzes. Bei allen, nur hier??")
 
 #global.paragraph(
@@ -195,21 +194,28 @@
 )
 
 == Discussion
-
 #global.paragraph(
   "Use of AR in Sailing",
   [
-    The utilization of AR in a maritime context has garnered limited scientific attention. However, Dr. Francesco Laera and his team at the Polytechnic University of Bari are playing a pivotal role in this niche area, primarily through their foundational research.
+    The utilization of Augmented Reality in a maritime context has garnered limited scientific attention. However, Dr. Francesco Laera and his team at the Polytechnic University of Bari are playing a pivotal role in this niche area, primarily through their foundational research.
 
-    All the studies conducted to date underscore the effectiveness of augmented reality in sailing applications. User studies indicate that AR interfaces can significantly enhance reaction times and overall user experience during sailing. For beginners, AR offers an intuitive means to grasp the fundamentals of sailing, while for seasoned sailors, it provides valuable assistance in navigation and boat handling.
+    All the studies conducted to date underscore the effectiveness of augmented reality in sailing applications. User studies indicate that AR interfaces can significantly enhance reaction times and overall user experience during sailing. For beginners, Augmented Reality offers an intuitive means to grasp the fundamentals of sailing, while for seasoned sailors, it provides valuable assistance in navigation and boat handling.
     
     #global.todo("prototpys somehow erwähnen")
+    #global.todo("abstract: ar has potential")
   ]
 )
 
 #global.paragraph(
   "Component Types",
   [
+    The component types of Augmented Reality application on ship bridges ... lots variations
+    
+    - can not be directly adopted into sailing. 
+    - sailing different cockpits.
+    - the protoype of laera display in the sky, 
+
+
     // which for sailing
     #global.todo("campare types from large bridge ships to sailing")
   ]
@@ -217,8 +223,10 @@
 
 #global.paragraph(
   "AR Hardware",
-  [
-    #global.todo("stand ar brillen. keine die fürs segeln geht")
-    // hardware needs further development as current AR HMD does not fit requirments for sailing.
+  [    
+    The development of head mounted Augmented Reality displays is still in its early stages and current displays do not meet the requirements of the nautical environment they are exposed to while sailing. 
+    With further advances in this technology, this problem will likely be solved in the future.
+    // bis dann was machen?
+    #global.todo("gpt")
   ]
 )
