@@ -52,13 +52,13 @@
         participants-table(
           columns: (auto, 1fr, 1fr, 1fr),
           [
-            | *\#*  | *Sailing Background*  | *Sailing Level* | *Connection*  | 
-            | ----- | --------------------  | --------------- | ------------  |
-            | 1     | Regatta               | Professional    | YCR           |
-            | 2     | Regatta               | Advanced        | YCR           | 
-            | 3     | Regatta               | Intermediate    | YCR           | 
-            | 4     | Cruising / Regatta    | Advanced / Beginner| YCR           | 
-            | 5     | Cruising              | Advanced        | Acquaintance  | 
+            | *\#*  | *Sailing Background*  | *Sailing Level*     | *Connection*  | 
+            | ----- | --------------------  | ---------------     | ------------  |
+            | 1     | Regatta               | Professional        | YCR           |
+            | 2     | Regatta               | Advanced            | YCR           | 
+            | 3     | Regatta               | Intermediate        | YCR           | 
+            | 4     | Cruising / Regatta    | Advanced / Beginner | YCR           | 
+            | 5     | Cruising              | Advanced            | Acquaintance  | 
           ]
         )
       ),
