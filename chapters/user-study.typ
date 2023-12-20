@@ -122,39 +122,45 @@
 #global.paragraph(
   "Cruising and Regatta",
   [
-    The most significant variations in responses were influenced by the participants backgrounds, specifically whether they were regatta sailors or cruisers. 
+    The most differences in responses are influenced by the participants' sailing backgrounds, specifically whether they are regatta sailors or cruisers.
 
-    Participants who engage in cruising placed less emphasis on the technical precision of sailing. Instead, their focus was broader, encompassing the overall management of the voyage. 
-    A key element of this approach involved crew handling, understanding individual needs, and fostering positive dynamics.     
-    Practical logistics were also of importance, including the efficient management of essential resources like food, water, and fuel. 
-    Furthermore, their planning for routes and daily activities was often closely aligned with weather conditions, highlighting a flexible and adaptive approach to sailing.
+    Participants who engage in cruising place less emphasis on the technical precision of sailing. Instead, their focus is broader, encompassing the overall voyage. This includes crew handling or the efficient management of essential resources like food, water, and fuel. Furthermore, weather conditions have a major influence on their planning for routes and daily activities.
 
-    On the other hand, regatta sailors demonstrated a different set of priorities in their responses. Their focus is centered on optimizing performance, with a significant emphasis on perfecting boat handling and finding the optimal course. This involves a meticulous attention to detail in every aspect of sailing, from the precise adjustment of sails to capitalizing on wind patterns and water currents for competitive advantage.
+    On the other hand, regatta sailors demonstrate a different set of priorities. Their focus is centered on optimizing performance, with a significant emphasis on perfecting boat handling and finding the optimal course. This involves meticulous attention to detail in every aspect of sailing, from the precise adjustment of sails to capitalizing on wind patterns and water currents for competitive advantage.
   ]
 )
 
 #global.paragraph(
   "Sailing Level",
   [
-    
+    In examining the responses of regatta sailors, a notable distinction emerged based on their level of experience. Experienced sailors exhibit a proficiency in boat handling that appears almost instinctual. For them, operating the boat does not require conscious thought or effort. This automaticity in handling their vessel frees up cognitive resources, allowing them to focus more on strategic aspects of sailing, such as monitoring wind conditions or observing competitors' movements.
+
+    In contrast, beginner sailors display a different set of priorities and challenges. These sailors often need to consciously think through each action in boat handling, which requires a significant amount of cognitive effort and concentration. This limits their capacity to focus on the surroundings.
   ]
 )
 
 #global.paragraph(
   "Wind and Course",
   [
-    
+    Every participant, regardless of their sailing background, underscored the importance of wind and course. These aspects were especially central for the regatta sailors, for whom they form the core of their focus during sailing.
+
+    Regatta sailors are constantly observing the wind, its direction, strength, and changes. Reacting promptly and effectively to wind variations is crucial for them, not only for maintaining optimal speed but also for tactical reasons. Deciding when to change course, is a significant tactical decision that can grant advantage over the competitors.
+
+    Similarly, cruisers also acknowledge the importance of wind and course. For them, understanding wind patterns is key to planning their voyage, ensuring safety, and optimizing their route.
+
+    The unanimous emphasis on wind and course by all sailors highlights their universal significance in sailing. It suggests that Augmented Reality applications intended for sailors should prioritize providing intuitive and effective ways to monitor and respond to wind and course-related information.
   ]
 )
 
-#pagebreak()
 == Personas
 #global.paragraph(
   [Introduction],
   [
-    Based on the interviews, three fictional personas were created. By analyzing the participants responses, three categories of sailors could be derived. Beginner, racer and ocean sailor. In the following the personas are described further.
+    Drawing from the findings of the interviews, three fictional personas were created: _The Beginner, the Racer,_ and _the Ocean Sailor_. These personas are designed to represent the different characteristics and intentions in the sailing community observed among the interview participants.
   ]
 )
+
+#global.todo("fokus auf eine persona")
 
 === The Beginner
 #global.paragraph(
