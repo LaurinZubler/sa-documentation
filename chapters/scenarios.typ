@@ -20,7 +20,36 @@
 #global.paragraph(
   [Preamble],
   [
-    In this chapter, seven conceptual scenarios are presented, each exploring a potential application of Augmented Reality in sailing. These scenarios have been developed based on the research and the personas identified in the user study. Furthermore, one chosen scenario is highlighted for more detailed examination, setting the groundwork for the _Architecture_ chapter, where the hardware components and considerations for its future implementation will be thoroughly discussed.
+    In this chapter, a detailed exploration of the primary conceptual scenario _Sailing Course Assistant_ is presented, showcasing a promising application of Augmented Reality in sailing. This scenario has been selected due to its comprehensive alignment with the needs and characteristics identified in the personas from the user study. It is laying the foundation for the _Architecture_ chapter, where the hardware components and considerations for the future implementation are discussed.
+
+    Furthermore, six additional scenarios are introduced, each developed based on the research findings and the personas. These scenarios further explore various potential applications of Augmented Reality in sailing
+  ]
+)
+
+== Sailing Course Assistant
+#global.paragraph(
+  "Foundation",
+  [
+    - why selected: 
+    - based on what -> interviews
+    - why for each persona
+  ]
+)
+#scenario(
+  (personas.at(0), personas.at(1), personas.at(2), ""), 
+  ("Wind direction", "Possible sailable courses", "No-Sail Zones"),
+  [
+    - was ist zu sehen
+      - wind direction
+      - no sail zones
+      - mast centered
+    - why im himmel -> not hiding stuff
+    - helps with
+
+    #figure(
+      image("/images/scenarios/no_sail_zone.png", width: 60%),
+      caption: [Design sketch of the scenario "Sailing Course Assistant"],
+    )<scenario>
   ]
 )
 
@@ -60,16 +89,8 @@
   ]
 )
 
-=== Scenario 4: Sailing course assistance
-#scenario(
-  (personas.at(0), personas.at(1), ""), 
-  ("Wind direction and speed", "Possible sailable courses"),
-  [
-    #lorem(50)
-  ]
-)
 
-=== Scenario 5: Sail trim assistance
+=== Scenario 4: Sail Trim Assistant
 #scenario(
   (personas.at(0), personas.at(1), ""), 
   ("Wind direction and speed", "Optimal sail position"),
@@ -78,7 +99,7 @@
   ]
 )
 
-=== Scenario 6: Sitting position assistance
+=== Scenario 5: Sitting Position Assistant
 #scenario(
   (personas.at(0), personas.at(2), ""), 
   ("Boat position in water", "Optimal sitting position"),
@@ -87,7 +108,7 @@
   ]
 )
 
-=== Scenario 7: Points of interest visualisation
+=== Scenario 6: Points of Interest Visualizer
 #scenario(
   (personas.at(1), personas.at(2), ""), 
   ("Waypoints", "Obstacles", "Chart information"),
@@ -95,10 +116,3 @@
     #lorem(50)
   ]
 )
-
-== Detail Scenario: Sailing course assistance
-
-#figure(
-      image("/images/scenarios/no_sail_zone.png", width: 40%),
-      caption: [],
-    )<scenario>
