@@ -41,6 +41,9 @@
   ]
 )
 
+
+#global.todo("sonne: https://learn.microsoft.com/en-us/hololens/hololens-environment-considerations")
+
 #global.paragraph(
   [Waterproof Case],
   [
@@ -118,16 +121,6 @@
 )
 
 == Conclusion
-#global.paragraph(
-  [Proof of Concept],
-  [
-    To evaluate whether the application can be technically implemented, a proof of concept (POC) should be created initially to test the following two points:
-    - Verify the functionality of the Moving Platform Mode on a sailboat, ensuring proper environment tracking and correct display of the holograms.
-    - Determine whether the application can center itself along the boat's axis using only the cameras or if additional sensors are required.
-    To carry out the proof of concept, a sailboat and a HoloLens are needed. Unfortunately, due to winter conditions, a sailboat is not available, preventing the POC from being conducted during this work.
-  ]
-)
-
 #global.paragraph(
   [Components],
   [
