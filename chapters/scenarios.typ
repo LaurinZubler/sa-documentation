@@ -37,8 +37,11 @@
     The _Sailing Course Assistant_ scenario was chosen for detailed elaboration based on key findings from the research and user study. A significant theme emerging from the interview responses was the importance of wind direction and the resulting navigable courses. This scenario builds upon existing application proposals identified during the research but introduces a novel feature by also visualizing the "No Sail Zones". 
     
     The _Sailing Course Assistant_ effectively addresses the needs of all three personas identified in the user study:
+
     - *The Beginner* often struggles to understand the connection between wind direction, navigable courses and sail position. In low wind conditions, it can be particularly challenging to discern from which direction the wind is coming. This Augmented Reality application aims to enhancing their learning and sailing experience.
+
     - *The Racer* is required to constantly monitor and react to changes in the wind. By visualizing the wind direction and optimal course, the Augmented Reality application can significantly reduce cognitive load, enabling a greater focus on tactics and competition strategies.
+
     - *The Ocean Sailor* while not primarily focused on performance, still aims to optimize the sailing experience by choosing the most efficient courses.
   ]
 )
@@ -46,7 +49,9 @@
   "Description",
   [    
     The _Sailing Course Assistant_ scenario provides the following visual aids to enhance the sailing experience:
+
     - *Wind Direction* This feature influences the navigable courses and the optimal sail trim.
+    
     - *No Sail Zones* These are areas where sailing is not feasible due to prevailing wind conditions. They cover an area with an angle of around 40° to 45° on either side of the wind direction
 
     The visual aids are displayed in the sky, centered around the mast. By projecting the information above the usual line of sight, it avoids obstructing the critical view of the water ahead. This design ensures that sailors have a clear view of other boats, obstacles, and the patterns of wind and current on the water surface.
