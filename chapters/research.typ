@@ -222,7 +222,7 @@
 )
 
 #global.paragraph(
-  "AR Hardware",
+  "AR Technology",
   [    
     The development of head mounted Augmented Reality displays is still in its early stages and current displays do not meet the requirements of the nautical environment they are exposed to while sailing. 
     With further advances in this technology, this problem will likely be solved in the future.
