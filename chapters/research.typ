@@ -106,7 +106,7 @@
 #global.paragraph(
   "Component Types",
   [
-    @EtienneGernez.2020 Gernez et al. conducted a review on AR application on ship bridge operations. They discussed different information components to render AR information in the environment.\
+    @Gernez.2020 Gernez et al. conducted a review on AR application on ship bridge operations. They discussed different information components to render AR information in the environment.\
     - *App display* This component allows the display of full applications in the AR view.
 
     - *Widget display* This allows the display of smaller stackable information containers.
@@ -120,7 +120,7 @@
     
     #figure(
       image("/images/research/component_types.png", width: 90%),
-      caption: [Types of AR information components by Gernez et al. @EtienneGernez.2020]
+      caption: [Types of AR information components by Gernez et al. @Gernez.2020]
     ) <component_types>
 
     Widget, annotation and ocean overlay are the most used component types in the revied applications. 
@@ -130,11 +130,11 @@
 #global.paragraph(
   "Technology Development",
   [
-    Gernez et al. @EtienneGernez.2020 explore the current status of Augmented Reality technology, noting that it is still in the early stages of development. They suggest that AR could play a significant role in future maritime workspaces. Drawing a parallel with the evolution of mobile phones, they foresee an expansion in AR functionalities as technology progresses. This analogy is visually represented in @technology_development, where the current state of AR technology, exemplified by the Microsoft HoloLens, is compared to early mobile phones. They predict that, much like with mobile phones, the advancement of AR hardware will lead to a broader spectrum of applications and uses.
+    Gernez et al. @Gernez.2020 explore the current status of Augmented Reality technology, noting that it is still in the early stages of development. They suggest that AR could play a significant role in future maritime workspaces. Drawing a parallel with the evolution of mobile phones, they foresee an expansion in AR functionalities as technology progresses. This analogy is visually represented in @technology_development, where the current state of AR technology, exemplified by the Microsoft HoloLens, is compared to early mobile phones. They predict that, much like with mobile phones, the advancement of AR hardware will lead to a broader spectrum of applications and uses.
 
     #figure(
       image("/images/research/technology_development.png", width: 60%),
-      caption: [Technology development comparasion of mobile phones and AR displays by Gernez et al. @EtienneGernez.2020]
+      caption: [Technology development comparasion of mobile phones and AR displays by Gernez et al. @Gernez.2020]
     ) <technology_development>
   ]
 )
