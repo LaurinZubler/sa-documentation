@@ -60,7 +60,10 @@
 
     #figure(
       image("/images/scenarios/no_sail_zone.png", width: 90%),
-      caption: [Design sketch of the scenario "Sailing Course Assistant". Visualizing wind direction (blue line) and the "No Sailing Zones" (orange area).],
+      caption: [
+        Design sketch of the scenario "Sailing Course Assistant". Visualizing wind direction (blue line) and the "No Sailing Zones" (orange area).
+        #footnote("https://www.pinterest.at/pin/467811480044097262/")
+      ],
     )<scenario>
   ]
 )

@@ -25,13 +25,13 @@
   [Applications],
   [
     Augmented Reality is utilized across various domains.
-    - *Guidance*: In manual assembly, AR aids operators by providing instructions. _ @ar_applications (a)_ demonstrates how the physical reality is enhanced with information on task completion, without occupying the operators hands. Enabling the operator to focus on the manual task and optimizing cognitive resources. #footnote[https://www.press.bmwgroup.com/global/photo/detail/P90343106/Training-new-staff-is-supported-by-augmented-reality-glasses-and-virtual-assistance-at-the-assembly]
+    - *Guidance*: In manual assembly, AR aids operators by providing instructions. _ @ar_applications (a)_ demonstrates how the physical reality is enhanced with information on task completion, without occupying the operators hands. Enabling the operator to focus on the manual task and optimizing cognitive resources. 
 
-    - *Expand reality*: AR is employed to visualize non existent objects or concepts._ @ar_applications (b)_ illustrates how applications can virtually showcase furniture in a user's living space. This empowers individuals to envision how diverse pieces of furniture might appear in their rooms and interact seamlessly with their current environment. Users can experiment with different colors, styles, and arrangements, enhancing their ability to make informed decisions. #footnote[https://www.ikea.com/de/de/this-is-ikea/corporate-blog/ikea-place-app-augmented-reality-puba55c67c0]
+    - *Expand reality*: AR is employed to visualize non existent objects or concepts._ @ar_applications (b)_ illustrates how applications can virtually showcase furniture in a user's living space. This empowers individuals to envision how diverse pieces of furniture might appear in their rooms and interact seamlessly with their current environment. Users can experiment with different colors, styles, and arrangements, enhancing their ability to make informed decisions. 
 
-    - *Visualize the unseen*: AR unveils objects that would remain invisible under normal circumstances. Comparable to X-ray technology, this allows for a peek into objects._ @ar_applications (c)_ demonstrates how underground infrastructure is made visible. Such as water pipes, gas lines, or electrical conduits. #footnote[https://www.xyht.com/constructionbim/visualizing-hidden-infrastructure-in-3d/]
+    - *Visualize the unseen*: AR unveils objects that would remain invisible under normal circumstances. Comparable to X-ray technology, this allows for a peek into objects._ @ar_applications (c)_ demonstrates how underground infrastructure is made visible. Such as water pipes, gas lines, or electrical conduits. 
 
-    - *Visualize data*: AR transforms abstract numbers into tangible reality. In _ @ar_applications (d)_ computer network traffic is visualized, providing a dynamic and interactive representation. This enables users to gain a real-time understanding of complex data patterns, enhancing their ability to monitor and respond to changes efficiently. #footnote[https://imld.de/en/research/research-projects/ar-graph-vis/]
+    - *Visualize data*: AR transforms abstract numbers into tangible reality. In _ @ar_applications (d)_ computer network traffic is visualized, providing a dynamic and interactive representation. This enables users to gain a real-time understanding of complex data patterns, enhancing their ability to monitor and respond to changes efficiently. 
 
     #figure(
       grid(
@@ -46,7 +46,17 @@
           image("/images/research/ar_application_4_network.jpg"),
           [(_c_)], [(_d_)]
       ),
-      caption: "Augmented Reality applications (a) AR guidance during assembly (b) AR reality expansion with furniture (c) AR underground infrastructure visualization (d) AR network traffic visualization"
+      caption: [
+        Augmented Reality applications 
+        (a) AR guidance during assembly 
+        #footnote("https://www.press.bmwgroup.com/global/photo/detail/P90343106/Training-new-staff-is-supported-by-augmented-reality-glasses-and-virtual-assistance-at-the-assembly")
+        (b) AR reality expansion with furniture 
+        #footnote("https://www.ikea.com/de/de/this-is-ikea/corporate-blog/ikea-place-app-augmented-reality-puba55c67c0")
+        (c) AR underground infrastructure visualization
+        #footnote("https://www.xyht.com/constructionbim/visualizing-hidden-infrastructure-in-3d/")
+        (d) AR network traffic visualization
+        #footnote("https://imld.de/en/research/research-projects/ar-graph-vis/")
+      ]
     ) <ar_applications>
   ]
 )
@@ -57,10 +67,10 @@
     Augmented Reality is showcased on various devices.
     
     - *Optical see-through AR displays* display the digital content directly on a transparent glass into the user's field of vision. The physical reality is still visible though the glass.
-      - _Head-mounted displays (HMD)_ are worn on the head. Infomally often referred to as smartglasses. An example of an HMD is the Microsoft HoloLens, shown in _ @ar_hardware (a)_. #footnote[https://www.microsoft.com/en-us/industry/blog/manufacturing-and-mobility/2019/06/17/workforce-transformation-in-the-intelligent-manufacturing-era/]
+      - _Head-mounted displays (HMD)_ are worn on the head. Infomally often referred to as smartglasses. An example of an HMD is the Microsoft HoloLens, shown in _ @ar_hardware (a)_.
       - _Head-up displays (HUD)_ are mounted in front of the user. For example integrated in a cars windshield, as illustrated in _ @ar_hardware (b)_.
 
-    - *Video see-through AR displays* utilize a camera to capture the real world and insert digital content into the video. The camera and display can either be integrated into the same device, as seen on _ @ar_applications (b)_ with the smartphone app. Or camera and display are separate components. #footnote[https://www.gizmochina.com/2021/11/29/volvo-new-tech-car-windshields-ar-display/]
+    - *Video see-through AR displays* utilize a camera to capture the real world and insert digital content into the video. The camera and display can either be integrated into the same device, as seen on _ @ar_applications (b)_ with the smartphone app. Or camera and display are separate components. 
 
     #figure(
       grid(
@@ -72,7 +82,14 @@
           image("/images/research/ar_hardware_2_windshield.png"),
           [(_a_)], [(_b_)]
       ),
-      caption: "Augmented Reality hardware (a) HMD Microsoft HoloLens (b) HUD in a cars windshield"
+      caption: 
+      [
+        Augmented Reality hardware 
+        (a) HMD Microsoft HoloLens 
+        #footnote("https://www.microsoft.com/en-us/industry/blog/manufacturing-and-mobility/2019/06/17/workforce-transformation-in-the-intelligent-manufacturing-era/")
+        (b) HUD in a cars windshield
+        #footnote("https://www.gizmochina.com/2021/11/29/volvo-new-tech-car-windshields-ar-display/")
+      ]
     ) <ar_hardware>
   ]
 )

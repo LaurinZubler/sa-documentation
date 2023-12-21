@@ -57,11 +57,13 @@
   [Wind Sensor],
   [
     A wind sensor is reqired for the implementation of the scenario to meassure wind speed and direction. They are a common instrument on sail boats and are mostly installed on top of the mast. In @wind_sensor there can be seen a wind vane (left) that visually indicates the direction of the wind. And a wind sensor (right) that meassures the wind speed and diraction and can transmit the information digitally.
-    #footnote("https://www.cruisersforum.com/forums/f13/wind-vane-on-front-of-boat-230923.html")
 
     #figure(
       image("/images/architectur/wind_sensor.jpg", width: 50%),
-      caption: "Wind vane (left) and wind sensor (right) mounted on top of the mast of a sail boat"
+      caption: [
+        Wind vane (left) and wind sensor (right) mounted on top of the mast of a sail boat
+        #footnote("https://www.cruisersforum.com/forums/f13/wind-vane-on-front-of-boat-230923.html")
+      ]
     ) <wind_sensor>
   ]
 )

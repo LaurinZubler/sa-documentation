@@ -50,9 +50,9 @@
 
     #figure(
       image("/images/introduction/points_of_sail.png", width: 50%),
-      caption: [Points of sail with shaded 'no-sail zone'. A: Into the wind B: Close-hauled C: Beam reach D: Broad reach E: Downwind],
+      caption: [Points of sail with shaded 'no-sail zone'. A: Into the wind B: Close-hauled C: Beam reach D: Broad reach E: Downwind #footnote("https://en.wikipedia.org/wiki/Point_of_sail")],
     )<points-of-sail>
-    #footnote("https://en.wikipedia.org/wiki/Point_of_sail")
+    
   ]
 )
 
@@ -65,7 +65,7 @@
 
     #figure(
       image("/images/introduction/wind_censored.jpg", width: 40%),
-      caption: "Common sailing instrument. Displaying wind angel (red indicator) relativ to the boat (blue outline) and wind speed in knots",
+      caption: [Common sailing instrument. Displaying wind angel (red indicator) relativ to the boat (blue outline) and wind speed in knots #footnote("https://www.outbackmarine.com.au/garmin-gmi-20-marine-instrument")],
     )<instruments>
 
     Translating the abstract information provided by these instruments into practical application requires good spatial imagination and experience. The 2D representation of wind direction and speed on common instruments, can be challenging to interpret in a real-world, three-dimensional sailing context. Sailors must mentally visualize how the wind interacts with their sail and course, a skill that typically develops with practice and time. This could be simplified by Augmented Reality.
