@@ -65,11 +65,7 @@
   ]
 )
 
-== All Conceptual Scenarios
-
-#global.todo("worauf basieren die szenarien. mehr auf interview eingehen")
-#global.todo("laera und eigene szenarien trennen??")
-
+== Additional Developed Scenarios
 #global.paragraph(
   "Introduction",
   [

@@ -1,11 +1,26 @@
 = Appendix
 
-#let printFile(path) = {
-  align(center + horizon, rect( image(path, height: 88%)))
+#let printPage(path) = {
+  align(center + horizon, rect(image(path, height: 88%)))
 }
+
+#let printDocument(pages) = [
+  #for page in pages {
+    printPage(page)
+  }
+  #pagebreak()
+]
 
 #include "appendix/reflection.typ"
 #pagebreak()
+
+== Initial Project Definition
+#let filesProjectDefinition = (
+  "appendix/documents/project-definition/initial-project-definition-1.svg",
+  "appendix/documents/project-definition/initial-project-definition-2.svg",
+)
+
+#printDocument(filesProjectDefinition)
 
 == Meeting Minutes <meeting-minutes>
 #set heading(numbering: none, outlined: false)
@@ -35,16 +50,6 @@
 #set heading(numbering: "1.1", outlined: true)
 
 == Interview Transcripts
-
-#let transcript(header, files) = [
-  === #header
-  #for file in files {
-    printFile(file)
-  }
-  #pagebreak()
-]
-
-
 #let filesJuerg = (
   "appendix/interviews/juerg/Interview_Juerg-1.svg", 
   "appendix/interviews/juerg/Interview_Juerg-2.svg", 
@@ -84,20 +89,30 @@
   "appendix/interviews/stefan/Interview_Stefan-6.svg", 
 )
 
-#transcript("Jürg", filesJuerg)
-#transcript("Marco", filesMarco)
-#transcript("Zoe", filesZoe)
-#transcript("Dave", filesDave)
-#transcript("Stefan", filesStefan)
+=== Jürg
+#printDocument(filesJuerg)
+
+=== Marco
+#printDocument(filesMarco)
+
+=== Zoe
+#printDocument(filesZoe)
+
+=== Dave
+#printDocument(filesDave)
+
+=== Stefan
+#printDocument(filesStefan)
+
 
 == Signed Declarations and rights
 === Declaration of independence
-#printFile("appendix/documents/declaration-of-independence.png")
+#printPage("appendix/documents/declaration-of-independence.png")
 #pagebreak()
 
 === Declaration of Consent
-#printFile("appendix/documents/declaration-of-consent.png")
+#printPage("appendix/documents/declaration-of-consent.png")
 #pagebreak()
 
 === Copyright and Usage Rights
-#printFile("appendix/documents/copyright-usage-rights.png")
+#printPage("appendix/documents/copyright-usage-rights.png")

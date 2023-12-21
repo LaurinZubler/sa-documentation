@@ -1,0 +1,1487 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="595.32pt" height="841.92pt" viewBox="0 0 595.32 841.92">
+<defs>
+<clipPath id="clip_0">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_4">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_5">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_6">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_7">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_8">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_9">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_10">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_11">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_12">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_13">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_14">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_15">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_16">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_17">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_18">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_19">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_20">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_21">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_22">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_23">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_24">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_25">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_26">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_27">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_28">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_29">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_30">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_31">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_32">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_33">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_34">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_35">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_36">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_37">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_38">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_39">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_40">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_41">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_42">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_43">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_44">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_45">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_46">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_47">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_48">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_49">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_50">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_51">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_52">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_53">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_54">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_55">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_56">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_57">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_58">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_59">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_60">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_61">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_62">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_63">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_64">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_65">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_66">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_67">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_68">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_69">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_70">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_71">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_72">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_73">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_74">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_75">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_76">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_77">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_78">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_79">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_80">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_81">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_82">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_83">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_84">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_85">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_86">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_87">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_88">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_89">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_90">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_91">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_92">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_93">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_94">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_95">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_96">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_97">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_98">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_99">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_100">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_101">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_102">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_103">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_104">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_105">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_106">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_107">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_108">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_109">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_110">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_111">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_112">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_113">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_114">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_115">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_116">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_117">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_118">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_119">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_120">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_121">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_122">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_123">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_124">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_125">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_126">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_127">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_128">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_129">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_130">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_131">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_132">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_133">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_134">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_135">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_136">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_137">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_138">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_139">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_140">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_141">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_142">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_143">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_144">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_145">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_146">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_147">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_148">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_149">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_150">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_151">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_152">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_153">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_154">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_155">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_156">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_157">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_158">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_159">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_160">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_161">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_162">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_163">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_164">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_165">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_166">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_167">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_168">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_169">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_170">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_171">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_172">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_173">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_174">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_175">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_176">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_177">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_178">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_179">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_180">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_181">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_182">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_183">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_184">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_185">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_186">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_187">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_188">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_189">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_190">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_191">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_192">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_193">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_194">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_195">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_196">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_197">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_198">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_199">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_200">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_201">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_202">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_203">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_204">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_205">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_206">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_207">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_208">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_209">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_210">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_211">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_212">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_213">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_214">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_215">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_216">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_217">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_218">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_219">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_220">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_221">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_222">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_223">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_224">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_225">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_226">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_227">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_228">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_229">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_230">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_231">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_232">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_233">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_234">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_235">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_236">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_237">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_238">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_239">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_240">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_241">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_242">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_243">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_244">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_245">
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M.000008871 0H595.32V841.92H.000008871Z" fill-rule="evenodd"/>
+</clipPath>
+</defs>
+<g>
+<g clip-path="url(#clip_0)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="27.96" font-family="ArialMT"><tspan y="-744.82" x="70.824 88.94208 94.70184 109.8282 123.388797 138.51515 145.72882 159.28942 166.50308 179.95185 195.0782 210.20456 215.96433 234.08242 249.20877 264.3351 287.12254 302.10908 317.23545 324.56098 339.68736 354.6739 361.99943 381.6833 396.80967 411.7962 417.55598 423.2039 430.52943 444.09004 451.3037 464.86433 479.9907 488.74217">Einsatz von Augmented Reality zur </tspan></text>
+</g>
+<g clip-path="url(#clip_1)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="27.96" font-family="ArialMT"><tspan y="-712.54" x="70.824 88.46676 94.226528 107.787128 122.91348 137.90004 143.6598 149.41957 162.86833 168.6281 183.61466 192.36614 207.4925 222.61885 237.74521 244.9589 260.08525 275.07179 283.96305">Visualisierung der </tspan></text>
+</g>
+<g clip-path="url(#clip_2)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="27.96" font-family="ArialMT"><tspan y="-680.38" x="70.824 90.507839 113.295238 128.4216 143.54796 158.67432 173.80068 188.78723 203.91359 217.47418 232.46074 247.5871 262.71348 268.3614 283.48777 298.4743 313.60069 328.72703 343.71357 358.83995 373.96629 381.17997 396.3063 411.43266 417.08058 439.86799">Umgebungsbedingungen beim </tspan></text>
+</g>
+<g clip-path="url(#clip_3)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="27.96" font-family="ArialMT"><tspan y="-648.22" x="70.824 88.94208 104.068439 119.19479 134.32115 140.08092">Segeln</tspan></text>
+</g>
+<g clip-path="url(#clip_4)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="27.96" font-family="ArialMT"><tspan y="-648.22" x="155.06"> </tspan></text>
+</g>
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M70.824 611.86H209.564V630.22H70.824Z" fill="#faf9f8" fill-rule="evenodd"/>
+<g clip-path="url(#clip_5)">
+<text fill="#004b7a" xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="15.96" font-family="ArialMT"><tspan y="-615.22" x="70.824 81.469318 90.34308 94.77996 103.685649 107.27665 110.86765 114.45866 123.33242 127.7693 136.64307 141.07994 151.75719 160.63095 165.94564 173.92563 182.7994 191.67316 200.57884">Beteiligte Personen</tspan></text>
+</g>
+<g clip-path="url(#clip_6)">
+<text fill="#004b7a" xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="15.96" font-family="ArialMT"><tspan y="-615.22" x="209.57"> </tspan></text>
+</g>
+<g clip-path="url(#clip_7)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-style="italic"><tspan y="-599.98" x="70.824 78.73968 81.13536 87.2736 92.793598 98.89871 102.01199 109.33151 113.040958 119.17919 125.28431 127.67999 130.79328 133.90656 141.82224 144.21791 147.92736 153.92208 157.03536 162.55536 168.6936 172.27056 175.38384 181.52208 187.04209 192.41857 195.53185 198.64513 204.16513 210.30338">Diese Arbeit wird verfasst von</tspan></text>
+</g>
+<g clip-path="url(#clip_8)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-style="italic"><tspan y="-599.98" x="216.41"> </tspan></text>
+</g>
+<g clip-path="url(#clip_9)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-586.42" x="70.824 76.962238 83.06735 89.20559 92.88191 95.332798 101.42687 104.54015 111.28559 117.37967 123.51791 125.90255 132.04079">Laurin Zubler</tspan></text>
+</g>
+<g clip-path="url(#clip_10)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-586.42" x="135.74">;</tspan></text>
+</g>
+<g clip-path="url(#clip_11)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-586.42" x="138.74"> </tspan></text>
+</g>
+<g clip-path="url(#clip_12)">
+<text fill="#0065a3" xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-586.42" x="141.86 144.25568 150.39392 156.49904 160.20848 162.60416 168.7424 171.81153 177.33153 183.46977 189.60802 191.88227 198.02051 201.69683 212.90242 219.00754 224.52754 227.53043 230.6437 236.16371">laurin.zubler@ost.ch</tspan></text>
+</g>
+<g clip-path="url(#clip_13)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-586.42" x="242.21"> </tspan></text>
+</g>
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M141.86 584.38H242.2V585.22006H141.86Z" fill="#0065a3" fill-rule="evenodd"/>
+<g clip-path="url(#clip_14)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-style="italic"><tspan y="-564.67" x="70.824 78.14352 84.28175 87.350879 91.09344 97.231678 103.33679 109.47503 113.051998 116.165279 122.30351 124.688159 130.8264 136.3464 142.45153 146.05055 149.16384 156.48336 160.1928 166.33104 172.43616 174.83184 177.83472 180.948 183.34368 188.86368">Betreuer dieser Arbeit ist</tspan></text>
+</g>
+<g clip-path="url(#clip_15)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-style="italic"><tspan y="-564.67" x="191.93"> </tspan></text>
+</g>
+<g clip-path="url(#clip_16)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-551.11" x="70.824 78.14352 81.85296 87.991199 91.06032 94.09632 97.2096 105.12528 108.72433">Prof. Dr.</tspan></text>
+</g>
+<g clip-path="url(#clip_17)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-551.11" x="111.86">-</tspan></text>
+</g>
+<g clip-path="url(#clip_18)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-551.11" x="115.46 118.57328 124.71152 130.81664 133.81952 136.9328 143.67824 147.35456 149.80544 155.88848 162.02672 168.13184 171.73087 174.84415 180.98239 187.08751 192.48607 198.62432 201.69344">Ing. Frieder Loch; </tspan></text>
+</g>
+<g clip-path="url(#clip_19)">
+<text fill="#0065a3" xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-551.11" x="204.77 207.88329 211.59273 213.9884 220.12665 226.23177 232.37001 235.94696 239.06024 241.45592 247.59416 253.11417 259.2193 270.38075 276.51899 282.03898 285.01979 288.13307 293.65306">frieder.loch@ost.ch</tspan></text>
+</g>
+<g clip-path="url(#clip_20)">
+<text fill="#0065a3" xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-551.11" x="299.69"> </tspan></text>
+</g>
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M204.77 549.07H299.69V549.91006H204.77Z" fill="#0065a3" fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M70.824 517.39H226.604V535.87H70.824Z" fill="#faf9f8" fill-rule="evenodd"/>
+<g clip-path="url(#clip_21)">
+<text fill="#004b7a" xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="15.96" font-family="ArialMT"><tspan y="-520.75" x="70.824 81.469318 86.784 95.65776 104.531528 108.12253 116.99629 130.29097 139.16474 148.0385 156.11426 164.14214 173.0159 178.33058">Problembeschre</tspan></text>
+</g>
+<g clip-path="url(#clip_22)">
+<text fill="#004b7a" xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="15.96" font-family="ArialMT"><tspan y="-520.75" x="187.22">i</tspan></text>
+</g>
+<g clip-path="url(#clip_23)">
+<text fill="#004b7a" xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="15.96" font-family="ArialMT"><tspan y="-520.75" x="190.97">b</tspan></text>
+</g>
+<g clip-path="url(#clip_24)">
+<text fill="#004b7a" xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="15.96" font-family="ArialMT"><tspan y="-520.75" x="199.85 208.73001 217.61002">ung</tspan></text>
+</g>
+<g clip-path="url(#clip_25)">
+<text fill="#004b7a" xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="15.96" font-family="ArialMT"><tspan y="-520.75" x="226.61"> </tspan></text>
+</g>
+<g clip-path="url(#clip_26)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-505.51" x="70.824 78.14352 84.28175 90.38687 99.61631 105.75455 111.859668 114.972949 121.11118">Augmented</tspan></text>
+</g>
+<g clip-path="url(#clip_27)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-505.51" x="127.1"> </tspan></text>
+</g>
+<g clip-path="url(#clip_28)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-505.51" x="142.46 150.37569 156.51393 162.61905 165.01473 167.4104 170.52368">Reality</tspan></text>
+</g>
+<g clip-path="url(#clip_29)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-505.51" x="176.06"> </tspan></text>
+</g>
+<g clip-path="url(#clip_30)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-505.51" x="191.33 195.03945 202.35897 210.27465">(AR)</tspan></text>
+</g>
+<g clip-path="url(#clip_31)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-505.51" x="214.01"> </tspan></text>
+</g>
+<g clip-path="url(#clip_32)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-505.51" x="229.37 235.50824 237.89289 243.8876 247.00089 253.13913">bietet</tspan></text>
+</g>
+<g clip-path="url(#clip_33)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-505.51" x="256.13"> </tspan></text>
+</g>
+<g clip-path="url(#clip_34)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-505.51" x="271.49 277.00999 279.40565 285.54389 287.9285 291.04179 297.18003 299.56465 302.67793 305.07359 311.0683">vielf&#x00e4;ltige</tspan></text>
+</g>
+<g clip-path="url(#clip_35)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-505.51" x="317.21"> </tspan></text>
+</g>
+<g clip-path="url(#clip_36)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-505.51" x="332.59 341.81944 347.95768 354.0628 356.45848 358.85414 364.3741 370.51237 376.03236 382.13749 384.53315 387.64643 393.78468">M&#x00f6;glichkeiten</tspan></text>
+</g>
+<g clip-path="url(#clip_37)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-505.51" x="399.79"> </tspan></text>
+</g>
+<g clip-path="url(#clip_38)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-505.51" x="415.15 417.55">in</tspan></text>
+</g>
+<g clip-path="url(#clip_39)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-505.51" x="423.55"> </tspan></text>
+</g>
+<g clip-path="url(#clip_40)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-505.51" x="438.91 445.04826 451.15339 454.26667 460.26139 463.97084 469.4908 475.0108 481.14906 483.53367 489.6719 495.77705 498.1727 500.56837 506.08836 512.22659 518.33169">unterschiedlichen</tspan></text>
+</g>
+<g clip-path="url(#clip_41)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-505.51" x="524.5"> </tspan></text>
+</g>
+<g clip-path="url(#clip_42)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="70.824 78.14352 84.28175 92.18639 98.32463 104.42975 110.567989 116.6731 122.81134 128.91646 134.43647 140.5747 146.67983 150.38927 156.52751 158.91216 164.43216 170.5704 176.67552 182.81377">Anwendungsbereichen.</tspan></text>
+</g>
+<g clip-path="url(#clip_43)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="185.78"> </tspan></text>
+</g>
+<g clip-path="url(#clip_44)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="195.77 203.68999 206.08997">Die</tspan></text>
+</g>
+<g clip-path="url(#clip_45)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="212.21"> </tspan></text>
+</g>
+<g clip-path="url(#clip_46)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="222.17 228.91544 234.88808 240.40808 246.54633 252.65145 258.78968 261.1743 267.31254 273.41767 275.81333">Technologie</tspan></text>
+</g>
+<g clip-path="url(#clip_47)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="281.93"> </tspan></text>
+</g>
+<g clip-path="url(#clip_48)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="291.89 298.02827 301.60523 310.83467 316.9729 323.07804 325.4737 327.86936 333.38935 339.5276">erm&#x00f6;glicht</tspan></text>
+</g>
+<g clip-path="url(#clip_49)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="342.55"> </tspan></text>
+</g>
+<g clip-path="url(#clip_50)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="352.51 358.64826 364.16825">es,</tspan></text>
+</g>
+<g clip-path="url(#clip_51)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="367.15"> </tspan></text>
+</g>
+<g clip-path="url(#clip_52)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="377.11 383.24824 385.63285">die</tspan></text>
+</g>
+<g clip-path="url(#clip_53)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="391.63"> </tspan></text>
+</g>
+<g clip-path="url(#clip_54)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="401.59 409.50569 415.64393 421.74906 424.1447 426.54039 429.65367 435.7919">Realit&#x00e4;t</tspan></text>
+</g>
+<g clip-path="url(#clip_55)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="438.79"> </tspan></text>
+</g>
+<g clip-path="url(#clip_56)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="448.78 458.00944 460.4051">mit</tspan></text>
+</g>
+<g clip-path="url(#clip_57)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="463.42"> </tspan></text>
+</g>
+<g clip-path="url(#clip_58)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="473.26 476.96946 483.1077 485.4923 491.63056 497.15055 503.25569 509.39393 512.463 518.60128">relevanten</tspan></text>
+</g>
+<g clip-path="url(#clip_59)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-491.83" x="524.5"> </tspan></text>
+</g>
+<g clip-path="url(#clip_60)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="70.824 73.93728 80.075519 83.14464 89.17248 92.88192 102.11136 108.10608 111.21936 113.61504 119.75328 125.8584 131.99665">Informationen</tspan></text>
+</g>
+<g clip-path="url(#clip_61)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="138.14"> </tspan></text>
+</g>
+<g clip-path="url(#clip_62)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="141.98 147.5">zu</tspan></text>
+</g>
+<g clip-path="url(#clip_63)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="153.5"> </tspan></text>
+</g>
+<g clip-path="url(#clip_64)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="157.34 163.47824 169.58336 175.7216 179.39792 181.8488 187.82144 193.95969 200.0648 203.77425 209.91249">&#x00fc;berlagern.</tspan></text>
+</g>
+<g clip-path="url(#clip_65)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="212.93"> </tspan></text>
+</g>
+<g clip-path="url(#clip_66)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="216.77 224.08953 226.4852 232.62345 238.14345 244.24857 247.36185 252.7604 261.98985 268.12809 274.23323 276.62889 279.02455 284.54454 290.68278 296.20277 302.3079 304.70356 307.81684 313.95509">Einsatzm&#x00f6;glichkeiten</tspan></text>
+</g>
+<g clip-path="url(#clip_67)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="320.11"> </tspan></text>
+</g>
+<g clip-path="url(#clip_68)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="323.95 329.47 331.86567 338.0039">sind</tspan></text>
+</g>
+<g clip-path="url(#clip_69)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="344.11"> </tspan></text>
+</g>
+<g clip-path="url(#clip_70)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="347.95 353.47 359.46473">zum</tspan></text>
+</g>
+<g clip-path="url(#clip_71)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="368.71"> </tspan></text>
+</g>
+<g clip-path="url(#clip_72)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="372.55 379.8695 386.00776 388.39237 393.91236 400.0506 402.4352 408.57347">Beispiel</tspan></text>
+</g>
+<g clip-path="url(#clip_73)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="410.95"> </tspan></text>
+</g>
+<g clip-path="url(#clip_74)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="414.79 417.19">in</tspan></text>
+</g>
+<g clip-path="url(#clip_75)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="423.31"> </tspan></text>
+</g>
+<g clip-path="url(#clip_76)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="427.03 433.15003 439.27006">der</tspan></text>
+</g>
+<g clip-path="url(#clip_77)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="442.99"> </tspan></text>
+</g>
+<g clip-path="url(#clip_78)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="446.83 454.74568 460.8839 466.4039 468.7885 474.92677 481.0319 484.14518 486.54084 492.67909">Navigation</tspan></text>
+</g>
+<g clip-path="url(#clip_79)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="498.82"> </tspan></text>
+</g>
+<g clip-path="url(#clip_80)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="502.66 508.79826 514.9033 520.8981">oder</tspan></text>
+</g>
+<g clip-path="url(#clip_81)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-478.15" x="524.5"> </tspan></text>
+</g>
+<g clip-path="url(#clip_82)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="70.824 76.94404 83.06408">bei</tspan></text>
+</g>
+<g clip-path="url(#clip_83)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="85.464"> </tspan></text>
+</g>
+<g clip-path="url(#clip_84)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="88.944 95.06404 101.18408">der</tspan></text>
+</g>
+<g clip-path="url(#clip_85)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="104.9"> </tspan></text>
+</g>
+<g clip-path="url(#clip_86)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="108.38 115.69952 118.8128 124.951038 131.05615 137.05088 140.76032 146.89856 153.00368">Steuerung</tspan></text>
+</g>
+<g clip-path="url(#clip_87)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="159.14"> </tspan></text>
+</g>
+<g clip-path="url(#clip_88)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="162.62 168.14 174.27825">von</tspan></text>
+</g>
+<g clip-path="url(#clip_89)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="180.38"> </tspan></text>
+</g>
+<g clip-path="url(#clip_90)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="183.86 190.60544 192.8576 198.99585 205.10097 210.62097 216.75922 222.86434 229.00258 235.1077 241.24594">Flugzeugen.</tspan></text>
+</g>
+<g clip-path="url(#clip_91)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="244.37"> </tspan></text>
+</g>
+<g clip-path="url(#clip_92)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="247.85 255.16953 261.30778 266.82777">Auch</tspan></text>
+</g>
+<g clip-path="url(#clip_93)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="272.93"> </tspan></text>
+</g>
+<g clip-path="url(#clip_94)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="276.41 282.54826 288.53193">das</tspan></text>
+</g>
+<g clip-path="url(#clip_95)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="294.05"> </tspan></text>
+</g>
+<g clip-path="url(#clip_96)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="297.53 304.84953 310.84425 316.98249 323.08763 325.48329">Segeln</tspan></text>
+</g>
+<g clip-path="url(#clip_97)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="331.63"> </tspan></text>
+</g>
+<g clip-path="url(#clip_98)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="335.11 341.24824 343.63285 349.7711 352.8402 358.97846">bietet</tspan></text>
+</g>
+<g clip-path="url(#clip_99)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="362.11"> </tspan></text>
+</g>
+<g clip-path="url(#clip_100)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="365.59 371.72825 377.83338 383.97163 389.4916 395.59675 401.59147 405.3009">denkbare</tspan></text>
+</g>
+<g clip-path="url(#clip_101)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="411.43"> </tspan></text>
+</g>
+<g clip-path="url(#clip_102)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="414.91 422.22953 428.22425 436.13993 442.27818 448.3833 454.52156 460.62669 466.76493 472.87007 479.0083 485.11344">Anwendungen,</tspan></text>
+</g>
+<g clip-path="url(#clip_103)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="488.26"> </tspan></text>
+</g>
+<g clip-path="url(#clip_104)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="491.74 497.87825 500.26286">die</tspan></text>
+</g>
+<g clip-path="url(#clip_105)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="506.38"> </tspan></text>
+</g>
+<g clip-path="url(#clip_106)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="509.86 519.0895 521.48519">mit</tspan></text>
+</g>
+<g clip-path="url(#clip_107)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-464.47" x="524.5"> </tspan></text>
+</g>
+<g clip-path="url(#clip_108)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="70.824 78.143978">AR</tspan></text>
+</g>
+<g clip-path="url(#clip_109)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="86.064"> </tspan></text>
+</g>
+<g clip-path="url(#clip_110)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="90.024 96.16224 102.26736 105.38064 111.518878 115.09584 120.61584 123.72912 129.72383 132.83712 138.35712">unterst&#x00fc;tzt</tspan></text>
+</g>
+<g clip-path="url(#clip_111)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="141.38"> </tspan></text>
+</g>
+<g clip-path="url(#clip_112)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="145.34 153.25568 159.2504 162.95984 169.09809 175.2032">werden</tspan></text>
+</g>
+<g clip-path="url(#clip_113)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="181.34"> </tspan></text>
+</g>
+<g clip-path="url(#clip_114)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="185.18 190.57855 196.7168 202.82192 208.96016 215.06528 221.20352">k&#x00f6;nnen.</tspan></text>
+</g>
+<g clip-path="url(#clip_115)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="224.33"> </tspan></text>
+</g>
+<g clip-path="url(#clip_116)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="228.29 235.60997">So</tspan></text>
+</g>
+<g clip-path="url(#clip_117)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="241.61"> </tspan></text>
+</g>
+<g clip-path="url(#clip_118)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="245.57 251.09001 257.22825 263.33338">kann</tspan></text>
+</g>
+<g clip-path="url(#clip_119)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="269.33"> </tspan></text>
+</g>
+<g clip-path="url(#clip_120)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="273.29 279.42826 285.5334 287.92906 293.44905 299.58729 301.9719 308.11015 310.49476 316.01475 323.93043 330.06867 332.45329 337.97328">beispielsweise</tspan></text>
+</g>
+<g clip-path="url(#clip_121)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="344.11"> </tspan></text>
+</g>
+<g clip-path="url(#clip_122)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="348.07 354.20826 356.59288">die</tspan></text>
+</g>
+<g clip-path="url(#clip_123)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="362.71"> </tspan></text>
+</g>
+<g clip-path="url(#clip_124)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="366.55 376.97175 379.4226 385.50566 391.6439 395.32023 397.7711 403.29109 409.38517 412.49845 418.6367 424.74183">Windrichtung</tspan></text>
+</g>
+<g clip-path="url(#clip_125)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="430.75"> </tspan></text>
+</g>
+<g clip-path="url(#clip_126)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="434.71 440.83003 446.95005 453.07008">oder</tspan></text>
+</g>
+<g clip-path="url(#clip_127)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="456.7"> </tspan></text>
+</g>
+<g clip-path="url(#clip_128)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="460.66 466.79826 472.78193">der</tspan></text>
+</g>
+<g clip-path="url(#clip_129)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="476.5"> </tspan></text>
+</g>
+<g clip-path="url(#clip_130)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="480.46 487.7795 493.77424 497.48368">Kurs</tspan></text>
+</g>
+<g clip-path="url(#clip_131)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="502.9"> </tspan></text>
+</g>
+<g clip-path="url(#clip_132)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="506.86 512.98007 519.1001">des</tspan></text>
+</g>
+<g clip-path="url(#clip_133)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-450.91" x="524.5"> </tspan></text>
+</g>
+<g clip-path="url(#clip_134)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="70.824 78.14352 84.28175 90.38687 93.50015 99.63839">Bootes</tspan></text>
+</g>
+<g clip-path="url(#clip_135)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="105.14"> </tspan></text>
+</g>
+<g clip-path="url(#clip_136)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="113.3 119.43824 121.82288 127.96112 134.06624 140.20449 146.3096 148.70528 154.84352 160.94864 167.08689 173.192">eingeblendet</tspan></text>
+</g>
+<g clip-path="url(#clip_137)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="176.18"> </tspan></text>
+</g>
+<g clip-path="url(#clip_138)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="184.34 192.14528 198.28353 201.95984 208.09809 214.23633 220.37458">werden.</tspan></text>
+</g>
+<g clip-path="url(#clip_139)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="223.37"> </tspan></text>
+</g>
+<g clip-path="url(#clip_140)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="231.53 239.44568 241.84136 247.9796 253.4996">Diese</tspan></text>
+</g>
+<g clip-path="url(#clip_141)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="259.61"> </tspan></text>
+</g>
+<g clip-path="url(#clip_142)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="267.77 270.88328 276.878 279.99128 285.986 289.69544 298.92488 304.9196 308.03288 310.42854 316.56678 322.6719 328.81016">Informationen</tspan></text>
+</g>
+<g clip-path="url(#clip_143)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="334.99"> </tspan></text>
+</g>
+<g clip-path="url(#clip_144)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="343.15 348.66999 354.80824 360.91337 367.0516 373.15675">k&#x00f6;nnen</tspan></text>
+</g>
+<g clip-path="url(#clip_145)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="379.15"> </tspan></text>
+</g>
+<g clip-path="url(#clip_146)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="387.31 393.44825 395.83287">die</tspan></text>
+</g>
+<g clip-path="url(#clip_147)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="401.95"> </tspan></text>
+</g>
+<g clip-path="url(#clip_148)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="410.11 418.02568 424.1639 429.6839 432.0685 438.20677 444.3119 447.42518 449.82084 455.95909">Navigation</tspan></text>
+</g>
+<g clip-path="url(#clip_149)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="462.1"> </tspan></text>
+</g>
+<g clip-path="url(#clip_150)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="470.26 476.39826 480.0746 482.52546 488.61955 491.0152 496.5352 502.67344 505.74256 511.7704 515.47988 521.6181">erleichtern,</tspan></text>
+</g>
+<g clip-path="url(#clip_151)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-437.23" x="524.5"> </tspan></text>
+</g>
+<g clip-path="url(#clip_152)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-423.67" x="70.824 73.21968 79.35792 84.877918 90.98303 97.12127 102.641269 108.74638 114.88462 120.98974 127.127979 130.80429">insbesondere</tspan></text>
+</g>
+<g clip-path="url(#clip_153)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-423.67" x="136.94"> </tspan></text>
+</g>
+<g clip-path="url(#clip_154)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-423.67" x="139.94 143.06003">f&#x00fc;</tspan></text>
+</g>
+<g clip-path="url(#clip_155)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-423.67" x="149.18">r</tspan></text>
+</g>
+<g clip-path="url(#clip_156)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-423.67" x="152.78"> </tspan></text>
+</g>
+<g clip-path="url(#clip_157)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-423.67" x="155.9 163.21952 169.35776 175.46288 181.60112 183.98577 190.12401 196.22913 199.3424 205.48065 211.58577 217.72402 223.82913 227.42816">Segelanf&#x00e4;nger.</tspan></text>
+</g>
+<g clip-path="url(#clip_158)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-423.67" x="230.45"> </tspan></text>
+</g>
+<path transform="matrix(1,0,0,-1,0,841.92)" d="M70.824 389.93H346.634V408.434H70.824Z" fill="#faf9f8" fill-rule="evenodd"/>
+<g clip-path="url(#clip_159)">
+<text fill="#004b7a" xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="15.96" font-family="ArialMT"><tspan y="-393.29" x="70.824 80.57556 89.449329 94.700168 107.99484 116.86861 120.49153 124.082538 132.9563 138.27098 147.14475 156.11428 164.98804 169.42491 178.29868 181.90564 190.89113 199.7649 207.79277 212.22965 220.25753 229.13129 238.00505 246.04889 251.36357 260.23735 264.67424 273.54798 282.42173 286.8586 297.50395 306.3777 310.95823 315.3951 320.70979 329.58354 338.45729">Formulierung eines konkreten Auftrags</tspan></text>
+</g>
+<g clip-path="url(#clip_160)">
+<text fill="#004b7a" xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="15.96" font-family="ArialMT"><tspan y="-393.29" x="346.63"> </tspan></text>
+</g>
+<g clip-path="url(#clip_161)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-378.05" x="70.824 78.73968 81.13536 87.2736 90.34272 97.7064 101.38272 107.52096 113.659198 116.05488 119.16816 122.28144 127.80144 133.93968 136.32433 138.72 141.83329 147.97153 150.35617 156.49442 159.56354 162.70995 168.84819 171.23284 177.37108 183.4762 189.61444 195.71956 201.8578 207.96292 211.0762 218.39572 223.91573 230.05397 236.15909 241.6791 244.79238 250.93062 253.99974 260.13798 266.1548 269.86424 276.00248 281.52247 287.04246 289.42707 295.5653 299.24165 305.37989 311.38566 314.49894 317.6122 325.5279 331.66615 337.18614 343.29127 346.40455 353.72407 359.8623 365.3823 371.48744 375.19688 381.1916 386.71159 392.84983 398.95497 402.06825 407.58824 413.72648 419.8316 425.96986 428.95066 435.0889 441.19404 446.71403 452.85227 455.9214 458.37226 467.56858 470.70396 478.02348 484.1617 487.83805 490.2889 496.383 502.52125 505.50205 508.61534 514.75357 520.85867 524.33627">Die Arbeit soll die folgenden Aspekte adressieren. Nach Absprache kann auch im Verlauf der </tspan></text>
+</g>
+<g clip-path="url(#clip_162)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-364.49" x="70.824 78.14352 81.85296 87.991199 94.09631 96.492 99.60528 102.71856 108.238559 114.23328 123.462718 126.576 132.71424 138.69792 144.21793 149.73793 155.87618 159.55249 162.00337 168.09746 174.2357 180.34082 186.47907 192.46276 198.601 201.67012 209.0338 215.17205 218.24117 221.26613 224.97557 231.11382 237.0975 240.21079 246.34903 252.45415 258.59239 264.6975 272.6132 275.00886 280.52885 286.66709 292.77223 298.91047 301.97959 309.80696 315.9452 319.62153 325.75978 331.898 338.03627">Arbeit vom beschriebenen Auftrag abgewichen werden.</tspan></text>
+</g>
+<g clip-path="url(#clip_163)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-364.49" x="341.11"> </tspan></text>
+</g>
+<g clip-path="url(#clip_164)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-weight="bold"><tspan y="-342.77" x="88.824 94.94404">1.</tspan></text>
+</g>
+<g clip-path="url(#clip_165)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-weight="bold"><tspan y="-342.77" x="97.944"> </tspan></text>
+</g>
+<g clip-path="url(#clip_166)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-weight="bold"><tspan y="-342.77" x="106.82 113.56544 116.63456 120.36608 126.50432 130.79888 136.80464 140.51409 147.25952 151.55408 155.84864 161.87648 168.01473 174.716 180.85425 185.1488 191.28705 197.99936">Literaturrecherche</tspan></text>
+</g>
+<g clip-path="url(#clip_167)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-weight="bold"><tspan y="-342.77" x="204.17">.</tspan></text>
+</g>
+<g clip-path="url(#clip_168)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-342.77" x="207.17"> </tspan></text>
+</g>
+<g clip-path="url(#clip_169)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-342.77" x="214.25 221.56952 226.96808 234.03368 239.55368 245.69193 248.07657 250.47225 257.53785 263.6761 266.0607 272.19895 278.30409 285.24824 290.76823 293.7711 297.48054 303.61878 309.13877 312.2079 318.23573 321.94517 324.34083 330.47908 334.1554 337.29078 343.2855 350.3511 357.67063 363.80888 372.90583 382.13526 384.5309 390.66917 396.7743 402.91255 409.84568 415.36567">Es soll eine strukturierte Sammlung vo</tspan></text>
+</g>
+<g clip-path="url(#clip_170)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-342.77" x="421.63 427.76826 434.8228 442.14234 448.28059 456.1852 462.17994 468.31819 474.4233 480.56156 486.6667 492.80494 498.32493 501.39405 507.5323 509.95005 512.34579 518.484 524.4677">n Anwendungsf&#x00e4;llen </tspan></text>
+</g>
+<g clip-path="url(#clip_171)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-329.09" x="106.82 112.95824 116.63456 122.15456 125.28992 131.42816 133.8128 136.20848 139.32176 143.39553 151.3112 157.30593 161.01537 167.15361 173.25873 179.39698 182.37778 186.45154 192.58979 194.97443 201.11267 205.16436 214.3938 216.78948 219.79236 223.74468 231.0642 238.97988 243.05364 249.19188 255.297 258.41029 264.54853 268.22486 273.64549 276.75877 282.897 285.96614 291.3978 294.51109 298.58485 306.50053 312.49525 316.20469 322.34294 328.44807 334.5863 338.638 344.03657 350.1748 356.27995 362.41819 368.52333 374.66157">erstellt werden, die mit AR unterst&#x00fc;tzt werden k&#x00f6;nnen.</tspan></text>
+</g>
+<g clip-path="url(#clip_172)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-329.09" x="377.95"> </tspan></text>
+</g>
+<g clip-path="url(#clip_173)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-329.09" x="382.03 389.94569 392.34135 398.47959 403.99958 410.1047 414.17848 419.57704 422.6903 426.39976 432.538 437.91447 441.02775 447.166 450.84233 453.29319 459.38728 462.98634 465.9892 472.12745 476.17915 483.49867 489.6369 492.70603 495.1569 497.5415 503.0615 506.17478 512.313 518.4181 524.41287">Diese strukturierte Auflistung </tspan></text>
+</g>
+<g clip-path="url(#clip_174)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-315.41" x="106.82 112.34 118.47823 120.86288 123.25856 126.37184 132.51009 138.6152 144.75345 150.85857 153.25424 156.36753 162.50577 168.61089 171.00656 174.11985 180.25809 186.3632 189.47649 192.58977 199.90929 206.04753 213.95218 220.09043 226.07411 232.21236 238.31748 244.45572 250.56084 256.08085 259.19413 265.33238 267.71699 270.11265 276.2509 279.32 285.45826 291.5965 293.99217 303.2216 306.33488 313.6544 319.79264 325.89778 332.036 334.42063 340.55888 343.53968 349.05967 355.1979 358.26704 360.7179 366.82304 372.96128 379.0664 382.1797 384.57536 387.68864 390.0843 395.60429 397.99995 404.13819 407.8145 413.95277 419.95854 423.0718 429.21006 435.3152 441.45344 444.52256 450.04255 456.07038 459.18367 464.5822 467.6955 471.40495 477.54319 482.91966 486.03294 492.17118 495.8475 498.29838 504.39247 508.1019 514.2401 520.2238">soll dabei helfen, Anwendungsf&#x00e4;lle beim Segeln zu identifizieren und zu strukturieren.</tspan></text>
+</g>
+<g clip-path="url(#clip_175)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-weight="bold"><tspan y="-315.41" x="523.42"> </tspan></text>
+</g>
+<g clip-path="url(#clip_176)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-weight="bold"><tspan y="-301.85" x="88.824 94.94404">2.</tspan></text>
+</g>
+<g clip-path="url(#clip_177)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-weight="bold"><tspan y="-301.85" x="97.944"> </tspan></text>
+</g>
+<g clip-path="url(#clip_178)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-weight="bold"><tspan y="-301.85" x="106.82 114.13952 120.277759 124.57232 131.31777 134.38689 140.52513 143.64946 149.7877 156.48899 160.07698 166.82242 172.79506 177.08962 180.5893 187.42305 193.5613 199.66641 206.41185 213.10208 219.84752 222.91664 229.54064 236.28607 239.3552 245.49344 252.23888">Vergleich der Technologien.</tspan></text>
+</g>
+<g clip-path="url(#clip_179)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-301.85" x="255.41"> </tspan></text>
+</g>
+<g clip-path="url(#clip_180)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-301.85" x="259.01 266.9257 269.32136 275.4596 279.0255 281.42118 287.55943 293.66456 299.8028 302.87193 305.32279 308.3919 310.84278 316.36277 318.74739 324.88563 328.4626 331.57588 337.7141 343.81925 347.2858 354.60533 360.74357 368.6482 374.78645 380.89158 387.02983 393.13496 399.2732 405.37834 410.89833 414.0116 420.14985 422.53446 424.9301 431.06837">Die identifizierten Anwendungsf&#x00e4;lle </tspan></text>
+</g>
+<g clip-path="url(#clip_181)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-301.85" x="434.71 440.22999 446.36824 448.75285 451.1485 457.28675 463.39189 467.10133 476.33076 478.7264 481.8397 487.97795 490.36256 496.5008 502.60594 508.74418 514.84927 520.9875 524.45407">sollen miteinander </tspan></text>
+</g>
+<g clip-path="url(#clip_182)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-288.17" x="106.82 112.34 118.47823 122.15456 128.2928 130.69953 133.0952 138.6152 144.75345 150.85857 156.99681 159.5029 167.41858 173.55683 177.23314 183.37139 189.50963 195.64788 198.717 201.2562 207.25092 216.48036 218.99748 224.39604 230.53429 233.04038 239.17862 245.28374 250.80374 253.91703 256.31269 265.43174 274.66117 280.7994 286.90455 290.01783 292.53495 300.45063 306.58888 308.97349 314.49348 320.6317 326.73686 330.4463 332.9634 340.28294 346.27766 354.19334 360.33158 366.4367 372.57496 378.68009 384.81834 390.92347 396.44346 399.55674 405.69499 408.0796 410.47526 412.99238 419.1306 428.32695 434.46519 440.60343 446.1234 452.26167 455.33079 460.7514 463.8647 466.26039 474.17607 480.3143 483.99064 490.12889 496.26713 502.40538 504.90043 510.4204 516.55868 518.9433 521.339">verglichen werden, um zu bestimmen, welcher Anwendungsfall umgesetzt werden soll.</tspan></text>
+</g>
+<g clip-path="url(#clip_183)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-288.17" x="524.5"> </tspan></text>
+</g>
+<g clip-path="url(#clip_184)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-274.49" x="106.82 114.73568 117.13136 123.2696 126.94592 130.08129 136.21953 139.89585 142.9208 148.44081 154.57906 156.9637 159.35938 162.47266 168.6109 170.99555 177.13379 180.20291 189.46547 195.46019 198.57347 204.71172 210.81684 216.95508 219.33972 224.73828 230.25829 236.39653 242.50165 248.02165 251.13494 258.45448 264.5927 268.26905 274.4073 280.54554 286.68379 292.77787 298.77259 301.88587 308.0241 314.12925 317.24253 325.1582 327.55387 333.07386 338.59385 344.7321 346.99528 350.10856 353.22184 361.1375 367.27577 370.9521 377.09034 383.22859 389.21226">Hierf&#x00fc;r soll ein methodisches Vorgehen entwickelt werden.</tspan></text>
+</g>
+<g clip-path="url(#clip_185)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-weight="bold"><tspan y="-274.49" x="392.35"> </tspan></text>
+</g>
+<g clip-path="url(#clip_186)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-260.81" x="88.824 94.94404">3.</tspan></text>
+</g>
+<g clip-path="url(#clip_187)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-260.81" x="97.944"> </tspan></text>
+</g>
+<g clip-path="url(#clip_188)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-weight="bold"><tspan y="-260.81" x="106.82 116.04944 122.187679 128.88896 135.0272 141.13233">Mensch</tspan></text>
+</g>
+<g clip-path="url(#clip_189)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-weight="bold"><tspan y="-260.81" x="147.86">-</tspan></text>
+</g>
+<g clip-path="url(#clip_190)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-weight="bold"><tspan y="-260.81" x="151.58 157.1 163.23825 169.81809 173.52753 177.72272 180.836 186.97425 191.2688 194.98928 200.984 209.72768 217.75377 224.35569 230.49393 233.56305 239.7013 245.83954 251.97779">zentrierte Analyse.</tspan></text>
+</g>
+<g clip-path="url(#clip_191)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-260.81" x="255.17"> </tspan></text>
+</g>
+<g clip-path="url(#clip_192)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-260.81" x="263.93 271.84568 277.8404 281.54985 287.06983 293.20808 301.9407 308.07896 310.46357 316.6018 322.70695 331.45063 340.68006 346.67478 352.81303 358.333 363.853 369.95814 375.47813 381.61637 387.7215 390.72438 394.4338 396.82948 402.9677 406.64405 409.77943 415.91767 424.6503 431.96983 438.10807 444.2132 446.60887 452.12886 457.64884 463.64356 472.38725 477.90724 484.04548 486.43009 488.82575 494.964 501.06913 509.8128 515.95108 518.3357 524.33047">Durch eine menschzentrierte Analyse sollen die </tspan></text>
+</g>
+<g clip-path="url(#clip_193)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-247.25" x="106.82 114.13952 120.277759 126.38287 132.52112 136.19744 139.3328 145.47104 147.85569 153.37569 158.89569 165.03394 168.24658 174.38483 180.36852 184.07796 187.30164 192.82164 198.95989 202.6362 208.05684 213.57685 219.71509 222.09973 228.23798 234.3431 240.48134 246.58646 252.7247 258.82984 262.05354 269.9692 276.10746 279.17658 284.69657 290.8348 294.5553 300.55003 304.25947 310.3977 316.50285 322.64109 328.74623 334.88447">Bed&#x00fc;rfnisse der verschiedenen Nutzergruppen </tspan></text>
+</g>
+<g clip-path="url(#clip_194)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-247.25" x="338.23 341.3433 347.338 350.93708 354.16078 360.299 366.40415 372.5424 375.75505 381.89329 387.9984 393.5184 399.65666 405.76179 413.67747 419.8157 425.92085 428.3165 431.42979 437.56803 443.67317 446.89686 454.21638 460.3546 468.25926 474.3975 480.50263 486.64088 492.746 498.88426 504.98939 510.50938 513.6227 519.7609 522.14559 524.43087">f&#x00fc;r den ausgew&#x00e4;hlten Anwendungsfall </tspan></text>
+</g>
+<g clip-path="url(#clip_195)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-233.57" x="106.82 112.95824 116.63456 119.76992 125.90816 131.42816 136.80464 139.80753 144.23458 150.37282 156.47794 162.47266 166.8997 172.41971 178.55796 182.23427 187.6549 190.76819 196.90644 203.01155 209.1498 215.25492 221.24964 225.55524 233.47092 239.60916 243.28548 249.42372 255.56197 261.7002 264.66996 269.097 277.01268 283.1509 286.82725 292.96549 298.97126 302.08454 306.51158 312.6498 318.63349 321.74678 327.885 333.99015 340.1284 346.11207 352.2503 358.35545 362.78248 368.30247 374.4407 376.82533 379.22099 383.648 389.78627 395.76994 399.47938 403.78498 409.30497 415.4432 421.54835 427.06834 430.77778 436.7725 439.88578 445.8805 450.30754 456.44578 462.5509 467.94947 474.0877 480.19285 486.3311 491.85108 497.9562 504.09446 509.61445 515.71957 518.8328 524.2314">erfasst und verstanden werden. Darauf aufbauend soll der konkrete L&#x00f6;sungsansatz </tspan></text>
+</g>
+<g clip-path="url(#clip_196)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-219.86" x="106.82 112.95824 119.063358 122.176639 130.09232 132.48799 138.008 143.528 149.66625 152.05089 155.16417 158.27745 166.19313 172.33138 176.00769 182.14594 188.28418 194.26787">entwickelt werden.</tspan></text>
+</g>
+<g clip-path="url(#clip_197)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-219.86" x="197.33"> </tspan></text>
+</g>
+<g clip-path="url(#clip_198)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-206.18" x="88.824 94.94404">4.</tspan></text>
+</g>
+<g clip-path="url(#clip_199)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-206.18" x="97.944"> </tspan></text>
+</g>
+<g clip-path="url(#clip_200)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-weight="bold"><tspan y="-206.18" x="106.82 114.13952 120.88496 124.56128 133.0952 136.20848 142.34673 148.45185 151.56513 158.31056 165.0008 171.6027 181.42832 187.56656 190.63568 197.38112 203.51937 209.50305 219.32866 225.93058 232.67601 238.7701 245.51554 252.20577 258.9512 265.0453 271.18354 277.88484 284.02308">Entwicklung eines L&#x00f6;sungsansa</tspan></text>
+</g>
+<g clip-path="url(#clip_201)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-weight="bold"><tspan y="-206.18" x="290.21 293.91944 299.43943 305.57768 311.6828">tzes.</tspan></text>
+</g>
+<g clip-path="url(#clip_202)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-206.18" x="314.69"> </tspan></text>
+</g>
+<g clip-path="url(#clip_203)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-206.18" x="324.55 332.46568 338.6039 342.18089 352.00648 354.40214 360.54039 366.6455 372.78376 375.85289 378.30375 381.37287 383.82374 389.34373 391.72834 397.86659 401.5429 404.67829 410.673 420.4986 426.63685 432.74198 438.26197 444.4002 450.50535 456.6436 462.02006 468.1583 474.26344 479.78343 485.92167 488.99079 494.51078 504.3695 512.2852 514.6809 518.3904 524.38516">Der identifizierte L&#x00f6;sungsansatz wird </tspan></text>
+</g>
+<g clip-path="url(#clip_204)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-192.62" x="106.82 112.95824 119.063358 122.176639 130.09232 132.48799 138.008 143.528 149.66625 152.05089 155.16417 157.80274 163.94098 170.0461 176.04082 178.67938 181.07506 184.18834 190.32659 193.90354 200.04178 203.1109 205.56179 211.08179 213.58788 219.10788 225.24613 228.82308 231.93636 238.0746 240.45925 246.59749 252.7026 256.41206">entwickelt und iterativ verfeinert</tspan></text>
+</g>
+<g clip-path="url(#clip_205)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-192.62" x="259.49"> </tspan></text>
+</g>
+<g clip-path="url(#clip_206)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-192.62" x="262.13 265.72908 271.24906 274.36235 281.68186 284.68473">(z.B. </tspan></text>
+</g>
+<g clip-path="url(#clip_207)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-192.62" x="287.21 296.43943 298.83509 301.83796 304.4765 312.39219 314.78785 317.1835 320.29679">mit Hilfe</tspan></text>
+</g>
+<g clip-path="url(#clip_208)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-192.62" x="326.47"> </tspan></text>
+</g>
+<g clip-path="url(#clip_209)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-192.62" x="329.11 334.62998 340.76823 346.7519 349.269 356.01448 358.38807 364.5263 373.72264">von Figma</tspan></text>
+</g>
+<g clip-path="url(#clip_210)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-192.62" x="379.87">-</tspan></text>
+</g>
+<g clip-path="url(#clip_211)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-192.62" x="383.59 390.90953 394.61897 400.61369 403.72697 409.8652 412.93434 418.4543 424.59257 430.7308 436.72554">Prototypen)</tspan></text>
+</g>
+<g clip-path="url(#clip_212)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-192.62" x="440.47 443.47004">. </tspan></text>
+</g>
+<g clip-path="url(#clip_213)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-192.62" x="446.11 454.02568 456.42134 462.55958 466.13655 469.1394 475.27766 478.95399 481.61463 487.1346 493.27287 495.65748 498.05314 500.69169 506.82994 512.935 518.455 524.44979">Hierf&#x00fc;r soll nach </tspan></text>
+</g>
+<g clip-path="url(#clip_214)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-178.94" x="106.82 116.04944 122.187679 128.29279 130.68846 133.08414 138.60414 144.74239 150.26239 156.36751 158.76319 161.87647 164.98975 171.73519 177.82927 183.96752 190.07263 196.21088 202.316 207.836 213.23456">M&#x00f6;glichkeit Feedback </tspan></text>
+</g>
+<g clip-path="url(#clip_215)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-178.94" x="216.41 222.54825 228.53194 231.64522 237.78347 243.88858 249.40859 251.80426 257.9425 260.32713 262.72279 268.86103 272.53736 275.67274 283.5884 289.72666 292.79579 298.31578 304.3436 308.05305 311.16633 313.56199 319.70024 325.80537 331.9436 338.04875">potenzieller Nutzer:innen </tspan></text>
+</g>
+<g clip-path="url(#clip_216)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-178.94" x="341.23 347.36827 349.63145 355.76969 361.87483 368.01307 373.53306 379.63819 385.77644 391.88157 398.0198 401.08894 409.0598 415.16496 418.8744 425.01264 431.11778">einbezogen werden</tspan></text>
+</g>
+<g clip-path="url(#clip_217)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-178.94" x="437.11">.</tspan></text>
+</g>
+<g clip-path="url(#clip_218)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-178.94" x="440.11"> </tspan></text>
+</g>
+<g clip-path="url(#clip_219)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-165.26" x="88.824 94.94404">5.</tspan></text>
+</g>
+<g clip-path="url(#clip_220)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-165.26" x="97.944"> </tspan></text>
+</g>
+<g clip-path="url(#clip_221)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-weight="bold"><tspan y="-165.26" x="106.82 114.13952 118.43408 125.17952 128.88896 135.6344 139.31072 145.44896 152.05088 155.16416 161.3024 167.40752 174.15296 180.24704 185.28128 188.39456 198.20912 204.83312 207.9464 214.08464 223.7888 229.92705 236.62833 240.33777 243.45105 249.5893 253.88385 260.6293 267.3306 273.93254 279.07719 285.82264 292.51289 299.25834 304.3809 311.7004 317.83866 323.82234 326.9356 333.68107 339.77516 343.3742 346.37709 353.12254 359.81278">Prototypische Implementierung und Evaluation.</tspan></text>
+</g>
+<g clip-path="url(#clip_222)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-165.26" x="363.07"> </tspan></text>
+</g>
+<g clip-path="url(#clip_223)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-165.26" x="368.23 376.1457 382.28395 385.8609 391.00556 397.1438 403.24894 406.3622">Der entw</tspan></text>
+</g>
+<g clip-path="url(#clip_224)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-165.26" x="414.31 416.70567 422.22566 427.74565 433.88389 436.2685 439.38179 445.3765 450.52116 456.6594 462.76454 468.1631 474.30134 480.40647 486.5447 492.0647 498.16984 504.30809 509.82807 515.93319 519.04647 524.445">ickelte L&#x00f6;sungsansatz </tspan></text>
+</g>
+<g clip-path="url(#clip_225)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-151.58" x="106.82 114.73568 117.13136 120.840808 126.97904">wird </tspan></text>
+</g>
+<g clip-path="url(#clip_226)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-151.58" x="137.66 143.79825 147.47457 153.61281 156.72609 162.72081 165.83409 171.3541 177.49234 179.87699 185.39699 190.91699 197.05524">prototypisch </tspan></text>
+</g>
+<g clip-path="url(#clip_227)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-151.58" x="207.77 210.16568 219.39513 225.53337 227.79657 233.93482 243.13114 249.26938 255.40763 258.50987 260.90553 267.04377 270.62074 273.734 276.73689">implementiert. </tspan></text>
+</g>
+<g clip-path="url(#clip_228)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-151.58" x="287.45 294.76954 297.1652 303.30345 309.40858 320.0732 326.21147 335.40779 341.54603 343.95274 347.66218 349.94746 355.46745 360.98744 367.12568 373.2308 383.89546 391.21498 396.73497 402.8732 405.2578 411.39607 417.5012 420.61448 423.01014 429.14839 435.2535 445.91816 452.0564 458.16154 463.5601 474.22474 480.36299 486.4681 494.3838 500.52204 506.62718 509.02284 512.1361 518.27438 524.37948">Eine empirische Evaluation des gew&#x00e4;hlten </tspan></text>
+</g>
+<g clip-path="url(#clip_229)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-138.02" x="106.82 112.95824 119.063358 124.58335 130.72159 136.8267 142.96495 148.48496 154.59008 160.72832 166.24832 172.35344 175.46672 180.98673 187.12497 192.50145 195.61473 203.53041 205.92609 209.63553 215.77378">L&#x00f6;sungsansatzes wird </tspan></text>
+</g>
+<g clip-path="url(#clip_230)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-138.02" x="218.93 224.92472 231.06296 236.58296 242.68808 245.80136 255.0308 261.16905 267.27418 269.66984 272.0655 277.58549 283.72373 289.2437 295.34886 297.7445 300.74739">nach M&#x00f6;glichkeit </tspan></text>
+</g>
+<g clip-path="url(#clip_231)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-138.02" x="303.89 310.02827 316.1334 319.84284 325.36283 331.50108 337.6062 343.60093 346.6038 352.74205 358.84718 362.5566 365.55949">durchgef&#x00fc;hrt.</tspan></text>
+</g>
+<g clip-path="url(#clip_232)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-138.02" x="368.59"> </tspan></text>
+</g>
+<g clip-path="url(#clip_233)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-124.34" x="88.824 94.94404">6.</tspan></text>
+</g>
+<g clip-path="url(#clip_234)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-124.34" x="97.944"> </tspan></text>
+</g>
+<g clip-path="url(#clip_235)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="Arial" font-weight="bold"><tspan y="-124.34" x="106.82 114.73568 119.03024 122.1656 125.76465 128.87793 135.01618 141.12129 147.86673 153.96082 164.86833 172.78401 178.77873 182.48818 185.60146 191.7397 197.72339 201.43283 204.54611 211.29155 217.87139">Kritische Reflektion.</tspan></text>
+</g>
+<g clip-path="url(#clip_236)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-124.34" x="220.97"> </tspan></text>
+</g>
+<g clip-path="url(#clip_237)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-124.34" x="231.89 239.80568 245.94393 249.52088 260.4284 266.56666 272.67179 280.58747 286.7257 292.83085 295.2265 298.33979 304.47804 315.36347 321.5017 327.48539 333.00538 339.0001 345.13835 351.24348 356.76347 362.9017 369.00685 374.52684 380.66508 383.7342 389.16587 400.0734 407.98908 410.38475 414.09419 420.23243 431.00749 436.52748 440.2369 442.63258 445.74586 448.1415 453.6615 459.06007 465.1983 476.08375 479.79319 485.7879 488.90119 491.29685 497.4351 502.95509 506.0242 508.47508 514.58016 518.1792 521.2925 524.29537">Der gew&#x00e4;hlte L&#x00f6;sungsansatz wird kritisch reflektiert. </tspan></text>
+</g>
+<g clip-path="url(#clip_238)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-110.78" x="106.82 116.04944 122.187679 128.29279 130.68846 133.08414 138.60414 144.74239 150.26239 156.36751 158.76319 161.87647 168.01471 174.11983 176.75839 182.2784 188.27312 191.98256">M&#x00f6;glichkeiten zur </tspan></text>
+</g>
+<g clip-path="url(#clip_239)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-110.78" x="194.69 197.08568 200.19896 206.19368 209.90312 216.04137 219.11049 221.56137 226.93785 233.0761">iterativen</tspan></text>
+</g>
+<g clip-path="url(#clip_240)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-110.78" x="239.21"> </tspan></text>
+</g>
+<g clip-path="url(#clip_241)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-110.78" x="241.85 249.16953 255.30777">Ver</tspan></text>
+</g>
+<g clip-path="url(#clip_242)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-110.78" x="259.01 265.14826 271.2534 276.77339 282.29338 288.2881 291.99754 298.13578 304.2409 310.37916 312.99565 315.3913 321.52955 324.14604 329.66603 335.80427 341.32426 347.30793 353.44618 356.5153 359.66169 362.05735 368.1956 374.30073 380.43898 383.05546 390.37498 394.0844 400.07914 402.5852 408.72346 414.0999 417.2132 423.35145 429.45658">besserung in zuk&#x00fc;nftigen Projekten </tspan></text>
+</g>
+<g clip-path="url(#clip_243)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-110.78" x="432.19 440.10569 446.1004 449.80986 455.9481 462.05323 468.04795">werden </tspan></text>
+</g>
+<g clip-path="url(#clip_244)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-110.78" x="470.74 476.87825 482.98338 486.09666 492.2349 498.34004 503.86003 509.99827 512.38296 518.5212 521.50198">aufgezeigt.</tspan></text>
+</g>
+<g clip-path="url(#clip_245)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 841.92)" font-size="11.04" font-family="ArialMT"><tspan y="-110.78" x="524.5"> </tspan></text>
+</g>
+</g>
+</svg>
