@@ -43,7 +43,8 @@
 
 #let row(title, content) = {
   grid(
-    columns: (1fr, 6fr),
+    columns: (1fr, 4fr),
+    column-gutter: gap,
     [#title:], content,
   )
 }

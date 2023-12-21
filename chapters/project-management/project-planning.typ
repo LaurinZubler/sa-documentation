@@ -1,4 +1,5 @@
 #import "/utils/global.typ" as global
+#import "/utils/document-version.typ": *
 
 == Project Planning
 #global.paragraph(
@@ -137,28 +138,40 @@
   ]
 )
 
+// #let milestone(short, title, due, criteria, end, refl) = {
+//   global.paragraph(
+//     short,
+//     [
+//       #block(
+//         width: 90%,
+//         global.table(
+//           columns: (auto, 1fr),
+//           align: start,
+//           [
+//             | *Milestone:*         | *#title*  |
+//             | Due date:            | #due      |
+//             | -------------------- | --------- |
+//             | Acceptance Criteria: | #criteria |
+//             | Actual achieved:     | #end      |
+//             | Reflection:          | #refl     |
+//           ]
+//         )
+//       )
+//     ]
+//   )
+//   v(global.gap)
+// }
+
 #let milestone(short, title, due, criteria, end, refl) = {
   global.paragraph(
-    short,
+    [#short: #title],
     [
-      #block(
-        width: 90%,
-        global.table(
-          columns: (auto, 1fr),
-          align: start,
-          [
-            | *Milestone:*         | *#title*  |
-            | -------------------- | --------- |
-            | Due date:            | #due      |
-            | Acceptance Criteria: | #criteria |
-            | Actual achieved:     | #end      |
-            | Reflection:          | #refl     |
-          ]
-        )
-      )
+      #global.row("Due date", due)
+      #global.row("Acceptance Criterias", criteria)
+      #global.row("Actual achieved", end)
+      #global.row("Reflection", refl)
     ]
   )
-  v(global.gap)
 }
 
 #milestone(
@@ -245,6 +258,23 @@
   "At the time of writing this, I hope to reach this milestone. If not, I think I have more to worry about than this text. Therefore, milstone exceedingly well fulfilled"
 )
 
+#milestone(
+  "M7", 
+  "End of Architecture",
+  "28.11.2023",
+  [
+    - Technical feasability for one scenario is discussed
+    - What data is needed for the implementation of the scenario
+    - What hardware components are needed for the implementation of the scenario
+    - Who does the communication between the components work
+  ],
+  "28.11.2023",
+  [
+    This mileston was new introduced after the reorganization of the project phases marking the end of the architecture phase.
+    The acceptance critearias were mostly fullfield at the time of the due date. Missing were some parts in the documentation. As the next phase was dedicated to the writing of the documentation, there were no concerns to start with the project completion phase.
+  ],
+)
+
 === Scrum Elements
 #global.paragraph(
   "Introduction",
@@ -306,60 +336,118 @@
 
 
 === Time Tracking
-The worked time is recored on the ticket in order to obtain a precise evaluation of what was worked on and for how long.
-- todo: at end of project. add report. appendx?
-- total hours. break down to weeks
+#global.paragraph(
+  "Time Expenditure",
+  [
+    This thesis is worth 8 ects credits, each credit is valued with 30 hours of work. This results in a total workload of 240 hours. Distributed over the 14 weeks of the semester a working time of approximately 17 hours or 2 days is targeted.
+  ]
+)
+#global.paragraph(
+  "Tracking",
+  [
+    To ensure that sufficient effort was put into this thesis, hours worked were recorded throughout the semester. In total, 220 hours were dedicated to the project. This falls within a 10% range of the total 240 hours required, which is an acceptable margin.
+    #global.todo("zahlne anpassen")
+
+    #if document-version == "full" [
+      A detailed time tracking report can be found in the appendix.
+    ]
+  ]
+)
 
 === Sprints
-- todo: im appendix?
-#let sprint(start, end, time_estimate, time_spend, goal, increments, retro) = {
-    global.paragraph("Start date", start)
-    global.paragraph("End date", end)
-    global.paragraph("Time estimate", time_estimate)
-    global.paragraph("Time spend", time_spend)
-    global.paragraph("Sprint goal", goal)
-    global.paragraph("Sprint increments", increments)
-    global.paragraph("Retrospective", retro)
+#let sprint(name, start, end, time_estimate, time_spend, goal, increments, retro) = {
+    global.paragraph(
+      name,
+      {
+        global.row("Start date", start)
+        global.row("End date", end)
+        global.row("Time estimate", time_estimate)
+        global.row("Time spend", time_spend)
+        global.row("Sprint goal", goal)
+        global.row("Sprint increments", increments)
+        global.row("Retrospective", retro)
+      }
+    )
 }
 
-- todo: tabellle .... :¬|
-==== Sprint 1
+#global.todo("images sprint start and end")
+
 #sprint(
-    "18.09.2023",
-    "03.10.2023",
-    "1 week 1 day or 23.5 hours",
-    "25 hours (todo update)",
-    "Complete project setup (Milestone 1)",
-    "Project management tools. Project documentation document with chapters project plan, quality assurance and risk management.",
-    "todo: retro"
+  "Sprint 1",
+  "18.09.2023",
+  "03.10.2023",
+  "1 week 1 day or 23.5 hours",
+  "25 hours (todo update)",
+  "Complete project setup (Milestone 1)",
+  "Project management tools. Project documentation document with chapters project plan, quality assurance and risk management.",
+  "todo: retro"
 )
-- todo: image tasks begin
-- todo: image tasks ende
 - retro: zeitschätzung für doku zu gering. aufsetzen typst mehr zeit. schreiben auch mehr zeit, da zuerste überlegen wie und was genau. 
 
-==== Sprint 2
 #sprint(
-    "03.10.2023",
-    "17.10.2023",
-    "2 weeks 6 hours or 38 hours",
-    "-",
-    "Interviews & Literature Research",
-    "Interview Guide, Interview Protocols, Literature sources",
-    "-"
+  "Sprint 2",
+  "03.10.2023",
+  "17.10.2023",
+  "2 weeks 6 hours or 38 hours",
+  "-",
+  "Interviews & Literature Research",
+  "Interview Guide, Interview Protocols, Literature sources",
+  "-"
 )
-- todo: image tasks begin
-- todo: image tasks ende
 - retro: zu wenig zeit gefunden, stundensoll nicht erfüllt. doku fertig machen wurde verschoben, outcome produzieren. viele RA&Sail Studien gefunden, mehr eintauchen in studien, dahher desing phase verlängern. schätzung interviews zu gering, post work. schätzung recherche zu gross, war einfacher als gedacht.
 
-==== Sprint 3
 #sprint(
-    "17.10.2023",
-    "31.10.2023",
-    "2 weeks 2 hours or 34 hours",
-    "-",
-    "Deep dive into the Studies & Interviews",
-    "Interviews Evaluation, Literature Summary",
-    "-"
+  "Sprint 3",
+  "17.10.2023",
+  "31.10.2023",
+  "2 weeks 2 hours or 34 hours",
+  "-",
+  "Deep dive into the Studies & Interviews",
+  "Interviews Evaluation, Literature Summary",
+  "-"
 )
-- todo: image tasks begin
-- todo: image tasks ende
+
+#sprint(
+  "Sprint 4",
+  "17.10.2023",
+  "31.10.2023",
+  "2 weeks 2 hours or 34 hours",
+  "-",
+  "Deep dive into the Studies & Interviews",
+  "Interviews Evaluation, Literature Summary",
+  "-"
+)
+
+#sprint(
+  "Sprint 5",
+  "17.10.2023",
+  "31.10.2023",
+  "2 weeks 2 hours or 34 hours",
+  "-",
+  "Deep dive into the Studies & Interviews",
+  "Interviews Evaluation, Literature Summary",
+  "-"
+)
+
+#sprint(
+  "Sprint 6",
+  "17.10.2023",
+  "31.10.2023",
+  "2 weeks 2 hours or 34 hours",
+  "-",
+  "Deep dive into the Studies & Interviews",
+  "Interviews Evaluation, Literature Summary",
+  "-"
+)
+
+#sprint(
+  "Sprint 7",
+  "17.10.2023",
+  "31.10.2023",
+  "2 weeks 2 hours or 34 hours",
+  "-",
+  "Deep dive into the Studies & Interviews",
+  "Interviews Evaluation, Literature Summary",
+  "-"
+)
+
