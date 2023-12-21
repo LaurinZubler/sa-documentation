@@ -42,8 +42,8 @@
       "appendix/meeting-minutes/week10.typ",
       "appendix/meeting-minutes/week11.typ",
       "appendix/meeting-minutes/week12.typ",
-      // "appendix/meeting-minutes/week13.typ",
-      // "appendix/meeting-minutes/week14.typ",
+      "appendix/meeting-minutes/week13.typ",
+      "appendix/meeting-minutes/week14.typ",
     )
 
     #for path in meeting_paths {

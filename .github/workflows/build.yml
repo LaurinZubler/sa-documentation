@@ -27,8 +27,8 @@ jobs:
             chapters/meeting-minutes/week10.typ
             chapters/meeting-minutes/week11.typ
             chapters/meeting-minutes/week12.typ
-          # chapters/meeting-minutes/week13.typ
-          # chapters/meeting-minutes/week14.typ
+            chapters/meeting-minutes/week13.typ
+            chapters/meeting-minutes/week14.typ
       - run: mkdir out
       - run: mv index.html out/
       - run: mv main.pdf out/SAil_ARrrr_Documentation.pdf
