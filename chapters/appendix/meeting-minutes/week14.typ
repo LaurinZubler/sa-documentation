@@ -1,5 +1,5 @@
 #import "meeting.typ": meeting
-#show: doc => meeting("14 - Weekly", "20.12.2023", doc)
+#show: doc => meeting("14", "20.12.2023", doc)
 
 Bilder
 	- keine fremden bilder als eigenen ausgeben

@@ -26,32 +26,29 @@
 #printDocument(filesProjectDefinition)
 
 #if document-version == "full" [
-  == Meeting Minutes <meeting-minutes>
-  #set heading(numbering: none, outlined: false)
+  == Meeting Minutes
 
-    #let meeting_paths = (
-      "appendix/meeting-minutes/week01.typ", 
-      "appendix/meeting-minutes/week02.typ",
-      "appendix/meeting-minutes/week03.typ",
-      "appendix/meeting-minutes/week04.typ",
-      "appendix/meeting-minutes/week05.typ",
-      "appendix/meeting-minutes/week06.typ",
-      "appendix/meeting-minutes/week07.typ",
-      "appendix/meeting-minutes/week08.typ",
-      "appendix/meeting-minutes/week09.typ",
-      "appendix/meeting-minutes/week10.typ",
-      "appendix/meeting-minutes/week11.typ",
-      "appendix/meeting-minutes/week12.typ",
-      "appendix/meeting-minutes/week13.typ",
-      "appendix/meeting-minutes/week14.typ",
-    )
+  #let meeting_paths = (
+    "appendix/meeting-minutes/week01.typ", 
+    "appendix/meeting-minutes/week02.typ",
+    "appendix/meeting-minutes/week03.typ",
+    "appendix/meeting-minutes/week04.typ",
+    "appendix/meeting-minutes/week05.typ",
+    "appendix/meeting-minutes/week06.typ",
+    "appendix/meeting-minutes/week07.typ",
+    "appendix/meeting-minutes/week08.typ",
+    "appendix/meeting-minutes/week09.typ",
+    "appendix/meeting-minutes/week10.typ",
+    "appendix/meeting-minutes/week11.typ",
+    "appendix/meeting-minutes/week12.typ",
+    "appendix/meeting-minutes/week13.typ",
+    "appendix/meeting-minutes/week14.typ",
+  )
 
-    #for path in meeting_paths {
-      include path
-      pagebreak()
-    }
-
-  #set heading(numbering: "1.1", outlined: true)
+  #for path in meeting_paths {
+    include path
+    pagebreak()
+  }
 
   == Interview Transcripts
   #let filesJuerg = (

@@ -1,17 +1,13 @@
-#let meeting(title, date, doc) = {
-  show heading: it => block(width: 100%)[
-  #set text(14pt)
-  #it.body
-]
+#import "/utils/global.typ" as global
 
-// heading 2
-show heading.where(level: 2): it => block(width: 100%)[
-  #set text(12pt)
-  #it.body
+#let meeting(title, date, doc) = [
+  === Week #title
+
+  #global.paragraph(
+    "Date", date
+  )
+  #global.paragraph(
+    "Notes", doc
+  )
+      
 ]
-  [
-    = Week #title
-    Date: #date \
-        #doc
-  ]
-}
