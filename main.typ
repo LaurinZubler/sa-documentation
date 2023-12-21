@@ -90,6 +90,7 @@
 )
 
 #include "chapters/abstract.typ"
+#include "chapters/acknowledgments.typ"
 #include "chapters/table-of-contents.typ"
 
 #set heading(numbering: "1.1")
