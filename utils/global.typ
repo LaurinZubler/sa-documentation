@@ -1,3 +1,6 @@
+#import "@preview/tablem:0.1.0": tablem
+#import "@preview/tablex:0.0.6": tablex, hlinex
+
 #let title = "SAil ARrrr"
 #let subtitle = [Use of Augmented Reality for \  Visualizing Ambient Conditions while Sailing]
 #let thesis = "Semester Thesis"
@@ -54,8 +57,21 @@
   )
 }
 
-
 #let fullWithLine(thickness: 1pt) = {
   set text(0.6em)
   line(stroke: thickness, length: 100%)
 }
+
+#let table = tablem.with(
+  render: (columns: auto, align: center + horizon, ..args) => {
+    tablex(
+      columns: columns,
+      auto-lines: false,
+      align: align,
+      hlinex(y: 0),
+      hlinex(y: 1),
+      ..args,
+      hlinex(),
+    )
+  }
+)

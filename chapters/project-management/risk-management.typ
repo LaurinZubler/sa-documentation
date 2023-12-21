@@ -25,7 +25,7 @@ The identified risks are assigned a probability of occurrence and impact on occu
 The inherent risk level is before and the residual risk level is after the implementation of the countermeasures.
 
 #figure(
-    image("/images/jira_risk_list.png", width: 95%),
+    image("/images/project-management/jira_risk_list.png", width: 95%),
     caption: [Screenshot of identified risks in _Jira_],
 )
 
@@ -52,14 +52,14 @@ The inherent risk level is before and the residual risk level is after the imple
 
 ==== Inherent Risks Matrix
 #figure(
-    image("/images/jira_risk_inherent_matrix.png", width: 60%),
+    image("/images/project-management/jira_risk_inherent_matrix.png", width: 60%),
     caption: [Screenshot of inherent risk matrix in _Jira_],
 )
 
 ==== Residual Risks Matrix
 
 #figure(
-    image("/images/jira_risk_residual_matrix.png", width: 60%),
+    image("/images/project-management/jira_risk_residual_matrix.png", width: 60%),
     caption: [Screenshot of residual risk matrix in _Jira_],
 )
 

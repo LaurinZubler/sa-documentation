@@ -1,89 +1,135 @@
 #import "/utils/global.typ" as global
 
 == Project Planning
-=== Project Procedure
 #global.paragraph(
-    [Project Procedure],
-    [
-        The approach in this project is a combination of Scrum and RUP (Scrum+). From RUP, the division into phases is adopted to provide a rough structure for the entire project. For the short-term planning, the agile methodologies through iterative sprints from Scrum are adapted.
-    ]
+  "Introduction",
+  [
+    In this section the organizing and structuring the thesis are detailed. Covered are the methodology, the tools utilized for planning and execution, and the delineation of project phases and milestones. Additionally, the implementation of Scrum and time tracking are discussed.
+  ]
+)
+
+=== Method
+#global.paragraph(
+  [Scrum+],
+  [
+    In this project Scrum+ was employed, a hybrid approach blending elements of Scrum and the Rational Unified Process (RUP). From RUP, the concept of dividing the project into distinct phases was adopted, providing a structured framework for the entire project timeline. For more immediate and flexible planning, the agile methodologies of Scrum were integrated, particularly through the use of iterative sprints. This combination allowed for both long-term structural clarity and short-term adaptability in the project management.
+  ]
+)
+
+=== Tools
+#global.todo("maybe move more back")
+#global.paragraph(
+  "Jira",
+  [
+    As the primary tool for the project management _Jira_ by _Atlassian_ was used. It was specifically configured to align with the project's requirements, facilitating effective planning and tracking throughout the project’s duration.
+    #footnote("https://www.atlassian.com/software/jira")
+  ]
+)
+
+#global.paragraph(
+  "Jira Extensions",
+  [
+    For a better experience and additional functions in _Jira_ the following extensions were integrated:
+    
+    - *Time Tracking:* For more accurate time tracking, _ Timesheet Tracking for Jira_ by _TouchDown_ was used.
+      #footnote[https://marketplace.atlassian.com/apps/1216988/timesheet-tracking-for-jira] 
+    
+    - *Risk Management:* For risk tracking and analysis  _Hedge: Risk Management, Risk Register & Risk Matrix for Jira_ from _Appfire_ was employed.
+      #footnote[https://marketplace.atlassian.com/apps/1227408/hedge-risk-management-risk-register-risk-matrix-for-jira] 
+  ]
 )
 
 === Phases
-todo: table... :|
+#global.todo("image actual phases timeline")
 #global.paragraph(
-    [Tool],
-    [
-        The rough planning of the project in phases was implemented using the _Jira_ Epics. Six Phases were defined.
-        - todo main focus analysis, design. no time for implementation
-        #figure(
-            image("/images/jira_timeline.png", width: 95%),
-            caption: [Planned project phases represented by Epics in the _Jira_ timeline.],
+  [Epics],
+  [
+    The project was initial segmented into rough phases, which were implemented using _Jira_ Epics. 
+    Six phases were defined to structure the project's timeline and key stages.
+    
+    _@epics-start _ lists the epics at the project start.
+    
+    #v(global.gap)
+
+    #figure(
+      block(
+        width: 95%,
+        global.table(
+          columns: (auto, auto, 1fr),
+          align: start,
+          [
+            | *Phase*             | *Duration*  | *Description*                                     | 
+            | ------------------- | ----------- | ------------------------------------------------- |
+            | Project Setup       | 2 Weeks     | Setup project management tools and documentation  |
+            | Analysis            | 3 Weeks     | Conduct literature research and user study        |
+            | Design              | 3 Weeks     | Develop design prototype                          |
+            | Implementation      | 3 Weeks     | Implement prototype                               |
+            | Evaluation          | 2 Week      | Collect user feedback and evaluate prototype      |
+            | Project Completion  | 1 Week      | Complete documentation and submission             |
+          ]
         )
-        - todo image actual phases timeline
-    ]
+      ),
+      caption: "Planned project phases at project start",
+      kind: table,
+    )<epics-start>
+  
+    #v(global.gap)
+
+    _@timeline-start _ presents a screenshot of the _Jira_ timeline captured at the start of the project, illustrating how these phases were organized and visualized within the tool.
+
+    #figure(
+      image("/images/project-management/jira_timeline_cut.png", width: 95%),
+      caption: [Screenshot _Jira_ timeline. Planned project phases at the beginning of the project],
+    )<timeline-start>
+ ] 
 )
 
-#let epic(title, duration, start, end, description) = {
-    global.row(
-        title,
-        [
-            #global.row("Duration", duration)
-            #global.row("Start date", start)
-            #global.row("End date", end)
-            #global.row("Description", description)
-            #v(0.5em)
-        ]
-    )
-}
+#global.paragraph(
+  "Reorganization",
+  [
+    During the project, the focus of the thesis shifted. More studies were found during the literature research than initially anticipated, leading to a greater emphasis and extension of the analysis phase. 
+    This shift resulted in the development of a prototype not being feasible within the project timeline. Given that the project was also a solo endeavor, the available time was limited, and developing a prototype of satisfactory was not achievable.
 
-#epic(
-    "Project Setup",
-    "2.5 weeks",
-    "18.09.2023",
-    "03.10.2023",
-    "todo: copy from epic description"
+    For these reasons, the focus was redirected towards architecture. Determining what data would be needed to implement the scenario, which hardware components to use, and how these components would communicate with each other. Furthermore, it became apparent that writing this document required more time than initially expected.
+
+    To accommodate these changes, the project was reorganized. The analysis phase was extended. The design,implementation and evaluation phases were removed, and a new phase dedicated to architecture was introduced. Additionally, the project completion phase was extended to allow for more focus on documentation.
+
+    _@epics-end _ illustrates the project phases as they were actually carried out.
+
+    #v(global.gap)
+
+    #figure(
+      block(
+        width: 95%,
+        global.table(
+          columns: (auto, auto, 1fr),
+          align: start,
+          [
+            | *Phase*             | *Duration*  | *Description*                                     | 
+            | ------------------- | ----------- | ------------------------------------------------- |
+            | Project Setup       | 2 Weeks     | Setup project management tools and documentation  |
+            | Analysis            | 6 Weeks     | Conduct literature research and user study        |
+            | Architecture        | 2 Weeks     | Developing a hardware for future implementaion    |
+            | Project Completion  | 4 Week      | Complete documentation and submission             |
+          ]
+        )
+      ),
+      caption: "Actual project phases carried out",
+      kind: table,
+    )<epics-end>
+
+    #v(global.gap)
+    
+    _@timeline-end _ presents a screenshot of the _Jira_ timeline captured at the end of the project, illustrating how these phases were organized and visualized within the tool.
+
+    #figure(
+      image("/images/project-management/jira_timeline_end_cut.png", width: 95%),
+      caption: [Screenshot _Jira_ timeline. Actual carried out project phases],
+    )<timeline-end>
+  ]
 )
 
-#epic(
-    "Analysis",
-    "3 weeks",
-    "03.10.2023",
-    "24.10.2023",
-    "todo: copy from epic description"
-)
 
-#epic(
-    "Design",
-    "3 weeks",
-    "24.10.2023",
-    "14.11.2023",
-    "todo: copy from epic description. - verlängert um zwei wochen. da viele studien gefunden zu ar und segeln. macht sinn sich da mehr zu vertiefen"
-)
-
-#epic(
-    "Implementation",
-    "3 weeks",
-    "14.11.2023",
-    "05.12.2023",
-    "todo: copy from epic description"
-)
-
-#epic(
-    "Evaluation",
-    "1 week",
-    "28.11.2023",
-    "12.12.2023",
-    "todo: copy from epic description"
-)
-
-#epic(
-    "Project Completion",
-    "1.5 week",
-    "12.12.2023",
-    "22.12.2023",
-    "todo: copy from epic description"
-)
 
 === Milestones
 #global.paragraph(

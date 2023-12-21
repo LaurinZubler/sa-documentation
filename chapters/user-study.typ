@@ -1,20 +1,4 @@
 #import "/utils/global.typ" as global
-#import "@preview/tablem:0.1.0": tablem
-#import "@preview/tablex:0.0.6": tablex, hlinex
-
-#let participants-table = tablem.with(
-  render: (columns: auto, ..args) => {
-    tablex(
-      columns: columns,
-      auto-lines: false,
-      align: center + horizon,
-      hlinex(y: 0),
-      hlinex(y: 1),
-      ..args,
-      hlinex(),
-    )
-  }
-)
 
 = User Study
 #global.paragraph(
@@ -49,7 +33,7 @@
     #figure(
       block(
         width: 90%,
-        participants-table(
+        global.table(
           columns: (auto, 1fr, 1fr, 1fr),
           [
             | *\#*  | *Sailing Background*  | *Sailing Level*     | *Connection*  | 
