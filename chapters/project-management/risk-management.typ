@@ -7,35 +7,32 @@
   residualRiskProbability, residualRiskImpact, residualRiskLevel,
   countermeasures,
   occureActions
-) = {
-  global.paragraph(
-    name,
-    {
-      global.row("Description", description)
-      global.row("Countermeasures", countermeasures)
-      global.row("Actions on Risk Occurrence", occureActions)
-      global.row(
-        "Risk assessment", 
-        figure(
-          block(  
-            width: 90%,
-            global.table(
-              columns: (1fr, 1fr, 1fr, 1fr),
-              align: start,
-              [
-                | *Type*   | *Probabiliy*             | *Impact*            |  *Level*           | 
-                | -------- | ------------------------ | ------------------- | ------------------ |
-                | Inherent | #inherentRiskProbability | #inherentRiskImpact | #inherentRiskLevel |
-                | Residual | #residualRiskProbability | #residualRiskImpact | #residualRiskLevel |
-              ]
-            )
-          ),
-          caption: [Risk assessment of Risk: #name]
+) = [
+  ==== #name  
+  #global.paragraph("Description", description)
+  #global.paragraph([Counter- \measures], countermeasures)
+  #global.paragraph("Actions on Risk Occurrence", occureActions)
+  #global.paragraph(
+    "Risk assessment", 
+    figure(
+      block(  
+        width: 90%,
+        global.table(
+          columns: (1fr, 1fr, 1fr, 1fr),
+          align: start,
+          [
+            | *Type*   | *Probabiliy*             | *Impact*            |  *Level*           | 
+            | -------- | ------------------------ | ------------------- | ------------------ |
+            | Inherent | #inherentRiskProbability | #inherentRiskImpact | #inherentRiskLevel |
+            | Residual | #residualRiskProbability | #residualRiskImpact | #residualRiskLevel |
+          ]
         )
-      )
-    }  
+      ),
+      caption: [Risk assessment of Risk: #name]
+    )
   )
-} 
+
+]
 
 == Risk Management
 #global.paragraph(
