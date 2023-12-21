@@ -2,7 +2,6 @@
 // #import "@preview/hydra:0.2.0": hydra
 
 #import "/utils/global.typ" as global
-#import "/chapters/chapters.typ": *
 
 // document metadata
 #set document(
@@ -93,6 +92,20 @@
 #set heading(numbering: "1.1")
 #show bibliography: set heading(numbering: "1.1")
 
-#for path in chapters-full-version {
+#let chapters = (
+  "chapters/introduction.typ",
+  "chapters/research.typ",
+  "chapters/user-study.typ",
+  "chapters/scenarios.typ",
+  "chapters/architecture.typ",
+  "chapters/conclusion.typ",
+  "chapters/project-management.typ",
+  "chapters/glossary.typ",
+  "chapters/bibliography.typ",
+  "chapters/lists.typ",
+  "chapters/appendix.typ",
+)
+
+#for path in chapters {
   include path
 }

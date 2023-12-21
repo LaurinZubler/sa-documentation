@@ -197,7 +197,7 @@ todo: table... :|
 #global.paragraph(
     "Weekly Meeting with Supervisior",
     [
-        Every week a meeting with the project supervisor takes place. The meeting notes can be found in the @meeting-minutes[appendix].
+        Every week a meeting with the project supervisor takes place. // only in full verions: The meeting notes can be found in the @meeting-minutes[appendix].
         - todo fix link to appendix
     ]
 )

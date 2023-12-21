@@ -1,6 +1,6 @@
 #import "/utils/global.typ" as global
 
-== Project Reflection
+== Persoanl Project Reflection
 #global.paragraph(
   "Preamble", 
   [
