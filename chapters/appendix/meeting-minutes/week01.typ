@@ -1,4 +1,4 @@
-#import "meeting.typ": meeting
+#import "/chapters/appendix/meeting-minutes/meeting.typ": meeting
 #show: doc => meeting("1", "20.09.2023", doc)
 Tasks untill next week
 - Projektplan und Meilensteine erstellen.

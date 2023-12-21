@@ -1,4 +1,4 @@
-#import "meeting.typ": meeting
+#import "/chapters/appendix/meeting-minutes/meeting.typ": meeting
 #show: doc => meeting("6", "24.10.2023", doc)
 Review last week
 - Interviews: 4 done

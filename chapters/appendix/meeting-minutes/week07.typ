@@ -1,4 +1,4 @@
-#import "meeting.typ": meeting
+#import "/chapters/appendix/meeting-minutes/meeting.typ": meeting
 #show: doc => meeting("7", "31.10.2023", doc)
 Review last week
 - Meilenstein "M2: End of Analysis" angepasst

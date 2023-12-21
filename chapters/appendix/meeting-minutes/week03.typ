@@ -1,4 +1,4 @@
-#import "meeting.typ": meeting
+#import "/chapters/appendix/meeting-minutes/meeting.typ": meeting
 #show: doc => meeting("3", "04.10.2023", doc)
 Fragen
 - Was für Lizenzen sollen verwendet werden für die Git Repositories für Dokumentation und Code?

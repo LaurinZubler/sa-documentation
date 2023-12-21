@@ -1,4 +1,4 @@
-#import "meeting.typ": meeting
+#import "/chapters/appendix/meeting-minutes/meeting.typ": meeting
 #show: doc => meeting("10", "22.11.2023", doc)
 Review last week
 - Umstellung Projektphasen
