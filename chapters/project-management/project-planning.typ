@@ -138,30 +138,6 @@
   ]
 )
 
-// #let milestone(short, title, due, criteria, end, refl) = {
-//   global.paragraph(
-//     short,
-//     [
-//       #block(
-//         width: 90%,
-//         global.table(
-//           columns: (auto, 1fr),
-//           align: start,
-//           [
-//             | *Milestone:*         | *#title*  |
-//             | Due date:            | #due      |
-//             | -------------------- | --------- |
-//             | Acceptance Criteria: | #criteria |
-//             | Actual achieved:     | #end      |
-//             | Reflection:          | #refl     |
-//           ]
-//         )
-//       )
-//     ]
-//   )
-//   v(global.gap)
-// }
-
 #let milestone(short, title, due, criteria, end, refl) = {
   global.paragraph(
     [#short: #title],
