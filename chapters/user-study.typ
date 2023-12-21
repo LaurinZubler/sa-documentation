@@ -160,8 +160,6 @@
   ]
 )
 
-#global.todo("fokus auf eine persona")
-
 === The Beginner
 #global.paragraph(
   [Portrait],
