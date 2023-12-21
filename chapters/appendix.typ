@@ -4,6 +4,9 @@
   align(center + horizon, rect( image(path, height: 88%)))
 }
 
+#include "appendix/reflection.typ"
+#pagebreak()
+
 == Meeting Minutes <meeting-minutes>
 #set heading(numbering: none, outlined: false)
 

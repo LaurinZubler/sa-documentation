@@ -1,10 +1,10 @@
 #import "/utils/global.typ" as global
 
-= Reflection
+== Project Reflection
 #global.paragraph(
   "Preamble", 
   [
-    This chapter describes the learning experiences and challenges encountered during this thesis. It delves into the insights gained, obstacles overcome, and the personal and academic growth achieved throughout the course of this semester. 
+    The project reflection describes the learning experiences and challenges encountered during this thesis. It delves into the insights gained, obstacles overcome, and the personal and academic growth achieved throughout the course of this semester. 
   ]
 )
 
@@ -33,6 +33,8 @@
     I also had to come to the conclusion that, I just needed to worry less about the perfect wording.
   ]
 )
+
+#pagebreak()
 
 #global.paragraph(
   "Work Live Balance",

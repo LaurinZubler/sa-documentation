@@ -7,9 +7,9 @@
   "chapters/conclusion.typ",
   "chapters/project-management.typ",
 
+  "chapters/glossary.typ",
   "chapters/bibliography.typ",
   "chapters/lists.typ",
-  "chapters/glossary.typ",
 )
 
 #let chapters-full-version = (
@@ -21,9 +21,8 @@
   "chapters/conclusion.typ",
   "chapters/project-management.typ",
   
-  "chapters/reflection.typ", 
+  "chapters/glossary.typ",
   "chapters/bibliography.typ",
   "chapters/lists.typ",
-  "chapters/glossary.typ",
   "chapters/appendix.typ",
 )
