@@ -57,6 +57,9 @@
   v(global.gapHeading3)
 }
 
+// footnote
+#show footnote.entry: set text(global.textFootnote)
+
 // header and footer
 // https://github.com/typst/packages/tree/main/packages/preview/chic-hdr/0.3.0
 #show: chic.with(

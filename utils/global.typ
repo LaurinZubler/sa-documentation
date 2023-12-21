@@ -21,6 +21,7 @@
 #let textHeading2 = 12pt
 #let textHeading3 = 11pt
 #let textHeaderFooter = 8pt
+#let textFootnote = 7pt
 
 #let lineHeading1 = 2.3pt
 #let lineHeading2 = 1pt

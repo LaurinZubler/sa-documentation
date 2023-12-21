@@ -7,7 +7,7 @@
 
 #show: chic.with(
   chic-footer(
-    left-side: text(6pt)[Image source: https://devrant.com/rants/1175993/is-this-the-future-we-are-heading-to]  
+    right-side: text(global.textFootnote)[Image source: https://devrant.com/rants/1175993/is-this-the-future-we-are-heading-to]  
   )
 )
 
@@ -51,6 +51,8 @@
 ]
 
 
-#v(0.1fr)
+#v(0.5fr)
 
 #image("/images/ost_logo.svg", height: 3cm)
+
+#v(0.5fr)
