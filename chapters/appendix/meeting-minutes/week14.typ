@@ -1,4 +1,4 @@
-#import "/chapters/appendix/meeting-minutes/meeting.typ": meeting
+#import "meeting.typ": meeting
 #show: doc => meeting("14", "20.12.2023", doc)
 
 Bilder

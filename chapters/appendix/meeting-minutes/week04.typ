@@ -1,4 +1,4 @@
-#import "/chapters/appendix/meeting-minutes/meeting.typ": meeting
+#import "meeting.typ": meeting
 #show: doc => meeting("4", "10.10.2023", doc)
 Review last week
 - Book a librarian. Termin am Do. 12.10.2023
