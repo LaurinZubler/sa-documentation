@@ -129,123 +129,179 @@
   ]
 )
 
-
-
 === Milestones
 #global.paragraph(
-    "Tool", 
-    [
-        For the end of each phase there is a milestone defined. Since Jira does not offer functionality for creating milestones, a new issue type was created for this purpose. Like work tasks, the milestones are in the backlog and are then added to sprints.
-        - todo foto sprint
-    ]
+  "Introduction", 
+  [
+    Milestones are significant markers that denote critical achievements and points of progress in a project's timeline. For this project, a milestone was defined at the end of each phase. Since Jira does not offer a native functionality for creating milestones, a new issue type was specifically created for this purpose. Similar to work tasks, these milestones were initially placed in the backlog and then added to sprints as the project progressed. They serve not only as goals to strive for but also as opportunities to evaluate the project's direction and success at various stages.     
+  ]
 )
 
-#let milestone(title, due, dod) = {
-    global.paragraph(
-        title,
-        [
-            #global.row("Due date", due)
-            #global.row("Acceptance\nCriteria", dod)
-            // #v(0.5em)
-        ]
-    )
+#let milestone(short, title, due, criteria, end, refl) = {
+  global.paragraph(
+    short,
+    [
+      #block(
+        width: 90%,
+        global.table(
+          columns: (auto, 1fr),
+          align: start,
+          [
+            | *Milestone:*         | *#title*  |
+            | -------------------- | --------- |
+            | Due date:            | #due      |
+            | Acceptance Criteria: | #criteria |
+            | Actual achieved:     | #end      |
+            | Reflection:          | #refl     |
+          ]
+        )
+      )
+    ]
+  )
+  v(global.gap)
 }
 
 #milestone(
-    "M1: End of \nProject Setup",
-    "03.10.2023",
-    [
-        todo: copy from milestone description
-        - abgeschlossen 10.10.2023
-        - nicht alle punkte erreicht
-        - doku nicht alle kapitel geschrieben. nicht relevant für arbeit. muss einfach geschrieben werden irgendwann
-        - projekt setup funktioniert soweit
-    ]
+  "M1",
+  "End of Project Setup",
+  "03.10.2023",
+  [
+    - Project management tool set up
+    - Project time tracking tool set up 
+    - Project documentation document set up 
+    - Automated CI to publish project documentation
+    - Automated CI to publish meeting minutes
+    - Project plan: How, when and who will work on the project?
+    - Risks: What can endager the project and how to handle it?
+    - Quality assurance: How is a good quality of the project ensured?
+  ],
+  "10.10.2023",
+  [
+    At the time of due date the acceptance criterias were not all fullfilled. Therefore the project setup was extended for another week. The impact on the overall project was considered uncritical, so the project planning was not adjusted. At the time of the achievement of the milestone, the documentation was not as extensive as intended. However, this was considered as not important for the next steps and the next project phase was started.
+  ]
+)
+
+
+#milestone(
+  "M2", 
+  "End of Analysis",
+  "24.10.2023",
+  [
+    - Literature research: What is the current scientific state of AR systems in the context of sailing.
+    - Interviews: What are problems while sailing? Understanding and determining the usage context and requirements talking to sailors.
+    - Personas: Describe fictional personas that could use the application based on interviews.
+    - Scenarios: Describe scenarios that could be implemented based on research and interviews.
+    - Scenario chosen for prototype implementation
+  ],
+  "14.11.2023",
+  [
+    With the extension of the analysis phase, this milestone was also postponed by 3 weeks. Some results of the analysis in the acceptance criterias were not documented pronounced at the end of the phase. This was taken into account by extending the project completion phase. To finish the documentation at the end of the project.
+  ],
 )
 
 #milestone(
-    "M2: End of Analysis",
-    "24.10.2023",
-    [
-        todo: copy from milestone description
-        - verschoben um 2 Wochen nach hinten
-    ]
+  "M3", 
+  "End of Desing",
+  "14.11.2023",
+  [
+    - Design solutions for the prototype developed
+    - User feedback collected and into design integrated
+  ],
+  "-",
+  "This milestone was removed with the corresponding design phase"
 )
 
 #milestone(
-    "M3: End of Desing",
-    "14.11.2023",
-    "todo: copy from milestone description"
+  "M4", 
+  "End of Implementation",
+  "05.12.2023",
+  [
+    - Prototype implemented
+    - Prototype fulfills requirements from analysis
+    - User feedback from evaluation integrated
+  ],
+  "-",
+  "This milestone was removed with the corresponding implementation phase"
 )
 
 #milestone(
-    "M4: End of Implementation",
-    "05.12.2023",
-    "todo: copy from milestone description"
+  "M5",
+  "End of Evaluation",
+  "12.12.2023",
+  "User feedback on prototype collected",
+  "-",
+  "This milestone was removed with the corresponding evaluation phase"
 )
 
 #milestone(
-    "M5: End of Evaluation",
-    "12.12.2023",
-    "todo: copy from milestone description"
+  "M6", 
+  "Project Finish",
+  "22.12.2023",
+  [
+    - Documentation complete
+    - All relevant elements submitted on time
+  ],
+  "22.12.2023",
+  "At the time of writing this, I hope to reach this milestone. If not, I think I have more to worry about than this text. Therefore, milstone exceedingly well fulfilled"
 )
 
-#milestone(
-    "M6: Project Finish",
-    "22.12.2023",
-    "todo: copy from milestone description"
-)
-
-=== Scrum Events
+=== Scrum Elements
 #global.paragraph(
-    "Sprint",
-    [
-        The work is completed in two-week sprints. Each sprint has a sprint goal and sprint increments, a small step towards the final project product.
-        -todo: swimlanes jira
-    ]
-)
-
-#global.paragraph(
-    "Backlog Refinement",
-    [
-        In the backlog refinement new tasks are created in the backlog and the time to complete is estimated. 
-    ]
+  "Introduction",
+  [
+    In this section the applied scrum elements are decribed.
+  ]
 )
 
 #global.paragraph(
-    "Sprint Planning",
-    [
-        Before each sprint start, the sprint is filled with tasks from the backlog so that the estimated time of work is 2 weeks and a sprint goal is defined.
-    ]
+  "Sprint",
+  [
+    The work is completed in two-week sprints. Each sprint has a sprint goal and some sprint increments, small steps towards the final project product.
+
+    During the ongoing sprint the tasks were managed using the _jira_ sprint board. In four swimlane the progress of the tasks is visualized. 
+    
+    These swimlanes were used:
+    - *To Do* For tasks that have not yet been started
+    - *In Progress* For tasks that are currently being worked on
+    - *Review* For tasks waiting for a review from the advisor
+    - *Done* For tasks that are done
+  ]
 )
 
 #global.paragraph(
-    "Sprint Review",
-    [
-        At the end of each sprint, the outcome of the Sprint is inspected and future adaptations are determinated. The Sprint review takes place in the weekly meeting with the supervisior.
-    ]
+  "Backlog Refinement",
+  [
+      In the backlog refinement new tasks were created in the backlog and the time for completion was estimated. 
+  ]
 )
 
 #global.paragraph(
-    "Sprint Retrospecive",
-    [
-        At the end of each sprint, the last two weeks are analyzed to find ways to improve quality and effectiveness.
-    ]
+  "Sprint Planning",
+  [
+    Before each sprint start, the sprint was filled with tasks from the backlog so that the estimated time of work was 2 weeks and a sprint goal was defined.
+  ]
 )
 
 #global.paragraph(
-    "Daily Scrum Meeting",
-    [
-        Since the project team only consists of one person, no daily Scrum meetings are held.
-    ]
+  "Sprint Review",
+  [
+    At the end of each sprint, the outcome of the Sprint was inspected and future adaptations were determinated. The Sprint review took place in the weekly meeting with the supervisior.
+  ]
+)
+
+
+#global.paragraph(
+  "Daily Scrum Meeting",
+  [
+    Since the project team only consists of one person, no daily Scrum meetings were held.
+  ]
 )
 
 #global.paragraph(
-    "Weekly Meeting with Supervisior",
-    [
-        Every week a meeting with the project supervisor takes place. // only in full verions: The meeting notes can be found in the @meeting-minutes[appendix].
-        - todo fix link to appendix
-    ]
+  "Weekly Meeting with Supervisior",
+  [
+    Every week a meeting with the project supervisor took place. 
+  ]
 )
 
 
