@@ -4,7 +4,7 @@
 #global.paragraph(
   "Preamble",
   [
-    In this chaptre the results of this thesis are discussed and suggestions for future development of Augmented Reality applications in the sailing context are presented.
+    In this chapter the results of this thesis are discussed and suggestions for future development of Augmented Reality applications in the sailing context are presented.
   ]
 )
 
@@ -41,7 +41,7 @@
 #global.paragraph(
   "AR Technology",
   [
-    This thesis has found several considerations regarding the current state of Augmented Reality technology being used in maritime environments. The primary challenges identified are the durability and waterproofing capabilities.
+    This thesis has found several considerations regarding the current state of Augmented Reality technology being used in maritime environments. The primary challenges identified are durability and waterproofing capabilities.
 
     It is recommended to closely monitor ongoing advancements in Augmented Reality technology. The field is evolving, and future developments could address the maritime-specific challenges more effectively.
 
@@ -62,14 +62,14 @@
 
     - *Outdoor Performance in Sunlight* This test aims to determine if the HoloLens is usable in outdoor sunlight conditions. It consists of two parts: firstly, assessing whether the holograms remain visible in bright light conditions, and secondly, evaluating if the cameras can effectively capture information under such lighting conditions.
 
-    Due to the HoloLens's limitations in maritime settings and restricted access to a sailboat during winter conditions, the field test could not be carried out within the timeframe of this thesis. Therefore, these aspects remain to be tested under appropriate environmental conditions in future development phases."
+    Due to the HoloLens's limitations in maritime settings and restricted access to a sailboat during winter conditions, the field test could not be carried out within the timeframe of this thesis. Therefore, these aspects remain to be tested under appropriate environmental conditions in future development phases.
   ]
 )
 
 #global.paragraph(
   [Next Steps _Sailing Course Assistant_],
   [
-    As next step in the further development of the _Sailing Course Assistant_, it is suggested to create a design prototype.
+    As the next step in the further development of the _Sailing Course Assistant_, it is suggested to create a design prototype.
     Employing a human-centered approach is highly recommended to ensure the prototype  addresses the needs of the sailing community and an optimal user experience is achieved.
     This involves actively engaging with sailors to gather their insights and feedback.
   ]
