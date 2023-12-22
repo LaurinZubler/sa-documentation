@@ -213,6 +213,8 @@
   ]
 )
 
+#pagebreak()
+
 == Discussion
 #global.paragraph(
   "Use of AR in Sailing",
