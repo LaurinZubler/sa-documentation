@@ -35,6 +35,8 @@
   ]
 )
 
+#pagebreak()
+
 == Recommendations
 #global.paragraph(
   "AR Technology",

@@ -45,6 +45,9 @@
     - *The Ocean Sailor* while not primarily focused on performance, still aims to optimize the sailing experience by choosing the most efficient courses.
   ]
 )
+
+#pagebreak()
+
 #global.paragraph(
   "Description",
   [    
@@ -67,6 +70,8 @@
     )<scenario>
   ]
 )
+
+#pagebreak()
 
 == Additional Developed Scenarios
 #global.paragraph(
@@ -95,6 +100,8 @@
   ]
 )
 
+#pagebreak()
+
 === Scenario 3: Laera "Boat-stabilized AR 3D interface"
 #scenario(
   (personas.at(1), personas.at(2), ""), 
@@ -122,6 +129,8 @@
     The _Sitting Position Assistant_ visually helps users to find the perfect sitting position, for achieving an optimal weight distribution on the boat and optimal performance.
   ]
 )
+
+#pagebreak()
 
 === Scenario 6: Points of Interest Visualizer
 #scenario(
