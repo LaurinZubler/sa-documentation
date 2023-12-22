@@ -72,7 +72,5 @@
     As next step in the further development of the _Sailing Course Assistant_, it is suggested to create a design prototype.
     Employing a human-centered approach is highly recommended to ensure the prototype  addresses the needs of the sailing community and an optimal user experience is achieved.
     This involves actively engaging with sailors to gather their insights and feedback.
-    // discover weaknesses early.
-    #global.todo("this text sucks")
   ]
 )
