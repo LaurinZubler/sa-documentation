@@ -61,6 +61,8 @@
   ]
 )
 
+#pagebreak()
+
 #global.paragraph(
   [Hardware],
   [
@@ -119,11 +121,14 @@
   ]
 )
 
+#pagebreak()
+
 === Systematic Review
 #global.paragraph(
   "Component Types",
   [
-    @Gernez.2020 Gernez et al. conducted a review on AR application on ship bridge operations. They discussed different information components to render AR information in the environment.\
+    Gernez et al. conducted a review on AR application on ship bridge operations @Gernez.2020. They discussed different information components to render AR information in the environment.
+
     - *App display* This component allows the display of full applications in the AR view.
 
     - *Widget display* This allows the display of smaller stackable information containers.
@@ -134,7 +139,6 @@
 
     - *AR map* This is a flat map interface placed above the horizon, able to display any map-related information.
 
-    
     #figure(
       image("/images/research/component_types.png", width: 90%),
       caption: [Types of AR information components by Gernez et al. @Gernez.2020]
@@ -147,23 +151,22 @@
 #global.paragraph(
   "Technology Development",
   [
-    Gernez et al. @Gernez.2020 explore the current status of Augmented Reality technology, noting that it is still in the early stages of development. They suggest that AR could play a significant role in future maritime workspaces. Drawing a parallel with the evolution of mobile phones, they foresee an expansion in AR functionalities as technology progresses. This analogy is visually represented in @technology_development, where the current state of AR technology, exemplified by the Microsoft HoloLens, is compared to early mobile phones. They predict that, much like with mobile phones, the advancement of AR hardware will lead to a broader spectrum of applications and uses.
+    Gernez et al. explore the current status of Augmented Reality technology @Gernez.2020, noting that it is still in the early stages of development. They suggest that AR could play a significant role in future maritime workspaces. Drawing a parallel with the evolution of mobile phones, they foresee an expansion in AR functionalities as technology progresses. This analogy is visually represented in @technology_development, where the current state of AR technology, exemplified by the Microsoft HoloLens, is compared to early mobile phones. They predict that, much like with mobile phones, the advancement of AR hardware will lead to a broader spectrum of applications and uses.
 
     #figure(
-      image("/images/research/technology_development.png", width: 60%),
+      image("/images/research/technology_development_edit.png", width: 90%),
       caption: [Technology development comparasion of mobile phones and AR displays by Gernez et al. @Gernez.2020]
     ) <technology_development>
   ]
 )
 
-#global.todo("Anderer Titel? finde nicht so passend")
-=== Applications
-#global.todo("frider: cite am ende des satzes. Bei allen, nur hier??")
+#pagebreak()
 
+=== Applications
 #global.paragraph(
   "AR Effectivity Evaluation",
   [
-    @Laera.2023b Laera et al. evaluated an AR-based interface for sailing navigation and compared it to regular 2D sailing instruments. They conducted a user study (n=45) in an virtual reality simulated environment. They measured the reaction time and subjective metrics using user experience questionnaires.\
+    Laera et al. evaluated an AR-based interface for sailing navigation and compared it to regular 2D sailing instruments @Laera.2023b. They conducted a user study (n=45) in an virtual reality simulated environment. They measured the reaction time and subjective metrics using user experience questionnaires.\
     Their results show that the AR-based interface outperformed common instruments in terms of reaction time, cognitive load, system usability and user experience.
   ]
 )
@@ -171,7 +174,7 @@
 #global.paragraph(
   "AR Sailing Interfaces",
   [
-    @Laera.2023 Laera et al. designed three AR interface proposals for sailing application.
+   Laera et al. designed three AR interface proposals for sailing application  @Laera.2023 .
 
     - *Screen-Stabilized Interface* displays essential boat information in the upper part of the user's field of view. The data is displayed in nummerical form or as graphs, like in conventional 2D sailing instruments. The interface is designed for coastal navigation during recreational sailing and is suitable for users with sailing experience.
     
@@ -199,7 +202,7 @@
 #global.paragraph(
   "Hardware Requirements",
   [
-    @Laera.2020 Laera et al. specified requirements a head-mounted AR display should fulfill for use while sailing. They defined follwing points:
+   Laera et al. specified requirements a head-mounted AR display should fulfill for use while sailing  @Laera.2020. They defined follwing points:
 
     - Withstand elements like water, UV rays, temperature drops, wind, humidity, and salt spray.
     - Impact resistant and securely fixed to the user's body because of the frequent collision with rig elements (e.g. ropes, boom, etc.) and crew, especially during regatta.
@@ -214,36 +217,24 @@
 #global.paragraph(
   "Use of AR in Sailing",
   [
-    The utilization of Augmented Reality in a maritime context has garnered limited scientific attention. However, Dr. Francesco Laera and his team at the Polytechnic University of Bari are playing a pivotal role in this niche area, primarily through their foundational research.
+    The utilization of Augmented Reality in a maritime context has garnered limited scientific attention. However, Dr. Francesco Laera and his team at the Polytechnic University of Bari are playing a pivotal role in this niche area, primarily through their foundational research. The three design prototypes for Augmented Reality interfaces are building a foundation for the scenarios developed in this thesis.
 
     All the studies conducted to date underscore the effectiveness of augmented reality in sailing applications. User studies indicate that AR interfaces can significantly enhance reaction times and overall user experience during sailing. For beginners, Augmented Reality offers an intuitive means to grasp the fundamentals of sailing, while for seasoned sailors, it provides valuable assistance in navigation and boat handling.
-    
-    #global.todo("prototpys somehow erwähnen")
-    #global.todo("abstract: ar has potential")
   ]
 )
 
 #global.paragraph(
   "Component Types",
   [
-    The component types of Augmented Reality application on ship bridges ... lots variations
-    
-    - can not be directly adopted into sailing. 
-    - sailing different cockpits.
-    - the protoype of laera display in the sky, 
+    Many component types used in Augmented Reality applications on ship bridges are not well-suited for sailing applications, primarily because they obstruct the user's view. The only component type that can be effectively adapted for sailing is the annotation system. 
 
-
-    // which for sailing
-    #global.todo("campare types from large bridge ships to sailing")
+    One innovative concept not yet fully explored in these applications is the display of information in the sky. As observed in other studies, this approach seamlessly integrates information with the natural surroundings, improving both the usability and safety of navigational aids.
   ]
 )
 
 #global.paragraph(
   "AR Technology",
   [    
-    The development of head mounted Augmented Reality displays is still in its early stages and current displays do not meet the requirements of the nautical environment they are exposed to while sailing. 
-    With further advances in this technology, this problem will likely be solved in the future.
-    // bis dann was machen?
-    #global.todo("gpt")
+    The development of head-mounted Augmented Reality displays is currently in its early stages, and existing models do not yet meet the demands of the nautical environment encountered in sailing. Challenges such as exposure to water, sunlight, and the dynamic motion of a boat present significant hurdles. However, as this technology continues to advance, it is anticipated that these challenges will be addressed and overcome in the future. This progress will likely lead to Augmented Reality displays that are fully equipped to handle the unique conditions of the maritime setting.
   ]
 )
