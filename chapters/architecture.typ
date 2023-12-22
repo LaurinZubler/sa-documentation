@@ -28,7 +28,7 @@
 
     #figure(
       image("/images/architectur/components.png"),
-      caption: "Proposed hardware component diagram for the implementation of the _Sailing Course Assisant_"
+      caption: [Proposed hardware component diagram for the implementation of the _Sailing Course Assisant_]
     )<components>
   ]
 ) 
