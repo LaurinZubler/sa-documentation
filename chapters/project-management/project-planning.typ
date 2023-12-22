@@ -132,6 +132,8 @@
   ]
 )
 
+#pagebreak()
+
 === Milestones
 #global.paragraph(
   "Introduction", 
@@ -140,17 +142,14 @@
   ]
 )
 
-#let milestone(short, title, due, criteria, end, refl) = {
-  global.paragraph(
-    [#short: #title],
-    [
-      #global.row("Due date", due)
-      #global.row("Acceptance Criterias", criteria)
-      #global.row("Actual achieved", end)
-      #global.row("Reflection", refl)
-    ]
-  )
-}
+#let milestone(short, title, due, criteria, end, refl) = [
+  ==== #short: #title
+  #v(global.gap)
+  #global.row("Due date", due)
+  #global.row("Acceptance Criterias", criteria)
+  #global.row("Actual achieved", end)
+  #global.row("Reflection", refl)
+]
 
 #milestone(
   "M1",
@@ -312,6 +311,7 @@
   ]
 )
 
+#pagebreak()
 
 === Time Tracking
 #global.paragraph(
@@ -332,100 +332,162 @@
   ]
 )
 
-=== Sprints
-#let sprint(name, start, end, time_estimate, time_spend, goal, increments, retro) = {
-    global.paragraph(
-      name,
-      {
-        global.row("Start date", start)
-        global.row("End date", end)
-        global.row("Time estimate", time_estimate)
-        global.row("Time spend", time_spend)
-        global.row("Sprint goal", goal)
-        global.row("Sprint increments", increments)
-        global.row("Retrospective", retro)
-      }
-    )
-}
+#pagebreak()
 
-#global.todo("images sprint start and end")
+=== Sprints
+#let sprint(name, start, end, goal, increments, retro, startImage, endImage) = [
+  ==== #name
+  #v(global.gap)
+  #global.paragraph("Period", [#start - #end])
+  #global.paragraph("Sprint goal", goal)
+  #global.paragraph("Sprint increments", increments)
+  #global.paragraph("Retrospective", retro)
+  #global.paragraph(
+    "Screenshot Jira",
+    {
+      if startImage != ""  {
+        figure(
+          image(startImage, width: 90%),
+          caption: [Screenshot of the _Jira_ tasks at the start of #name]
+        )
+      }
+      
+      figure(
+        image(endImage, width: 90%),
+        caption: [Screenshot of the _Jira_ swimlanes at the end of #name]
+      )
+    }
+  )
+  #pagebreak(weak: true)
+]
 
 #sprint(
   "Sprint 1",
   "18.09.2023",
   "03.10.2023",
-  "1 week 1 day or 23.5 hours",
-  "25 hours (todo update)",
-  "Complete project setup (Milestone 1)",
-  "Project management tools. Project documentation document with chapters project plan, quality assurance and risk management.",
-  "todo: retro"
-)
-- retro: zeitschätzung für doku zu gering. aufsetzen typst mehr zeit. schreiben auch mehr zeit, da zuerste überlegen wie und was genau. 
-
+  "Complete project setup",
+  [
+    - Project management tools
+    - Project documentation 
+    - Chapter project management
+    - Milestone: Complete project setup
+  ],
+  [
+    - Sprint goal was not achieved
+    - Time estimation for documentation too low
+    - Set up typst took longer
+    - Writing took longer
+    - Lots of considerations how to do things
+  ],
+  "",
+  "/images/project-management/1_end.png"
+) 
 #sprint(
   "Sprint 2",
   "03.10.2023",
   "17.10.2023",
-  "2 weeks 6 hours or 38 hours",
-  "-",
   "Interviews & Literature Research",
-  "Interview Guide, Interview Protocols, Literature sources",
-  "-"
+  [
+    - Interview Guide
+    - Interview Protocols
+    - Literature sources
+  ],
+  [
+    - Sprint goal was not achieved
+    - Too little time was found, the target hours were not met
+    - Finishing the documentary was postponed, focus on more outcome
+    - Many AR-Sailing studies found, focus shift towards research, therefore design phase extended
+    - Conduct interviews took longer than expected.
+  ],
+  "/images/project-management/2_start.png",
+  "/images/project-management/2_end.png"
 )
-- retro: zu wenig zeit gefunden, stundensoll nicht erfüllt. doku fertig machen wurde verschoben, outcome produzieren. viele RA&Sail Studien gefunden, mehr eintauchen in studien, dahher desing phase verlängern. schätzung interviews zu gering, post work. schätzung recherche zu gross, war einfacher als gedacht.
 
 #sprint(
   "Sprint 3",
   "17.10.2023",
   "31.10.2023",
-  "2 weeks 2 hours or 34 hours",
-  "-",
   "Deep dive into the Studies & Interviews",
-  "Interviews Evaluation, Literature Summary",
-  "-"
+  [
+    - Interviews Evaluation 
+    - Literature Summary
+  ],
+  [
+    - Sprint goal was achieved
+    - Interviews all done
+  ],
+  "",
+  "/images/project-management/3_end.png"
 )
 
 #sprint(
   "Sprint 4",
-  "17.10.2023",
   "31.10.2023",
-  "2 weeks 2 hours or 34 hours",
-  "-",
-  "Deep dive into the Studies & Interviews",
-  "Interviews Evaluation, Literature Summary",
-  "-"
+  "15.11.2023",
+  "Personas and Scenarios",
+  [
+    - Personas
+    - Scenarios
+    - Milestone: End of Analysis
+  ],
+  [
+    - Sprint goal was not fully achieved
+    - Reorganisation of the project. Task from Desing phase was not processed
+    - Milestone not reached
+    - Documentation of research took longer than expected
+  ],
+  "/images/project-management/4_start.png",
+  "/images/project-management/4_end.png"
 )
 
 #sprint(
   "Sprint 5",
-  "17.10.2023",
-  "31.10.2023",
-  "2 weeks 2 hours or 34 hours",
-  "-",
-  "Deep dive into the Studies & Interviews",
-  "Interviews Evaluation, Literature Summary",
-  "-"
+  "15.11.2023",
+  "29.11.2023",
+  "Architecture",
+  [
+    - Architectur
+    - Milestone: End of Architecure
+  ],
+  [
+    - Sprint goal was not fully achieved
+    - Personas done
+    - Milestone not reached
+    - Documentation of reserach and scenarios took longer than expected
+  ],
+  "",
+  "/images/project-management/5_end.png"
 )
 
 #sprint(
   "Sprint 6",
-  "17.10.2023",
-  "31.10.2023",
-  "2 weeks 2 hours or 34 hours",
-  "-",
-  "Deep dive into the Studies & Interviews",
-  "Interviews Evaluation, Literature Summary",
-  "-"
+  "29.11.2023",
+  "13.12.2023",
+  "Final push",
+  [
+    - Documentation 
+    - Milestone not reached
+  ],
+  [
+    - Sprint goal was achieved
+  ],
+  "/images/project-management/6_start.png",
+  "/images/project-management/6_end.png"
 )
 
 #sprint(
   "Sprint 7",
-  "17.10.2023",
-  "31.10.2023",
-  "2 weeks 2 hours or 34 hours",
-  "-",
-  "Deep dive into the Studies & Interviews",
-  "Interviews Evaluation, Literature Summary",
-  "-"
+  "13.12.2023",
+  "22.12.2023",
+  "Submission",
+  [
+    - Documentation complete
+    - Submission
+  ],
+  [
+    - Sprint goal was achieved
+  ],
+  "/images/project-management/7_start.png",
+  "/images/project-management/7_end.png"
 )
 
