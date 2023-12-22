@@ -1,1 +1,1 @@
-#let document-version = "full"
+#let document-version = "public"

@@ -20,7 +20,7 @@
 
     Seven scenarios were developed, four of which are entirely new innovations. These scenarios represent a diverse range of applications, each designed to address specific challenges identified in the research and the interviews.
 
-    The most promising scenario was selected and a detailed architecture for the hardware components was created. Laying the foundation for the future implementation of this Augmented Reality application.
+    The most promising scenario was selected and a detailed architecture for the hardware components was created. Laying the foundation for future implementation of this Augmented Reality application.
   ]
 )
 

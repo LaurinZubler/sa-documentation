@@ -4,7 +4,7 @@
 #global.paragraph(
   [Preamble],
   [
-    This chapter proposes a architecture for the hardware components for the implementation of the _Sailing Course Assistant_ scenario. First an overview over all components is presented and further each component is more detailed descussed. This includes the technical feasibility and potential integration with existing sailing equipment.
+    This chapter proposes an architecture for the hardware components for the implementation of the _Sailing Course Assistant_ scenario. First an overview of all components is presented and further each component is more detailed discussed. This includes the technical feasibility and potential integration with existing sailing equipment.
   ]
 )
 
@@ -36,7 +36,7 @@
 #global.paragraph(
   "Open Source Projects",
   [
-    In the realm of marine software and hardware development, a community is actively engaged in creating and sharing boat projects online #footnote("https://open-boat-projects.org/en/"). These projects are often made open source and can be utlized for the implementation of the _Sailing Course Assistant_ scenario.
+    In the realm of marine software and hardware development, a community is actively engaged in creating and sharing boat projects online #footnote("https://open-boat-projects.org/en/"). These projects are often made open source and can be used for the implementation of the _Sailing Course Assistant_ scenario.
 
     Two open source projects are particularly notable for their applicability:
     - *Signal K Platform* #footnote("https://signalk.org/index.html") The Signal K Data Standard is a modern, open data format tailored for marine use. Built on standard web technologies like JSON, WebSockets, and HTTP, it is both universally accessible and adaptable. Designed to work with common marine hardware, Signal K also offers a server solution for the Raspberry Pi that can connect to marine sensors. For the implementation of the Augmented Reality application, the Signal K server on a Raspberry Pi could serve as the gateway, using its data format to facilitate communication between the gateway and the Augmented Reality Display.
@@ -49,7 +49,7 @@
   [Hardware Parts],
   [ 
     For the implementation of the Augmented Reality application, specific hardware parts are essential. 
-    These parts are listed in _@hardware _. This table also serves as a convenient checklist for acquiring all necessary elements before startig a future implementation and estimates the prices for purchasing the parts.
+    These parts are listed in _@hardware _. This table also serves as a convenient checklist for acquiring all necessary elements before starting a future implementation and estimates the prices for purchasing the parts.
     
     #figure(
       block(
@@ -83,7 +83,7 @@
   [
     For the implementation of our Augmented Reality application, a head-mounted display (HMD) is the most practical option. An HMD, like the Microsoft HoloLens 2, allows for hands-free operation, crucial for managing the controls of a boat. Unlike statically mounted video see-through displays, which offer no significant advantage over existing boat instruments, an HMD doesn't require the user to translate information from a 2D display into the real world.
 
-    As the literature research revealed, there are currently no Augmented Reality head-mounted display on the market that fully meets the requirements for sailing. However, the Microsoft HoloLens 2 stands out with its numerous features and widespread adoption. Therefore, the desicion has been made to use the HoloLens for the further planning of the architecture.
+    As the literature research revealed, there are currently no Augmented Reality head-mounted display on the market that fully meets the requirements for sailing. However, the Microsoft HoloLens 2 stands out with its numerous features and widespread adoption. Therefore, the decision has been made to use the HoloLens for the further planning of the architecture.
 
     _@hololens _ is illustrating a Micosoft HoloLens 2 worn by a person.
     
@@ -110,14 +110,14 @@
   [
     The HoloLens needs to track its position in six degrees of freedom to display stable holograms. X, Y, and Z translation, along with roll, pitch, and yaw rotation.
     
-    This is achieved by combining information from this two sources: 
+    This is achieved by combining information from these two sources: 
 
     + *Visible light cameras* to track the environment. For example, the physical room in which the HoloLens is used.
     + *Inertial Measurement Unit (IMU)* consisting of an accelerometer, gyroscope, and magnetometer to track motion and orientation relative to Earth.
     
     However, for accurate tracking, the environment needs to be stationary relative to earh. On a moving platform, like a sailboat, tracking errors can lead to distorted holograms or loss of tracking. Similar to humans when actual and expected motion are not matching, the HoloLens is getting "motion sick".
 
-    Recognizing this challenge, Microsoft introduced the Moving Platform Mode (MPM)#footnote("https://learn.microsoft.com/en-us/hololens/hololens2-moving-platform") in 2022. MPM adjusts the HoloLens to expect variations in sensor inputs, acknowledging that perfect sensor agreement is unlikely in a moving environment. While Microsoft has tested MPM on small boats, they note that it is currently optimized for large marine vessels experiencing low-dynamic motion. Whether the HoloLens can effectively operate on a smaller sailing vessels remains to be tested.
+    Recognizing this challenge, Microsoft introduced the Moving Platform Mode (MPM)#footnote("https://learn.microsoft.com/en-us/hololens/hololens2-moving-platform") in 2022. MPM adjusts the HoloLens to expect variations in sensor inputs, acknowledging that perfect sensor agreement is unlikely in a moving environment. While Microsoft has tested MPM on small boats, they note that it is currently optimized for large marine vessels experiencing low-dynamic motion. Whether the HoloLens can effectively operate on smaller sailing vessels remains to be tested.
   ]
 )
 

@@ -14,7 +14,7 @@
   [
     In the pursuit of developing a deeper understanding of how Augmented Reality can be most effectively integrated into the sailing experience, this chapter delves into the heart of the sailing community itself. 
     The decision to conduct interviews was driven by the need to gain direct insights into the diverse needs, preferences, and challenges faced by sailors.
-    The goal of the interviews is not merely to collect data, but to empathize with and understand the community for whom these applications are being developed. 
+    The goal of the interviews is not merely to collect data but to empathize with and understand the community for whom these applications are being developed. 
   ]
 )
 
@@ -62,7 +62,7 @@
     To create a relaxed and open dialogue, the interview started with a light, non-critical question. Although not directly related to the thesis, this approach was effective in establishing a comfortable atmosphere for both  the interviewer and the participants. The next set of five questions aimed to delve into the participants sailing backgrounds.\
     The subsequent questions were focused on uncovering the specific needs and challenges faced in sailing. This helped in gaining deeper insights into the practical aspects of the sport. \
     During the interviews with the trainers, emphasis was also placed on the experiences they observe in their students, particularly focusing on those aspects with which the students find challenging and struggle.\
-    The interview concluded with an open question, to encourage participants to think creatively and expansively.
+    The interview concluded with an open question to encourage participants to think creatively and expansively.
   ]
 )
 #global.paragraph(
@@ -106,7 +106,7 @@
 #global.paragraph(
   "Cruising and Regatta",
   [
-    The most differences in responses are influenced by the participants' sailing backgrounds, specifically whether they are regatta sailors or cruisers.
+    The most significant differences in responses are influenced by the participants' sailing backgrounds, specifically whether they are regatta sailors or cruisers.
 
     Participants who engage in cruising place less emphasis on the technical precision of sailing. Instead, their focus is broader, encompassing the overall voyage. This includes crew handling or the efficient management of essential resources like food, water, and fuel. Furthermore, weather conditions have a major influence on their planning for routes and daily activities.
 
@@ -167,7 +167,7 @@
 #global.paragraph(
   [Background],
   [
-    Laura is a first-year landscape architecture student at the OST who likes to be outside and enjoys nature. For her studies she moved to Rapperswil and first has to build up a new circle of friends. She joined the university sailing club to connect with fellow students and try something new. The club organises a sailing courses every semester and she has registered for the beginner course. Sailing is taught on small dinghies that are operated alone.
+    Laura is a first-year landscape architecture student at the OST who likes to be outside and enjoys nature. For her studies, she moved to Rapperswil and first has to build up a new circle of friends. She joined the university sailing club to connect with fellow students and try something new. The club organises sailing courses every semester and she has registered for the beginner course. Sailing is taught on small dinghies that are operated alone.
   ]
 )
 
@@ -240,13 +240,13 @@
 #global.paragraph(
   [Background],
   [
-    Lisa is a 47 year old architect living in Switzerland. Despite beeing from a landlocked country, Lisa has developed a love for the sea. Every year she spends her vacations on a sailing yacht. Living on the boat with friends and family.
+    Lisa is a 47 year old architect living in Switzerland. Despite being from a landlocked country, Lisa has developed a love for the sea. Every year she spends her vacations on a sailing yacht. Living on the boat with friends and family.
   ]
 )
 
 #global.paragraph(
   [Sailing Experience],
   [
-    Lisa holds the swiss ocean license, allowing her to charter and skipper yachts. She has profound knowledge in navigation and crew handling. Safety is a major concern of her. She can handle the boat and sails, but performance isn't that important to her.
+    Lisa holds the swiss ocean license, allowing her to charter and skipper yachts. She has profound knowledge in navigation and crew handling. Safety is a major concern of her. She can handle the boat and sail, but performance isn't that important to her.
   ]
 )

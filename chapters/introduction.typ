@@ -4,7 +4,7 @@
 #global.paragraph(
   "Preamble",
   [
-    This chapter serves as an overview of the entire thesis. It begins with a brief discussion of the complexities in sailing, proceeds to describe the primary aim of this thesis, and provides an overview of the methodology that was employed. 
+    This chapter serves as an overview of the entire thesis. It begins with a brief discussion of the complexities of sailing, proceeds to describe the primary aim of this thesis, and provides an overview of the methodology that was employed. 
   ]
 )
 
@@ -28,7 +28,7 @@
   [
     Navigating a sailboat also involves the strategic selection of sailable courses. This requires not just an understanding of the wind but also the ability to plot a course that maximizes efficiency and safety. Sailors must constantly make decisions about the best angles to sail relative to the wind, considering factors like current, tide, and potential hazards.
 
-    _@sailable-courses _ illustrates the "no-sail zones" for a sailboat, depicted in gray. These zones represent the angles at which a sailboat cannot sail, typically around 40° to 45° on either side of the wind direction. Additionally, the diagram highlights the downwind area where sailing is also challenging. The exact angles of these 'no-sail zones' can vary depending on the type and design of the boat, reflecting differences in sailing capabilities and characteristics.
+    _@sailable-courses _ illustrates the "no-sail zones" for a sailboat, depicted in gray. These zones represent the angles at which a sailboat cannot sail, typically around 40° to 45° on either side of the wind direction. Additionally, the diagram highlights the downwind area, where sailing is also challenging. The exact angles of these 'no-sail zones' can vary depending on the type and design of the boat, reflecting differences in sailing capabilities and characteristics.
 
     #figure(
       image("/images/introduction/sailable_courses.png", width: 38%),
@@ -40,7 +40,7 @@
 #global.paragraph(
   "Points of Sail",
   [
-    Given the wind direction and the chosen course, the positions of the sails are determined. The adjustment of the sails to optimize their shape and angle, is key to harnessing the wind's power effectively. It is a dynamic process, requiring continuous attention and fine-tuning. Effective sail trim balances the boat's speed and stability, and is essential for navigating efficiently and safely in varying wind conditions.
+    Given the wind direction and the chosen course, the positions of the sails are determined. The adjustment of the sails to optimize their shape and angle is key to harnessing the wind's power effectively. It is a dynamic process, requiring continuous attention and fine-tuning. Effective sail trim balances the boat's speed and stability, and is essential for navigating efficiently and safely in varying wind conditions.
 
     _@points-of-sail _ illustrates the various points of sail in relation to the wind direction. It also highlights the "no-sail zone", where the sails are unable to generate sufficient force for movement, leading to flapping and loss of control.
 
@@ -59,11 +59,11 @@
   [
     Due to the reliance on wind in sailing, various tools are utilized to assist in determining the wind direction. Nowadays, this task is often accomplished using electronic instruments.
 
-    _@instruments _ depicts an electronic wind indicator. The blue outline represents the boat and aligns with the boat's actual axis. The red pointer indicates the direction from which the wind is coming. In the example, it is approximately 120° from the starboard side. This corresponds in _@points-of-sail _ to a sail position of _Broad reach_, represented by the left boat marked with a _D_. Additionally, the wind speed is also displayed, indicating 5 knots.
+    _@instruments _ depicts an electronic wind indicator. The blue outline represents the boat and aligns with the boat's actual axis. The red pointer indicates the direction from which the wind is coming. In this example, it is approximately 120° from the starboard side. This corresponds in _@points-of-sail _ to a sail position of _Broad reach_, represented by the left boat marked with a _D_. Additionally, the wind speed is also displayed, indicating 5 knots.
 
     #figure(
       image("/images/introduction/wind_censored.jpg", width: 40%),
-      caption: [Common sailing instrument. Displaying wind angel (red indicator) relativ to the boat (blue outline) and wind speed in knots #footnote("https://www.outbackmarine.com.au/garmin-gmi-20-marine-instrument")],
+      caption: [Common sailing instrument. Displaying wind angel (red indicator) relative to the boat (blue outline) and wind speed in knots #footnote("https://www.outbackmarine.com.au/garmin-gmi-20-marine-instrument")],
     )<instruments>
   ]
 )
@@ -71,7 +71,7 @@
 #global.paragraph(
   "Cognitive Challenge",
   [
-    Translating the abstract information provided by these instruments into practical application requires good spatial imagination and experience. The 2D representation of wind direction and speed on common instruments, can be challenging to interpret in a real-world, three-dimensional sailing context. Sailors must mentally visualize how the wind interacts with their sails and course, a skill that typically develops with practice and time. This could be simplified by Augmented Reality.
+    Translating the abstract information provided by these instruments into practical application requires good spatial imagination and experience. The 2D representation of wind direction and speed on common instruments can be challenging to interpret in a real-world, three-dimensional sailing context. Sailors must mentally visualize how the wind interacts with their sails and course, a skill that typically develops with practice and time. This could be simplified by Augmented Reality.
   ]
 )
 

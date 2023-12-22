@@ -24,7 +24,7 @@
 #global.paragraph(
   [Preamble],
   [
-    In this chapter, a detailed exploration of the primary conceptual scenario _Sailing Course Assistant_ is presented, showcasing a promising application of Augmented Reality in sailing. This scenario has been selected due to its comprehensive alignment with the needs and characteristics identified in the personas from the user study. It is laying the foundation for the _Architecture_ chapter, where the hardware components and considerations for the future implementation are discussed.
+    In this chapter, a detailed exploration of the primary conceptual scenario _Sailing Course Assistant_ is presented, showcasing a promising application of Augmented Reality in sailing. This scenario has been selected due to its comprehensive alignment with the needs and characteristics identified in the personas from the user study. It is laying the foundation for the _Architecture_ chapter, where the hardware components and considerations for future implementation are discussed.
 
     Furthermore, six additional scenarios are introduced, each developed based on the research findings and the personas. These scenarios further explore various potential applications of Augmented Reality in sailing
   ]
@@ -38,7 +38,7 @@
     
     The _Sailing Course Assistant_ effectively addresses the needs of all three personas identified in the user study:
 
-    - *The Beginner* often struggles to understand the connection between wind direction, navigable courses and sail position. In low wind conditions, it can be particularly challenging to discern from which direction the wind is coming. This Augmented Reality application aims to enhancing their learning and sailing experience.
+    - *The Beginner* often struggles to understand the connection between wind direction, navigable courses and sail position. In low-wind conditions, it can be particularly challenging to discern from which direction the wind is coming. This Augmented Reality application aims to enhance their learning and sailing experience.
 
     - *The Racer* is required to constantly monitor and react to changes in the wind. By visualizing the wind direction and optimal course, the Augmented Reality application can significantly reduce cognitive load, enabling a greater focus on tactics and competition strategies.
 
@@ -55,11 +55,11 @@
 
     - *Wind Direction* This feature influences the navigable courses and the optimal sail trim.
     
-    - *No Sail Zones* These are areas where sailing is not feasible due to prevailing wind conditions. They cover an area with an angle of around 40° to 45° on either side of the wind direction
+    - *No Sail Zones* These are areas where sailing is not feasible due to prevailing wind conditions. They cover an area with an angle of around 40° to 45° on either side of the wind direction.
 
     The visual aids are displayed in the sky, centered around the mast. By projecting the information above the usual line of sight, it avoids obstructing the critical view of the water ahead. This design ensures that sailors have a clear view of other boats, obstacles, and the patterns of wind and current on the water surface.
     
-    _@scenario _ presents a design sketch, illustrating how the _Sailing Course Assistant_ scenario could be implemented in a real sailing context. It shows the wind direction with a blue line and the "No Sail Zones" as oranges areas. It is providing a visual representation of how these elements would appear to a sailor using the application.
+    _@scenario _ presents a design sketch, illustrating how the _Sailing Course Assistant_ scenario could be implemented in a real sailing context. It shows the wind direction with a blue line and the "No Sail Zones" as orange areas. It is providing a visual representation of how these elements would appear to a sailor using the application.
 
     #figure(
       image("/images/scenarios/no_sail_zone.png", width: 90%),
@@ -86,7 +86,7 @@
   (personas.at(1), personas.at(2), ""), 
   ("Wind speed", "Wind direction", "Compass", "Water depth"),
   [
-    This scenario builds on the interface proposal from Laera et al. @Laera.2023, more described in the _Research_ chapter. The information are displayed in nummerical form or as graphs, like in conventional 2D sailing instruments.
+    This scenario builds on the interface proposal from Laera et al. @Laera.2023, more described in the _Research_ chapter. The information are displayed in numerical form or as graphs, like in conventional 2D sailing instruments.
   ]
 )
 
@@ -117,7 +117,7 @@
   (personas.at(0), personas.at(1), ""), 
   ("Wind direction and speed", "Optimal sail position"),
   [
-    The _Sail Trim Assistant_ visually helps users to achive the optimal sail trim based on the wind direction.
+    The _Sail Trim Assistant_ visually helps users to achieve the optimal sail trim based on the wind direction.
   ]
 )
 
@@ -137,6 +137,6 @@
   (personas.at(1), personas.at(2), ""), 
   ("Waypoints", "Obstacles", "Chart information"),
   [
-    The _Points of Intererst Visualizer_ integrates information from sea maps into the real-world view or highlights important objects in the surroundings. Including waypoints for navigation, landmarks such as ports or lighthouses and potential hazards like shallows, obstacles, or other vessels approaching.
+    The _Points of Interest Visualizer_ integrates information from sea maps into the real-world view or highlights important objects in the surroundings. Including waypoints for navigation, landmarks such as ports or lighthouses and potential hazards like shallows, obstacles, or other vessels approaching.
   ]
 )
