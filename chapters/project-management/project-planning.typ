@@ -18,7 +18,6 @@
 )
 
 === Tools
-#global.todo("maybe move more back")
 #global.paragraph(
   "Jira",
   [
@@ -40,8 +39,9 @@
   ]
 )
 
+#pagebreak()
+
 === Phases
-#global.todo("image actual phases timeline")
 #global.paragraph(
   [Epics],
   [
@@ -94,6 +94,8 @@
     For these reasons, the focus was redirected towards architecture. Determining what data would be needed to implement the scenario, which hardware components to use, and how these components would communicate with each other. Furthermore, it became apparent that writing this document required more time than initially expected.
 
     To accommodate these changes, the project was reorganized. The analysis phase was extended. The design,implementation and evaluation phases were removed, and a new phase dedicated to architecture was introduced. Additionally, the project completion phase was extended to allow for more focus on documentation.
+
+    \ // force pagebreak
 
     _@epics-end _ illustrates the project phases as they were actually carried out.
 
