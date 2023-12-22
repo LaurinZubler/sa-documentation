@@ -4,11 +4,9 @@
 #global.paragraph(
   "Preamble",
   [
-    This chapter serves as an overview of the entire thesis. It begins with a brief discussion of the complexities in sailing, proceeds to describe the primary aim of this thesis, and provides an overview of the methodology that was employed. This effectively sets the stage for the detailed exploration presented in the subsequent chapters.
+    This chapter serves as an overview of the entire thesis. It begins with a brief discussion of the complexities in sailing, proceeds to describe the primary aim of this thesis, and provides an overview of the methodology that was employed. 
   ]
 )
-
-#global.todo("2 * setting the stage")
 
 == The Challenges of Sailing
 #global.paragraph(
@@ -25,17 +23,15 @@
   ]
 )
 
-#global.todo("Vorschlag Frieder: Bild aus Segelboot")
-
 #global.paragraph(
   "Course",
   [
     Navigating a sailboat also involves the strategic selection of sailable courses. This requires not just an understanding of the wind but also the ability to plot a course that maximizes efficiency and safety. Sailors must constantly make decisions about the best angles to sail relative to the wind, considering factors like current, tide, and potential hazards.
 
-    _@sailable-courses _ illustrates the 'no-sail zones' for a sailboat, depicted in gray. These zones represent the angles at which a sailboat cannot sail, typically around 40° to 45° on either side of the wind direction. Additionally, the diagram highlights the downwind area where sailing is also challenging. The exact angles of these 'no-sail zones' can vary depending on the type and design of the boat, reflecting differences in sailing capabilities and characteristics.
+    _@sailable-courses _ illustrates the "no-sail zones" for a sailboat, depicted in gray. These zones represent the angles at which a sailboat cannot sail, typically around 40° to 45° on either side of the wind direction. Additionally, the diagram highlights the downwind area where sailing is also challenging. The exact angles of these 'no-sail zones' can vary depending on the type and design of the boat, reflecting differences in sailing capabilities and characteristics.
 
     #figure(
-      image("/images/introduction/sailable_courses.png", width: 40%),
+      image("/images/introduction/sailable_courses.png", width: 38%),
       caption: [Possible courses of a sailing boat with respect to the wind @Erckens.2010],
     )<sailable-courses>
   ]
@@ -46,15 +42,17 @@
   [
     Given the wind direction and the chosen course, the positions of the sails are determined. The adjustment of the sails to optimize their shape and angle, is key to harnessing the wind's power effectively. It is a dynamic process, requiring continuous attention and fine-tuning. Effective sail trim balances the boat's speed and stability, and is essential for navigating efficiently and safely in varying wind conditions.
 
-    _@points-of-sail _ illustrates the various points of sail in relation to the wind direction. It also highlights the 'no-sail zone', where the sails are unable to generate sufficient force for movement, leading to flapping and loss of control.
+    _@points-of-sail _ illustrates the various points of sail in relation to the wind direction. It also highlights the "no-sail zone", where the sails are unable to generate sufficient force for movement, leading to flapping and loss of control.
 
     #figure(
-      image("/images/introduction/points_of_sail.png", width: 50%),
-      caption: [Points of sail with shaded 'no-sail zone'. A: Into the wind B: Close-hauled C: Beam reach D: Broad reach E: Downwind #footnote("https://en.wikipedia.org/wiki/Point_of_sail")],
+      image("/images/introduction/points_of_sail2.png", width: 70%),
+      caption: [Points of sail with shaded "no-sail zone"#footnote("https://en.wikipedia.org/wiki/Point_of_sail") \ A: Into the wind B: Close-hauled C: Beam reach D: Broad reach E: Downwind ],
     )<points-of-sail>
     
   ]
 )
+
+#pagebreak()
 
 #global.paragraph(
   "Common Instruments",
@@ -67,8 +65,13 @@
       image("/images/introduction/wind_censored.jpg", width: 40%),
       caption: [Common sailing instrument. Displaying wind angel (red indicator) relativ to the boat (blue outline) and wind speed in knots #footnote("https://www.outbackmarine.com.au/garmin-gmi-20-marine-instrument")],
     )<instruments>
+  ]
+)
 
-    Translating the abstract information provided by these instruments into practical application requires good spatial imagination and experience. The 2D representation of wind direction and speed on common instruments, can be challenging to interpret in a real-world, three-dimensional sailing context. Sailors must mentally visualize how the wind interacts with their sail and course, a skill that typically develops with practice and time. This could be simplified by Augmented Reality.
+#global.paragraph(
+  "Cognitive Challenge",
+  [
+    Translating the abstract information provided by these instruments into practical application requires good spatial imagination and experience. The 2D representation of wind direction and speed on common instruments, can be challenging to interpret in a real-world, three-dimensional sailing context. Sailors must mentally visualize how the wind interacts with their sails and course, a skill that typically develops with practice and time. This could be simplified by Augmented Reality.
   ]
 )
 
@@ -121,17 +124,13 @@
 #global.paragraph(
   "Scenarios",
   [
-    Building on the insights from both the research and the user study, the third part involved developing potential Augmented Reality scenarios for sailing. This part was pivotal in conceptualizing how Augmented Reality could be practically applied to meet the identified needs and challenges. The _Scenarios_ chapter explores these applications, providing a vision of how Augmented Reality could enhance the sailing experience.
-    
-    #global.todo("update after scenario chapter done")
+    Building on the insights from both the research and the user study, the third part involved developing potential Augmented Reality scenarios for sailing. This part is conceptualizing how Augmented Reality could be practically applied to meet the needs and challenges of the sailing community. In the _Scenarios_ chapter, a detailed exploration of these applications is presented, including the primary scenario _Sailing Course Assistant_.
   ]
 )
 
 #global.paragraph(
   "Architecture",
   [
-    The final part of the methodology addresses the technical aspect of implementing Augmented Reality in sailing. It involves proposing a architecture for the AR system, considering both hardware and software components suitable for the maritime environment. The _Architecture_ chapter outlines this proposed system, discussing its feasibility, integration with existing sailing equipment, and the specific technological challenges it addresses.
-    
-    #global.todo("update after architecture chapter done")
+    The final part of the thesis addresses the technical implementation of Augmented Reality in sailing, specifically through the proposed architecture for the _Sailing Course Assistant_ scenario. The _Architecture_ chapter outlines a system that balances both hardware and software needs. It discusses how this architecture integrates with existing sailing equipment and addresses technological challenges.
   ]
 )
