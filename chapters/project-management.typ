@@ -13,4 +13,3 @@
 #include "project-management/risk-management.typ"
 #pagebreak()
 #include "project-management/quality-assurance.typ"
-#pagebreak()
