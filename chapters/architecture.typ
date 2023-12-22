@@ -12,9 +12,7 @@
 #global.paragraph(
   "Components",
   [
-    In this section, the hardware components of the Augmented Reality application are presented. 
-    
-    The system consists of the following components:
+    In this section, the hardware components of the Augmented Reality application are presented. The system consists of the following components:
 
     - *Wind Sensor:* This device is responsible for measuring the wind direction.
 
