@@ -326,7 +326,7 @@
     To ensure that sufficient effort was put into this thesis, hours worked were recorded throughout the semester. In total, 216 hours and 10 minutes were dedicated to the project. This falls within a 10% range of the total 240 hours required, which is an acceptable margin.
 
     #if document-version == "full" [
-      A detailed time tracking report can be found in the appendix.
+      A detailed time tracking report exported from jira can be found in the appendix.
     ]
   ]
 )

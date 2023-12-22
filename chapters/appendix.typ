@@ -118,4 +118,14 @@
   === Copyright and Usage Rights
   #printPage("appendix/documents/copyright-usage-rights.png")
 
+#pagebreak()
+
+  == Time Tracking Jira Export
+  #let worklogs = csv("appendix/documents/worklogs-jira-export.csv")
+
+  #table(
+    columns: 5,
+    [*Issue*], [*Summary*], [*Work description*], [*Labels*], [*Time spent*],
+    ..worklogs.flatten(),
+  )
 ]
